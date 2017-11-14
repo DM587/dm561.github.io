@@ -28,7 +28,7 @@ url: "https://dm865.github.io" # the base hostname & protocol for your site, e.g
 repository: "belzebuu/DM865"
 
 
-show_downloads: "false"
+show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
 
 # Build settings
