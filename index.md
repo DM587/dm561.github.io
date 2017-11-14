@@ -13,14 +13,14 @@ layout: default
 
 | Lectures  	| Suggested reading   	|
 |---	|---	|
-| Introdction ||
+|[Introduktion]({{ "/assets/dm865-lec0.pdf" | absolute_url }}) ||
 |NP-hårde, approksimationsalgoritmer, approksimationsfaktor, forskel på problem og instans||
 |Set Cover: Grådig | 1.6 [BS]|
 |Set Cover: LP-rounding| 1.3, 1.4, 1.7|
 |Set Cover: Primal-Dual| 1.5|
 |SAT: randomiserede algoritme + derandomisering| projekt 1. del |
 |SAT: LP rounding||
-|Heuristikker til TSP, inkl impl.detaljer||
+|TSP: Heuristikker, inkl impl.detaljer||
 |Development environment + experimental analysis + experimental methods||
 |TSP: insertion og Christofides heuristikker |2.4|
 |SAT: Lokal-søgning| projekt 2. del|
