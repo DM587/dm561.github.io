@@ -13,7 +13,7 @@ layout: default
 
 | Lectures  	| Suggested reading   	|
 |---	|---	|
-|[Introduktion]({{ "/assets/dm865-lec0.pdf" | absolute_url }}) ||
+|[Introduktion]({{ "/assets/dm865-lec00.pdf" | absolute_url }}) ||
 |NP-hårde, approksimationsalgoritmer, approksimationsfaktor, forskel på problem og instans||
 |Set Cover: Grådig | 1.6 [BS]|
 |Set Cover: LP-rounding| 1.3, 1.4, 1.7|
