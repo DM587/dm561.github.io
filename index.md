@@ -6,10 +6,14 @@ layout: default
 ---
 
 
+
+
 [Official course description](http://natfak.sdu.dk/laeseplan/kursusbeskrivelse.php?kursuskode=DM865&lang=en)
 
 
 # Contents 
+
+(Preliminary overview, changes may occur)
 
 | Lectures  	| Suggested reading   	|
 |---	|---	|
