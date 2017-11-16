@@ -6,10 +6,11 @@ layout: default
 ---
 
 
+# General information
 
+- [Official course description](http://natfak.sdu.dk/laeseplan/kursusbeskrivelse.php?kursuskode=DM865&lang=en)
 
-[Official course description](http://natfak.sdu.dk/laeseplan/kursusbeskrivelse.php?kursuskode=DM865&lang=en)
-
+- Teachers: [Lene Monrad Favrholdt](http://www.imada.sdu.dk/~lenem/) and [Marco Chiarandini](http://www.imada.sdu.dk/~marco)
 
 # Contents 
 
