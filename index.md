@@ -20,10 +20,10 @@ layout: default
 |---	|---	|
 |[Introduktion]({{ "/assets/dm865-lec00.pdf" | absolute_url }}) ||
 |NP-hårde, approksimationsalgoritmer, approksimationsfaktor, forskel på problem og instans||
-|Set Cover: Grådig | 1.6 [BS]|
+|Set Cover: Grådig | 1.6 [WS]|
 |Set Cover: LP-rounding| 1.3, 1.4, 1.7|
 |Set Cover: Primal-Dual| 1.5|
-|SAT: randomiserede algoritme + derandomisering| projekt 1. del |
+|SAT: randomiserede algoritmer + derandomisering| projekt 1. del |
 |SAT: LP rounding||
 |TSP: Heuristikker, inkl impl.detaljer||
 |Development environment + experimental analysis + experimental methods||
@@ -36,7 +36,7 @@ layout: default
 |Scheduling: kompleksitet|2.3|
 |Scheduling: Lokal-søgning||
 |Knapsack: approx algoritmer|3.1|
-|Bin packing: approx algoritmer| 3.2|
+|Bin packing: approx algoritmer| 3.3|
 |Bin Packing: Lokal-søgning ||
 
 
