@@ -16,28 +16,30 @@ layout: default
 
 (Preliminary overview, changes may occur)
 
-| Lectures  	| Suggested reading   	|
-|---	|---	|
-|[Introduktion]({{ "/assets/dm865-lec00.pdf" | absolute_url }}) ||
-|NP-hårde, approksimationsalgoritmer, approksimationsfaktor, forskel på problem og instans||
-|Set Cover: Grådig | 1.6 [WS]|
-|Set Cover: LP-rounding| 1.3, 1.4, 1.7|
-|Set Cover: Primal-Dual| 1.5|
-|SAT: randomiserede algoritmer + derandomisering| projekt 1. del |
-|SAT: LP rounding||
-|TSP: Heuristikker, inkl impl.detaljer||
-|Development environment + experimental analysis + experimental methods||
-|TSP: insertion og Christofides heuristikker |2.4|
-|SAT: Lokal-søgning| projekt 2. del|
-|Meta-heuristikker||
-|TSP: Lokal-søgning||
-|TSP: Lokal-søgning||
-|Scheduling: klassificering||
-|Scheduling: kompleksitet|2.3|
-|Scheduling: Lokal-søgning||
-|Knapsack: approx algoritmer|3.1|
-|Bin packing: approx algoritmer| 3.3|
-|Bin Packing: Lokal-søgning ||
+| Date | Lectures  	| Suggested reading   	|
+|--- |---	|---	|
+| 1/2 |Introduction to the course |[Pizza meeting slides]({{ "/assets/dm865-lec00.pdf" | absolute_url }})|
+| 1/2 |Introduction to approximation algorithms | 1.1 [WS]|
+| 1/2 |Set Cover: IP formulation and LP relaxation | 1.2 [WS] |
+| 1/2 |Set Cover: LP-rounding | 1.3-1.4 [WS] |
+| 2/2 |Set Cover: Primal-Dual| 1.5 [WS]|
+| 2/2 |Set Cover: Greedy | 1.6 [WS]|
+||Set Cover: Randomized LP-rounding| 1.7 [WS] |
+||SAT: Randomized algorithms and derandomization | project 1. part |
+||SAT: LP rounding||
+||TSP: Heuristics, incl. impl. details||
+||Development environment + experimental analysis + experimental methods||
+||TSP: Insertion and Christofide's algorithm |2.4 [WS]|
+||SAT: Lokal search | project 2. part|
+||Meta-heuristics||
+||TSP: Lokal search||
+||TSP: Lokal search||
+||Scheduling: Classification||
+||Scheduling: Compleksity|2.3 [WS]|
+||Scheduling: Lokal Search||
+||Knapsack: Approximation algorithms|3.1 [WS]|
+||Bin Packing: Approximation algorithms| 3.3 [WS]|
+||Bin Packing: Lokal Search ||
 
 
 
