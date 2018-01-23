@@ -18,26 +18,22 @@ layout: default
 
 | Date | Lectures  	| Suggested reading   	|
 |--- |---	|---	|
-| 1/2 |Introduction to the course |[Pizza meeting slides]({{ "/assets/dm865-lec00.pdf" | absolute_url }})|
-| 1/2 |Introduction to approximation algorithms | 1.1 [WS]|
-| 1/2 |Set Cover: IP formulation and LP relaxation | 1.2 [WS] |
-| 1/2 |Set Cover: LP-rounding | 1.3-1.4 [WS] |
-| 2/2 |Set Cover: Primal-Dual| 1.5 [WS]|
-| 2/2 |Set Cover: Greedy | 1.6 [WS]|
-||Set Cover: Randomized LP-rounding| 1.7 [WS] |
-||SAT: Randomized algorithms and derandomization | project 1. part |
-||SAT: LP rounding||
+| 1/2 |Introduction to the course <br> Introduction to approximation algorithms <br> Set Cover: IP formulation and LP relaxation <br>  Set Cover: LP-rounding  |[Pizza meeting slides]({{ "/assets/dm865-lec00.pdf" | absolute_url }})<br> 1.1 [WS] <br> 1.2 [WS] <br> 1.3-1.4 [WS]   |
+| 2/2 |Set Cover: Primal-Dual <br> Set Cover: Greedy |  1.5 [WS] <br> 1.6 [WS]|
+|5/2|Set Cover: Randomized LP-rounding| 1.7 [WS] |
+||TSP: Insertion and Christofide's algorithm |2.4 [WS]|
 ||TSP: Heuristics, incl. impl. details||
 ||Development environment + experimental analysis + experimental methods||
-||TSP: Insertion and Christofide's algorithm |2.4 [WS]|
+||TSP: Lokal search||
+||TSP: Lokal search||
+||SAT: Randomized algorithms and derandomization | project 1. part |
+||SAT: LP rounding||
 ||SAT: Lokal search | project 2. part|
 ||Meta-heuristics||
-||TSP: Lokal search||
-||TSP: Lokal search||
+||Knapsack: Approximation algorithms|3.1 [WS]|
 ||Scheduling: Classification||
 ||Scheduling: Compleksity|2.3 [WS]|
 ||Scheduling: Lokal Search||
-||Knapsack: Approximation algorithms|3.1 [WS]|
 ||Bin Packing: Approximation algorithms| 3.3 [WS]|
 ||Bin Packing: Lokal Search ||
 
