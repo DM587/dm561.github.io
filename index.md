@@ -22,8 +22,7 @@ layout: default
 <button onclick="myFunction('Demo1')" class="w3-btn w3-cell w3-left-align">Show alternative view <i class="fa fa-caret-down"></i></button>
 <div id="Demo1" class="w3-container w3-hide">
 
-<div class="w3-responsive">
-<div w3-include-html={{ "/assets/timetable.html" | absolute_url }}></div>
+<div class="w3-responsive"><div w3-include-html="./assets/timetable.html"></div>
 <script>
 w3.includeHTML();
 </script>
