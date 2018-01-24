@@ -18,7 +18,7 @@ layout: default
 
 | Date | Lectures  	                                                                                                                                     | Suggested reading   	                                        |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------|
-| 1/2  | Introduction to the course <br> Introduction to approximation algorithms <br> Set Cover: IP formulation and LP relaxation <br>  Set Cover: LP-rounding | [Pizza meeting slides]<br> 1.1 [WS] <br> 1.2 [WS] <br> 1.3-1.4 [WS] |
+| 1/2  | Introduction to the course <br> Introduction to approximation algorithms <br> Set Cover: IP formulation and LP relaxation <br>  Set Cover: LP-rounding | [Pizza meeting slides][1]<br> 1.1 [WS] <br> 1.2 [WS] <br> 1.3-1.4 [WS] |
 | 2/2  | Set Cover: Primal-Dual <br> Set Cover: Greedy                                                                                                          | 1.5 [WS] <br> 1.6 [WS]                                              |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------|
 | 5/2  | Set Cover: Randomized LP-rounding                                                                                                                      | 1.7 [WS]                                                            |
@@ -52,4 +52,4 @@ layout: default
   University Press. 2010.
 
 
-({{ "/assets/dm865-lec00.pdf" | absolute_url }})
+[1]: {{ "/assets/dm865-lec00.pdf" | absolute_url }}
