@@ -8,6 +8,9 @@
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+
 
 {% include mathjax.html %}
 
@@ -46,6 +49,17 @@
           <p>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using <a href="https://github.com/pages-themes/slate">Slate theme</a> for <a href="https://jekyllrb.com">Jekyll</a></p>
       </footer>
     </div>
+
+  <script>
+         function myFunction(id) {
+             var x = document.getElementById(id);
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else { 
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+        </script>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
