@@ -24,7 +24,7 @@ layout: default
 
 <div class="w3-responsive">
 
-{% include {{ "/assets/timetable.html" | absolute_url }} %}
+{% include_relative assets/timetable.html %}
 
 </div>
 
