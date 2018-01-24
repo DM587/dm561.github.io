@@ -24,7 +24,7 @@ layout: default
 
 <div class="w3-responsive">
 
-{% include_relative assets/timetable.html %}
+{% include timetable.html %}
 
 </div>
 
