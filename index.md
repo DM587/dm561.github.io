@@ -107,5 +107,7 @@ w3.includeHTML();
   B. Shmoys. [Design of Approximation Algorithms](http://www.designofapproxalgs.com/). Cambridge
   University Press. 2010.
 
+- [MAK] W. Michiels, E. Aarts and J. Korst. [Theoretical Aspects of Local Search](http://dx.doi.org/10.1007/978-3-540-35854-1). Springer Berlin Heidelberg, 2007
+
 
 [1]: {{ "/assets/dm865-lec00.pdf" | absolute_url }}
