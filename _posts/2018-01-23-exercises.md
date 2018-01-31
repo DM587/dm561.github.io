@@ -18,16 +18,11 @@ categories: exercises sheet1
 
 #### Sheet 2: <a name="sheet2"></a> Exercises for Monday, February 5
 
-1.  Consider the primal-dual algorithm for the unweighted Vertex Cover
-    problem.
-    
-    a) What does the algorithm do?
+1.  Although the unweighted Vertex Cover problem is NP-hard for general graphs,
+    there are graph classes that allow for efficient algorithms.
 
-    b) Write down the same algorithm without explicitly using the
-       LP-formulation of the problem.
-    
-    c) Give an example showing that the algorithm has an approximation
-       factor of at least 2.
+    Design an algorithm that finds a minimum cardinality vertex cover
+    of a tree in linear time.
 
 2.  Assume that you have an algorithm for finding a minimum
     cardinality vertex cover in a graph. 
@@ -44,11 +39,16 @@ categories: exercises sheet1
 
 #### Sheet 3: <a name="sheet3"></a> Exercises for Tuesday, February 6
 
-1.  Although the unweighted Vertex Cover problem is NP-hard for general graphs,
-    there are graph classes that allow for efficient algorithms.
+1.  Consider the primal-dual algorithm for the unweighted Vertex Cover
+    problem.
+    
+    a) What does the algorithm do?
 
-    Design an algorithm that finds a minimum cardinality vertex cover
-    of a tree in linear time.
+    b) Write down the same algorithm without explicitly using the
+       LP-formulation of the problem.
+    
+    c) Give an example showing that the algorithm has an approximation
+       factor of at least 2.
 
 2. Recall that, for Vertex Cover, the algorithms of Sections 1.3 and
    1.4 are 2-approximation algorithms.
