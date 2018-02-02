@@ -40,7 +40,7 @@ w3.includeHTML();
 | Date | Lectures  	                                                                                                                                        | Suggested reading   	                                                      |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | <!--L--> 1/2  | Introduction to the course<br><br> Introduction to approximation algorithms<br> Set Cover: IP formulation and LP relaxation<br> Set Cover: LP-rounding | [Pizza meeting slides][1]<br>[More details][2]<br> 1.1 [WS]<br> 1.2 [WS]<br> 1.3-1.4 [WS] <br> [Lecture notes][3]  |
-| <!--L--> 2/2  | Exercises <br> Set Cover: Primal-Dual                                           | [Sheet 1]({% post_url 2018-01-23-exercises %})<br> 1.4-1.5 [WS]                           |
+| <!--L--> 2/2  | Exercises <br> Set Cover: Primal-Dual                                           | [Sheet 1]({% post_url 2018-01-23-exercises %})<br> 1.4-1.5 [WS] <br> [Lecture notes][4]                         |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | <!--L--> 5/2  | Exercises  <br> Set Cover: Greedy                                                | [Sheet 2]({% post_url 2018-01-23-exercises %}#sheet2) <br> 1.6 [WS]                                                               |
 | <!--L--> 6/2  | Exercises <br> Set Cover: Randomized LP-rounding                                       | [Sheet 3]({% post_url 2018-01-23-exercises %}#sheet3) <br> 1.7 [WS]                                                               |
@@ -113,3 +113,4 @@ w3.includeHTML();
 [1]: {{ "/assets/dm865-lec00.pdf" | absolute_url }}
 [2]: {{ "/assets/dm865-lec01.pdf" | absolute_url }}
 [3]: {{ "/assets/dm865-lec180201.pdf" | absolute_url }}
+[4]: {{ "/assets/dm865-lec180202.pdf" | absolute_url }}
