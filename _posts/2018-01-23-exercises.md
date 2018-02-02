@@ -19,19 +19,17 @@ categories: exercises sheet1
 #### Sheet 2: <a name="sheet2"></a> Exercises for Monday, February 5
 
 1.  Although the unweighted Vertex Cover problem is NP-hard for general graphs,
-    there are graph classes that allow for efficient algorithms.
-
+    there are graph classes that allow for efficient algorithms.  
     Design an algorithm that finds a minimum cardinality vertex cover
     of a tree in linear time.
 
-2.  Assume that you have an algorithm for finding a minimum
-    cardinality vertex cover in a graph. 
-    
-    a) Explain how you can use the algorithm for finding a
+2.  a) Assume that you have an algorithm for finding a minimum
+       cardinality vertex cover in a graph.   
+       Explain how you can use the algorithm for finding a
        maximum cardinality independent set.
 
     b) Does this mean that you can use an approximation algorithm for
-       unweighted Set Cover, like the ones in Sections 1.3 and 1.4,
+       unweighted Vertex Cover, like the ones in Sections 1.3 and 1.4,
        for approximating a maximum cardinality independent set? 
        <br>
       (Hint: What approximation factor could you obtain?)
