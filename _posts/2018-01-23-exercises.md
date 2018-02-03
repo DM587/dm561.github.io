@@ -53,3 +53,10 @@ categories: exercises sheet1
    <br>
    Give an example showing that the greedy algorithm of Section 1.6 is
    not a 2-approximation algorithm, even for unweighted Vertex Cover.
+
+3. Give an instance of the Set Cover problem proving that the
+   approximation ratio of the greedy algorithm is at least $H_n$
+   (i.e., the lower bound of $H_n$ is tight).  
+   Hint: What does the upper bound of $H_g$ tell us about such an
+   example?
+   (Recall that $g$ is the size of the largest set in the instance.)
