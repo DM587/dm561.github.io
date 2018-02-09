@@ -44,7 +44,7 @@ w3.includeHTML();
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | <!--L--> 5/2  | Exercises  <br> Set Cover: Greedy                                                 | [Sheet 2]({% post_url 2018-01-23-exercises %}#sheet2) <br> 1.6 [WS]  <br> [Lecture notes][5]                                            |
 | <!--L--> 6/2  | Exercises <br> Set Cover: Randomized LP-rounding                                  | [Sheet 3]({% post_url 2018-01-23-exercises %}#sheet3) <br> 1.7 [WS]  <br> [Lecture notes][6]                                            |
-| <!--L--> 9/2  | *This lecture will start at 8:45* <br> TSP: Insertion and Christofide's algorithm |  <br> 2.4 [WS]                                                                                                                          |
+| <!--L--> 9/2  | *This lecture will start at 8:45* <br> TSP: Insertion and Christofide's algorithm |  2.4 [WS] <br> [Lecture notes][7]                                                                                                       |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | 12/2 | Exercises                                                                                  | [Sheet 4]({% post_url 2018-01-23-exercises %}#sheet4)                                                                           |
 | 13/2 | TSP: Heuristics, incl. impl. details                                                                                                                   |                                                                             |
@@ -116,3 +116,4 @@ w3.includeHTML();
 [4]: {{ "/assets/dm865-lec180202.pdf" | absolute_url }}
 [5]: {{ "/assets/dm865-lec180205.pdf" | absolute_url }}
 [6]: {{ "/assets/dm865-lec180206.pdf" | absolute_url }}
+[7]: {{ "/assets/dm865-lec180209.pdf" | absolute_url }}
