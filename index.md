@@ -112,7 +112,7 @@ w3.includeHTML();
 - [Be]
   J.J. Bentley. [Fast Algorithms for Geometric Traveling Salesman Problems](http://dx.doi.org/10.1287/ijoc.4.4.387). ORSA
   Journal on Computing, 1992, vol. 4, issue 4, pp. 387-411 (Available in
-  BlackBoard Documents)
+  BlackBoard Course Materials)
 
 - [No] Peter Norvig [The Traveling Salesperson Problem: Python notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb).
 
