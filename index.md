@@ -47,7 +47,7 @@ w3.includeHTML();
 | <!--L--> 9/2  | *This lecture will start at 8:45* <br> TSP: Insertion and Christofide's algorithm |  2.4 [WS] <br> [Lecture notes][7]                                                                                                       |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | 12/2 | Exercises                                                                                  | [Exercise sheet 4]({% post_url 2018-01-23-exercises %}#sheet4)                                                                           |
-| 13/2 | TSP: Heuristics, incl. impl. details                                                                                                                   |                                                                             |
+| 13/2 | TSP: Heuristics, incl. impl. details|  1-4 [Be] [No]                                                   |
 | 16/2 | TSP: Local search                                                                                                                                      |                                                                             |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | 19/2 |                                                                                                                                       |                                                                             |
@@ -108,6 +108,14 @@ w3.includeHTML();
   University Press. 2010.
 
 - [MAK] W. Michiels, E. Aarts and J. Korst. [Theoretical Aspects of Local Search](http://dx.doi.org/10.1007/978-3-540-35854-1). Springer Berlin Heidelberg, 2007
+
+- [Be]
+  J.J. Bentley. [Fast Algorithms for Geometric Traveling Salesman Problems](http://dx.doi.org/10.1287/ijoc.4.4.387). ORSA
+  Journal on Computing, 1992, vol. 4, issue 4, pp. 387-411 (Available in
+  BlackBoard Documents)
+
+- [No] Peter Norvig [The Traveling Salesperson Problem: Python notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb).
+
 
 
 [1]: {{ "/assets/dm865-lec00.pdf" | absolute_url }}
