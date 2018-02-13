@@ -81,3 +81,34 @@ categories: exercises sheet1
 
 2. Describe an algorithm for finding an Euler tour in a graph where
    all vertices have even degree.
+   
+   
+   
+#### Sheet 5: <a name="sheet5"></a> Exercises for Friday, February 16
+   
+   
+Read the Python tutorial [No]. You find some starting code from that
+page [here](https://github.com/DM865/TSP).
+
+Following the procedure for Benchmarking described there implement and
+compare as many TSP heuristics as you can. You find a list below, in
+bold the heuristics implemented in [No]. For a description of these
+heuristics see [Be].
+
+- Heuristics that Grow Fragments
+	+ **Nearest neighborhood heuristic**
+	+ Double-Ended Nearest Neighbor heuristic
+	+ **Multiple Fragment heuristic (aka, greedy heuristic)**
+- Heuristics that Grow Tours
+	+ Nearest Addition
+	+ Farthest Addition
+	+ Random Addition
+	+ Clarke-Wright savings heuristic
+	+ Nearest Insertion
+	+ Farthest Insertion
+	+ Random Insertion
+- Heuristics based on Trees
+	+ **Minimum spanning tree heuristic**
+	+ Christofides' heuristics
+	+ Fast recursive partitioning heuristic
+
