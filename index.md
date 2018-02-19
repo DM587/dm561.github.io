@@ -50,15 +50,15 @@ w3.includeHTML();
 | 13/2 | TSP: Heuristics |  [No]; 1-4 [Be]<br> [Slides][8] |
 | 16/2 | TSP: Heuristics |    [No]; 1-4 [Be] <br> [Exercise sheet 5]({% post_url 2018-01-23-exercises %}#sheet5)
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
-| 19/2 | TSP: Local search                                                                                                                                      |                                                                             |
-| 20/2 | Development environment + experimental analysis + experimental methods                                                                                 |                                                                             |
+| 19/2 | TSP: More on construction heuristics. Local search                                                                                                                                      | [Slides][8]                                                                            |
+| 20/2 |  TSP: Local search                                                                                 |   [Exercise sheet 6]({% post_url 2018-01-23-exercises %}#sheet6)                                                                          |
 | 23/2 |                                                                                                                                                        |                                                                             |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
-| 27/2 | Knapsack: Approximation algorithms                         | 3.1 [WS] <br> Project 1st part                                                            |
-| 2/3  | Bin Packing: Approximation algorithms                                                                                                                  | 3.3 [WS]                                                                                                                          |
+| 27/2 | Development environment + experimental analysis + experimental methods                         | 3.1 [WS] <br> Project 1st part                                                            |
+| 2/3  | Knapsack: Approximation algorithms                                                                                                                  | 3.3 [WS]                                                                                                                          |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
-| 6/3  | SAT: Randomized algorithms and derandomization             | 5.1-5.2 [WS]                                                                              |
-| 9/3  |                                                                                                                                                        |                                                                             |
+| 6/3  | Bin Packing: Approximation algorithms             | 5.1-5.2 [WS]                                                                              |
+| 9/3  | SAT: Randomized algorithms and derandomization                                                                                                                                                       |                                                                             |
 |------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------|
 | 12/3 | SAT: LP rounding                                                                                                        |                                                                             |
 | 13/3 |                                                                                                                                     |                                                                             |
@@ -126,3 +126,4 @@ w3.includeHTML();
 [6]: {{ "/assets/dm865-lec180206.pdf" | absolute_url }}
 [7]: {{ "/assets/dm865-lec180209.pdf" | absolute_url }}
 [8]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
+[9]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}

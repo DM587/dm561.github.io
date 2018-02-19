@@ -112,3 +112,22 @@ heuristics see [Be].
 	+ Christofides' heuristics
 	+ Fast recursive partitioning heuristic
 
+
+
+#### Sheet 6: <a name="sheet6"></a> Exercises for Tuesday, February 20.
+
+
+1. In a 3-opt local search algorithm for the TSP how many possible ways
+   are there to add three new edges once three edges have been removed
+   in order to re-obtain an Hamiltonian tour? Justify your answer.
+
+2. Consider the traveling salesmane define on an incomplete graph. How
+   could we encode the problem such that we can approach it with the
+   construction heuristics and local search algorithms implemented for
+   the complete version of the problem? 
+
+2. Consider the asymmetric TSP. How can we encode this problem into a
+   symmetric TSP, such that we can approach it with the construction
+   heuristics and local search algorithms implemented for the symmetric
+   version of the problem?
+
