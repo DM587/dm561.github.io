@@ -131,3 +131,26 @@ heuristics see [Be].
    heuristics and local search algorithms implemented for the symmetric
    version of the problem?
 
+
+
+#### Sheet 7: <a name="sheet7"></a> Exercises for Friday, February 23.
+
+
+Design a 3 exchange iterative improvement procedure for the TSP.  The
+procedure must return a local optimum in the 3 exchange neighborhood.
+Implement the procedure in the framework made
+[available in git](https://github.com/DM865/TSP).
+
+A template to be completed is available in 3opt.py. You must only edit
+this file, you are not allowed to touch the other files.  When executed
+your program will read the instance USA, construct a canonical tour and
+call your iterative improvement procedure. The benchmarking called from
+the main file will take care of assessing the quality of your solution.
+
+Describe your algorithm in pseudocode in a one-page document edited with
+Latex. Use the Latex package
+[algorithm2e](https://ctan.org/pkg/algorithm2e?lang=en).
+
+Submit only the file 3opt.py and the PDF result of your Latex pseudocode
+at this [portal](http://valkyrien.imada.sdu.dk/). 
+
