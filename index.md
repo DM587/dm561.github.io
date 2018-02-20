@@ -46,7 +46,7 @@ w3.includeHTML();
 | <!--L--> 6/2 | Exercises <br> Set Cover: Randomized LP-rounding                                                                                                       | [Exercise sheet 3]({% post_url 2018-01-23-exercises %}#sheet3) <br> 1.7 [WS]  <br> [Lecture notes][6]                   |
 | <!--L--> 9/2 | *This lecture will start at 8:45* <br> TSP: Insertion and Christofide's algorithm                                                                      | 2.4 [WS] <br> [Lecture notes][7]                                                                                        |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------|
-| 12/2         | Exercises                                                                                                                                              | [Exercise sheet 4]({% post_url 2018-01-23-exercises %}#sheet4)                                                          |
+| 12/2         | Exercises                                                                                                                                              | [Exercise sheet 4]({% post_url 2018-01-23-exercises %}#sheet4)  <br> [Lecture notes][10]                                |
 | 13/2         | TSP: Heuristics                                                                                                                                        | [No]; 1-4 [Be]<br> [Slides][8]                                                                                          |
 | 16/2         | TSP: Heuristics                                                                                                                                        | [No]; 1-4 [Be] <br> [Exercise sheet 5]({% post_url 2018-01-23-exercises %}#sheet5)                                      |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------|
@@ -127,3 +127,4 @@ w3.includeHTML();
 [7]: {{ "/assets/dm865-lec180209.pdf" | absolute_url }}
 [8]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
+[10]: {{ "/assets/dm865-lec180212.pdf" | absolute_url }}
