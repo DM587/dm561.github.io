@@ -142,7 +142,7 @@ Implement the procedure in the framework made
 [available in git](https://github.com/DM865/TSP).
 
 A template to be completed is available in 3opt.py. You must only edit
-this file, you are not allowed to touch the other files.  When executed
+this file, you are not allowed to change the other files.  When executed
 your program will read the instance USA, construct a canonical tour and
 call your iterative improvement procedure. The benchmarking called from
 the main file will take care of assessing the quality of your solution.
