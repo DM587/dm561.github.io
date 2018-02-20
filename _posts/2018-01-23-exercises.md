@@ -141,16 +141,25 @@ procedure must return a local optimum in the 3 exchange neighborhood.
 Implement the procedure in the framework made
 [available in git](https://github.com/DM865/TSP).
 
-A template to be completed is available in 3opt.py. You must only edit
-this file, you are not allowed to change the other files.  When executed
-your program will read the instance USA, construct a canonical tour and
-call your iterative improvement procedure. The benchmarking called from
-the main file will take care of assessing the quality of your solution.
+A template to be completed is available in the file `3opt.py`. You must
+only edit this file, you are not allowed to change the other files.
+When executed, your program will read the instance USA, construct a
+canonical tour and call your iterative improvement procedure. The
+benchmarking called from the main file will take care of assessing the
+quality of your solution.
 
 Describe your algorithm in pseudocode in a one-page document edited with
 Latex. Use the Latex package
 [algorithm2e](https://ctan.org/pkg/algorithm2e?lang=en).
 
-Submit only the file 3opt.py and the PDF result of your Latex pseudocode
+Submit only the file `3opt.py` and the PDF result of your Latex pseudocode
 at this [portal](http://valkyrien.imada.sdu.dk/). 
 
+You are encouraged to work in pairs at this assignment, in which case it is
+enough that only one submits.
+
+Remember: start out with simple and even inefficient code without
+optimizing for efficiency. Only later, when your initial implementation
+is working and doing what you expect, start looking at efficiency
+improvements of your code (and consider the quality of the solutions as
+well).
