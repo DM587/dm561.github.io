@@ -153,7 +153,7 @@ Latex. Use the Latex package
 [algorithm2e](https://ctan.org/pkg/algorithm2e?lang=en).
 
 Submit only the file `three_opt.py` and the PDF result of your Latex
-pseudocode at this [portal](http://valkyrien.imada.sdu.dk/). Keep your
+pseudocode at this [portal](http://valkyrien.imada.sdu.dk/DOApp/). Keep your
 files anonymous! (The portal is likely to become available only during
 the night before Friday. Hence, you might have to submit during the
 class of Friday.)
