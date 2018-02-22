@@ -152,8 +152,11 @@ Describe your algorithm in pseudocode in a one-page document edited with
 Latex. Use the Latex package
 [algorithm2e](https://ctan.org/pkg/algorithm2e?lang=en).
 
-Submit only the file `three_opt.py` and the PDF result of your Latex pseudocode
-at this [portal](http://valkyrien.imada.sdu.dk/). 
+Submit only the file `three_opt.py` and the PDF result of your Latex
+pseudocode at this [portal](http://valkyrien.imada.sdu.dk/). Keep your
+files anonymous! (The portal is likely to become available only during
+the night before Friday. Hence, you might have to submit during the
+class of Friday.)
 
 You are encouraged to work in pairs at this assignment, in which case it is
 enough that only one submits.
