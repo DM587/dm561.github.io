@@ -128,4 +128,4 @@ w3.includeHTML();
 [8]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
 [10]: {{ "/assets/dm865-lec180212.pdf" | absolute_url }}
-[11]: {{ "/assets/dm865-local_search-handout.pdf | absolute_url }}
+[11]: {{ "/assets/dm865-local_search-handout.pdf" | absolute_url }}
