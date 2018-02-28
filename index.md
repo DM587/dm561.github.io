@@ -54,7 +54,7 @@ w3.includeHTML();
 | 20/2         | TSP: Local search                                                                                                                                      | [Exercise sheet 6]({% post_url 2018-01-23-exercises%}#sheet6) <br>4 [Be], ch 1, sc 2.1, 4.1 [MAK] <br> [Slides][9] |
 | 23/2         | TSP: Efficiency issues in local search + Code review                                                                                                   | [Exercise sheet 7]({% post_url 2018-01-23-exercises%}#sheet7)                                                      |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 27/2         | Local search theory                                                                                                                                    | ch 1, sc 2.1, 4.1 [MAK]; Project 1st part                                                                          |
+| 27/2         | Local search theory                                                                                                                                    | ch 1, sc 2.1, 4.1 [MAK]; [Slides][11]; Project 1st part                                                                          |
 | 2/3          | Development environment + experimental analysis + experimental methods                                                                                 | 3.1 [WS]                                                                                                           |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 6/3          | Knapsack: Approximation algorithms                                                                                                                     | 3.3 [WS]                                                                                                           |
@@ -128,3 +128,4 @@ w3.includeHTML();
 [8]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
 [10]: {{ "/assets/dm865-lec180212.pdf" | absolute_url }}
+[11]: {{ "/assets/dm865-local_search-handout.pdf | absolute_url }}
