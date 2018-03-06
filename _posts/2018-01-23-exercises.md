@@ -166,3 +166,18 @@ optimizing for efficiency. Only later, when your initial implementation
 is working and doing what you expect, start looking at efficiency
 improvements of your code (and consider the quality of the solutions as
 well).
+
+
+
+#### Sheet 8: <a name="sheet8"></a> Exercises for Friday, March 9.
+
+2. Algorithm 3.1 is similar to the dynamic programming algorithm
+   described in class, but may be more time and space efficient.  
+   Explain Algorithm 3.1.  
+
+1. Solve Exercise 3.1.  
+   Hint: For proving the appoximation ratio it may be helpful to first
+   consider the algorithm that chooses between the sets {$1,2,\ldots,k$} and
+   {$k+1$}.
+
+2. Solve Exercise 3.6
