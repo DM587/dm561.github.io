@@ -58,7 +58,7 @@ w3.includeHTML();
 | 2/3          | Exercises on local search design                                                                                                                       | [Slides][12] <br> [Project 1st part][13]                                                                           |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 6/3          | Knapsack: Approximation algorithms <br> Introduction to Bin Packing                                                                                    | 3.1 [WS] <br> 3.3 [WS]; [Lecture notes][14]                                                                        |
-| 9/3          | Bin Packing: Approximation algorithms                                                                                                                  | 3.3 [WS]; [Exercise sheet 8]({% post_url 2018-01-23-exercises%}#sheet8)                                            |
+| 9/3          | <br> Bin Packing: Approximation algorithms                                                                                                             | [Exercise sheet 8]({% post_url 2018-01-23-exercises%}#sheet8) <br>  3.3 [WS]; [Lecture notes][15]                  |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 12/3         | Experimental Analysis of Heuristics for Optimization                                                                                                   |                                                                                                                    |
 | 13/3         | Experimental Analysis of Heuristics for Optimization (cntd)                                                                                            |                                                                                                                    |
@@ -130,3 +130,4 @@ w3.includeHTML();
 [12]: {{ "/assets/dm865-exercises-handout.pdf" | absolute_url }}
 [13]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
 [14]: {{ "/assets/dm865-lec180306.pdf" | absolute_url }}
+[15]: {{ "/assets/dm865-lec180309.pdf" | absolute_url }}
