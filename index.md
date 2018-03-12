@@ -60,8 +60,8 @@ w3.includeHTML();
 | 6/3          | Knapsack: Approximation algorithms <br> Introduction to Bin Packing                                                                                    | 3.1 [WS] <br> 3.3 [WS]; [Lecture notes][14]                                                                        |
 | 9/3          | <br> Bin Packing: Approximation algorithms                                                                                                             | [Exercise sheet 8]({% post_url 2018-01-23-exercises%}#sheet8) <br>  3.3 [WS]; [Lecture notes][15]                  |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 12/3         | Bin Packing: Dyn. prg. and running time for the APTAS <br> Experimental Analysis of Heuristics for Optimization                                        | 3.3 [WS] <br>                                                                                                      |
-| 13/3         | Experimental Analysis of Heuristics for Optimization (cntd)                                                                                            |                                                                                                                    |
+| 12/3         | Bin Packing: Dyn. prg. and running time for the APTAS <br> Working Environment                                                                         | 3.3 [WS] <br> [Slides][16]                                                                                         |
+| 13/3         | Experimental Analysis of Heuristics for Optimization                                                                                                   | [Slides][17]                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 19/3         | SAT: Local search <br> Midway course evaluation                                                                                                        |                                                                                                                    |
 | 20/3         | SAT: Stochastic local search                                                                                                                           |                                                                                                                    |
@@ -131,3 +131,5 @@ w3.includeHTML();
 [13]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
 [14]: {{ "/assets/dm865-lec180306.pdf" | absolute_url }}
 [15]: {{ "/assets/dm865-lec180309.pdf" | absolute_url }}
+[16]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
+[17]: {{ "/assets/dm865-experimental-1-handout.pdf" | absolute_url }}
