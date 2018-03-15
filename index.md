@@ -116,8 +116,8 @@ The overview will be continousuly updated during the course.
 
 
 
-[1]: {{ "/assets/dm865-lec00.pdf" | absolute_url }}
-[2]: {{ "/assets/dm865-lec01.pdf" | absolute_url }}
+[1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
+[2]: {{ "/assets/dm865-organization-handout.pdf" | absolute_url }}
 [3]: {{ "/assets/dm865-lec180201.pdf" | absolute_url }}
 [4]: {{ "/assets/dm865-lec180202.pdf" | absolute_url }}
 [5]: {{ "/assets/dm865-lec180205.pdf" | absolute_url }}
