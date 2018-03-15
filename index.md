@@ -134,3 +134,12 @@ The overview will be continousuly updated during the course.
 [16]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
 [17]: {{ "/assets/dm865-experimental-1-handout.pdf" | absolute_url }}
 [18]: {{ "/assets/dm865-lec180312.pdf" | absolute_url }}
+
+
+
+
+
+# Assessment and Grading
+
+- Oral exam based on the theoretical part and the practical project
+  assignment. Ordinary session: June 5th. Reexams: August 28th.
