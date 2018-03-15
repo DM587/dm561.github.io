@@ -24,16 +24,52 @@ max-width: 900px;
 max-width: 900px;
 }
 
-
+p { margin: 3px 0 5px 0; }
 
 footer.inner {
 max-width: 900px;
 }
 
 table {
+   border: 1px solid #ddd;
+ border-collapse: collapse;
  width: 100%;
 }
+
+
+td {
+   vertical-align: top;
+   border: 0pt;
+}
+
+th, td {
+    padding: 1px;
+    text-align: left;    
+}
+
+th, tbody {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #e5e5e5;}
+
 
 thead, th {
 /*background: #3b5998;*/
 }
+
+
+td.left {   
+	   border: 1px solid #ddd;
+}
+
+
+td.slot {   
+	   border: 1px solid #ddd;
+	   background-color: #e5e5e5;
+}
+
+
+.w3-btn, .w3-button {
+	 padding: 2px 4px;
+	 }
