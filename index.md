@@ -6,7 +6,7 @@ layout: default
 ---
 
 
-# General information
+## General information
 
 - [Official course description](http://natfak.sdu.dk/laeseplan/kursusbeskrivelse.php?kursuskode=DM865&lang=en)
 
@@ -15,7 +15,7 @@ layout: default
 - Teachers: [Lene Monrad Favrholdt](http://www.imada.sdu.dk/~lenem/) and [Marco Chiarandini](http://www.imada.sdu.dk/~marco)
 
 
-# Schedule
+## Schedule
 
 <a href="https://mitsdu.sdu.dk/skema/activity/15020201/f18">MitSDU</a>
 
@@ -33,7 +33,7 @@ w3.includeHTML();
 
 
 
-# Contents 
+## Contents 
 
 The overview will be continousuly updated during the course.
 
@@ -99,7 +99,7 @@ The overview will be continousuly updated during the course.
 
 
 
-# References 
+## References 
 
 - [WS] David P. Williamson and David
   B. Shmoys. [Design of Approximation Algorithms](http://www.designofapproxalgs.com/). Cambridge
@@ -139,7 +139,12 @@ The overview will be continousuly updated during the course.
 
 
 
-# Assessment and Grading
+## Assessment and Grading
 
 - Oral exam based on the theoretical part and the practical project
   assignment. Ordinary session: June 5th. Reexams: August 28th.
+
+
+## Course Evaluation
+
+- [Mid term evaluation]({% post_url 2018-03-20-midterm_eval %})
