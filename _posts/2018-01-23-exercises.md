@@ -183,6 +183,6 @@ well).
 2. Solve Exercise 3.6
 
 
-#### Sheet 9: <a name="sheet9"></a> Exercises for Tuesday, April 9.
+#### Sheet 9: <a name="sheet9"></a> Exercises for Tuesday, April 10.
 
 Encode the $k$-coloring problem as a SAT problem.
