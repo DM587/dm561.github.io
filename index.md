@@ -72,7 +72,7 @@ The overview will be continousuly updated during the course.
 | 10/4         | Stochastic Local Search & Metaheuristics (local search based)                                                                                          | ch 7 [MAK]; [Slides][21]                                                                                           |
 | 13/4         | Metaheuristics (construction heuristic based)                                                                                                          | [Slides][22]; [Project 2nd part][23]                                                                                |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 16/4         | Ant Colony Optimization                                                                                                                                |                                                                                                                    |
+| 16/4         | Ant Colony Optimization                                                                                                                                | [Slides][24]                                                                                                       |
 | 17/4         | Evolutionary Algorithms                                                                                                                                |                                                                                                                    |
 | 19/4         |                                                                                                                                                        |                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
@@ -134,6 +134,7 @@ The overview will be continousuly updated during the course.
 [21]: {{ "/assets/dm865-metaheuristics-handout.pdf" | absolute_url }}
 [22]: {{ "/assets/dm865-constr-meta-handout.pdf" | absolute_url }}
 [23]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
+[24]: {{ "/assets/dm865-aco.pdf" | absolute_url }}
 
 
 
