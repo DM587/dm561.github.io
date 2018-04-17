@@ -37,7 +37,7 @@ w3.includeHTML();
 
 The overview will be continousuly updated during the course.
 
-| Date         | Lectures  	                                                                                                                                         | Suggested reading                                                                                                  |
+| Date         | Lectures  	                                                                                                                                     | Suggested reading                                                                                                  |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | <!--L--> 1/2 | Introduction to the course<br><br> Introduction to approximation algorithms<br> Set Cover: IP formulation and LP relaxation<br> Set Cover: LP-rounding | [Pizza meeting slides][1]<br>[More details][2]<br> 1.1 [WS]<br> 1.2 [WS]<br> 1.3-1.4 [WS] <br> [Lecture notes][3]  |
 | <!--L--> 2/2 | Exercises <br> Set Cover: Primal-Dual                                                                                                                  | [Exercise sheet 1]({% post_url 2018-01-23-exercises %})<br> 1.4-1.5 [WS] <br> [Lecture notes][4]                   |
@@ -70,10 +70,10 @@ The overview will be continousuly updated during the course.
 | 6/4          | SAT: Local Search                                                                                                                                      | [Slides][20]; [Exercise sheet 9]({% post_url 2018-01-23-exercises%}#sheet9)                                        |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 10/4         | Stochastic Local Search & Metaheuristics (local search based)                                                                                          | ch 7 [MAK]; [Slides][21]                                                                                           |
-| 13/4         | Metaheuristics (construction heuristic based)                                                                                                          | [Slides][22]; [Project 2nd part][23]                                                                                |
+| 13/4         | Metaheuristics (construction heuristic based)                                                                                                          | [Slides][22]; [Project 2nd part][23]                                                                               |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 16/4         | Ant Colony Optimization                                                                                                                                | [Slides][24]                                                                                                       |
-| 17/4         | Evolutionary Algorithms                                                                                                                                |  [Slides][25]                                                                                                                   |
+| 17/4         | Evolutionary Algorithms                                                                                                                                | [Slides][25]; [Slides][26]                                                                                                     |
 | 19/4         |                                                                                                                                                        |                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 23/4         | SAT: Randomized algorithms                                                                                                                             | 5.1 [WS]                                                                                                           |
@@ -136,6 +136,7 @@ The overview will be continousuly updated during the course.
 [23]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
 [24]: {{ "/assets/dm865-aco.pdf" | absolute_url }}
 [25]: {{ "/assets/dm865-evolutionary.pdf" | absolute_url }}
+[26]: {{ "/assets/dm865-vrp.pdf" | absolute_url }}
 
 
 
