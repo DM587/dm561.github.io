@@ -195,6 +195,6 @@ Encode the $k$-coloring problem as a SAT problem.
 2. In the lecture on Thursday, April 19, we proved that the
    approximation ratio of the local
    search algorithm and the List Scheduling algorithm is at most
-   ($2-\frac{1}{m}$).
+   $2-\frac{1}{m}$.
    Prove that this bound is tight, i.e., prove that the ratio is at
-   least ($2-\frac{1}{m}$).
+   least $2-\frac{1}{m}$.
