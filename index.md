@@ -74,7 +74,7 @@ The overview will be continousuly updated during the course.
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 16/4         | Ant Colony Optimization                                                                                                                                | [Slides][24]                                                                                                       |
 | 17/4         | Evolutionary Algorithms                                                                                                                                | [Slides][25]; [Slides][26]                                                                                         |
-| 19/4         | Scheduling: Approximation algorithms                                                                                                                   | 2.3 [WS]                                                                                                           |
+| 19/4         | Scheduling: Approximation algorithms                                                                                                                   | 2.3 [WS]; [Slides][27]                                                                                             |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 23/4         | Scheduling: PTAS                                                                                                                                       | 3.2 [WS]; [Exercise sheet 10]({% post_url 2018-01-23-exercises%}#sheet10)                                          |
 | 24/4         |                                                                                                                                                        |                                                                                                                    |
@@ -137,6 +137,7 @@ The overview will be continousuly updated during the course.
 [24]: {{ "/assets/dm865-aco.pdf" | absolute_url }}
 [25]: {{ "/assets/dm865-evolutionary.pdf" | absolute_url }}
 [26]: {{ "/assets/dm865-vrp.pdf" | absolute_url }}
+[27]: {{ "/assets/dm865-lec180419.pdf" | absolute_url }}
 
 
 
