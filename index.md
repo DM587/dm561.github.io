@@ -76,7 +76,7 @@ The overview will be continousuly updated during the course.
 | 17/4         | Evolutionary Algorithms                                                                                                                                | [Slides][25]; [Slides][26]                                                                                         |
 | 19/4         | Scheduling: Approximation algorithms                                                                                                                   | 2.3 [WS]; [Lecture notes][27]                                                                                      |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 23/4         | Scheduling: PTAS                                                                                                                                       | 3.2 [WS]; [Exercise sheet 10]({% post_url 2018-01-23-exercises%}#sheet10)                                          |
+| 23/4         | <br>Scheduling: PTAS                                                                                                                                   | [Exercise sheet 10]({% post_url 2018-01-23-exercises%}#sheet10) <br> 3.2 [WS]; [Lecture notes][28]                 |
 | 24/4         |                                                                                                                                                        |                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 30/4         | SAT: Randomized algorithms and derandomization                                                                                                         | 5.1-5.3 [WS]                                                                                                       |
@@ -138,6 +138,7 @@ The overview will be continousuly updated during the course.
 [25]: {{ "/assets/dm865-evolutionary.pdf" | absolute_url }}
 [26]: {{ "/assets/dm865-vrp.pdf" | absolute_url }}
 [27]: {{ "/assets/dm865-lec180419.pdf" | absolute_url }}
+[28]: {{ "/assets/dm865-lec180423.pdf" | absolute_url }}
 
 
 
