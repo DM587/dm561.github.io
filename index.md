@@ -134,13 +134,13 @@ The overview will be continousuly updated during the course.
 [21]: {{ "/assets/dm865-metaheuristics-handout.pdf" | absolute_url }}
 [22]: {{ "/assets/dm865-constr-meta-handout.pdf" | absolute_url }}
 [23]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
-[24]: {{ "/assets/dm865-aco.pdf" | absolute_url }}
-[25]: {{ "/assets/dm865-evolutionary.pdf" | absolute_url }}
-[26]: {{ "/assets/dm865-vrp.pdf" | absolute_url }}
+[24]: {{ "/assets/dm865-aco-handout.pdf" | absolute_url }}
+[25]: {{ "/assets/dm865-evolutionary-handout.pdf" | absolute_url }}
+[26]: {{ "/assets/dm865-vrp-handout.pdf" | absolute_url }}
 [27]: {{ "/assets/dm865-lec180419.pdf" | absolute_url }}
 [28]: {{ "/assets/dm865-lec180423.pdf" | absolute_url }}
-[29]: {{ "/assets/dm865-scheduling-class.pdf" | absolute_url }}
-[30]: {{ "/assets/dm865-scheduling-complex.pdf" | absolute_url }}
+[29]: {{ "/assets/dm865-scheduling-class-handout.pdf" | absolute_url }}
+[30]: {{ "/assets/dm865-scheduling-complex-handout.pdf" | absolute_url }}
 
 
 ## Assessment and Grading
