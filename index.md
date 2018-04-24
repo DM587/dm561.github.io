@@ -37,9 +37,9 @@ w3.includeHTML();
 
 The overview will be continousuly updated during the course.
 
-| Date         | Lectures  	                                                                                                                                        | Suggested reading                                                                                                  |
+| Date         | Lectures  	                                                                                                                                     | Suggested reading                                                                                                  |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| <!--L--> 1/2 | Introduction to the course<br><br> Introduction to approximation algorithms<br> Set Cover: IP formulation and LP relaxation<br> Set Cover: LP-rounding | [Pizza meeting slides][1]<br>[More details][2]<br> 1.1 [WS]<br> 1.2 [WS]<br> 1.3-1.4 [WS]; [Lecture notes][3]  |
+| <!--L--> 1/2 | Introduction to the course<br><br> Introduction to approximation algorithms<br> Set Cover: IP formulation and LP relaxation<br> Set Cover: LP-rounding | [Pizza meeting slides][1]<br>[More details][2]<br> 1.1 [WS]<br> 1.2 [WS]<br> 1.3-1.4 [WS]; [Lecture notes][3]      |
 | <!--L--> 2/2 | Exercises <br> Set Cover: Primal-Dual                                                                                                                  | [Exercise sheet 1]({% post_url 2018-01-23-exercises %})<br> 1.4-1.5 [WS]; [Lecture notes][4]                       |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | <!--L--> 5/2 | Exercises  <br> Set Cover: Greedy                                                                                                                      | [Exercise sheet 2]({% post_url 2018-01-23-exercises %}#sheet2) <br> 1.6 [WS]; [Lecture notes][5]                   |
@@ -77,9 +77,9 @@ The overview will be continousuly updated during the course.
 | 19/4         | Scheduling: Approximation algorithms                                                                                                                   | 2.3 [WS]; [Lecture notes][27]                                                                                      |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 23/4         | Exercises<br>Scheduling: PTAS                                                                                                                          | [Exercise sheet 10]({% post_url 2018-01-23-exercises%}#sheet10) <br> 3.2 [WS]; [Lecture notes][28]                 |
-| 24/4         | Scheduling: Classification                                                                                                                             | [Slides][29]                                                                                          |
+| 24/4         | Scheduling: Classification                                                                                                                             | [Slides][29]; ch 1 [BK]; [Exercise sheet 11]({% post_url 2018-01-23-exercises%}#sheet11)                                                                                           |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 30/4         | Scheduling: Complexity                                                                                                                                 |              [Slides][30]                                                                                                       |
+| 30/4         | Scheduling: Complexity                                                                                                                                 | [Slides][30]                                                                                                       |
 | 1/5          | Scheduling: Local Search                                                                                                                               |                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 7/5          | SAT: LP rounding                                                                                                                                       |                                                                                                                    |
@@ -108,6 +108,11 @@ The overview will be continousuly updated during the course.
   BlackBoard Course Materials)
 
 - [No] Peter Norvig [The Traveling Salesperson Problem: Python notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb).
+
+- [BK] P. Brucker, S. Knust. [Complex
+  Scheduling](https://doi.org/10.1007/978-3-642-23929-8). Springer, 2012.
+
+- [P] M. L. Pinedo. [Scheduling Theory, Algorithms, and Systems](https://doi.org/10.1007/978-3-319-26580-3). Springer 2016.  
 
 
 
