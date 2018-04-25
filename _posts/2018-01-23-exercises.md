@@ -198,3 +198,63 @@ Encode the $k$-coloring problem as a SAT problem.
    $2-\frac{1}{m}$.
    Prove that this bound is tight, i.e., prove that the ratio is at
    least $2-\frac{1}{m}$.
+
+
+
+#### Sheet 11: <a name="sheet11"></a> Exercises for Monday, April 30.
+
+Classfy the following scheduling applications:
+
+1. Gate Assignment at an Airport 
+
+	- Airline terminal at a airport with dozes of gates and hundreds of arrivals each day.
+
+	- Gates and Airplanes have different characteristics
+
+	- Airplanes follow a certain schedule
+
+	- During the time the plane occupies a gate, it must go through a series of operations
+
+	- There is a scheduled departure time (due date)
+
+	- Performance measured in terms of on time departures.
+
+
+
+2. Scheduling Tasks in a Central Processing Unit (CPU)
+
+	- Multitasking operating system
+
+	- Schedule time that the CPU devotes to the different programs
+
+	- Exact processing time unknown but an expected value might be known
+
+	- Each program has a certain priority level
+
+	- Tasks are often sliced into little pieces. They are then rotated
+	  such that low priority tasks of short duration do not stay for
+	  ever in the system.
+
+	- Minimize  expected time %, ie, sum of the weighted completion times  for all tasks
+
+
+3. Paper bag factory
+
+	- Basic raw material for such an operation are rolls of paper.
+
+	- Production process consists of three stages: printing of the logo, gluing of the side of the bag, sewing of one end or both ends.
+	
+
+	- Each stage consists of a number of machines which are not necessarily identical.
+
+
+	- Each production order indicates a given quantity of a specific bag
+	  that has to be produced and shipped by a committed shipping date or due date.
+
+
+	- Processing times for the different operations are proportional to the number of bags ordered.
+
+	- There are setup times when switching over different types of bags (colors, sizes) that depend on the similarities between the two consecutive orders
+
+	- A late delivery implies a penalty that depends on the importance 
+	  of the order or the client and the tardiness of the delivery.
