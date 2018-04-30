@@ -77,10 +77,10 @@ The overview will be continousuly updated during the course.
 | 19/4         | Scheduling: Approximation algorithms                                                                                                                   | 2.3 [WS]; [Lecture notes][27]                                                                                      |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 23/4         | Exercises<br>Scheduling: PTAS                                                                                                                          | [Exercise sheet 10]({% post_url 2018-01-23-exercises%}#sheet10) <br> 3.2 [WS]; [Lecture notes][28]                 |
-| 24/4         | Scheduling: Classification                                                                                                                             | [Slides][29]; ch 1 [BK]; [Exercise sheet 11]({% post_url 2018-01-23-exercises%}#sheet11)                                                                                           |
+| 24/4         | Scheduling: Classification                                                                                                                             | [Slides][29]; ch 1 [BK]; [Exercise sheet 11]({% post_url 2018-01-23-exercises%}#sheet11)                           |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 30/4         | Scheduling: Complexity                                                                                                                                 | [Slides][30]                                                                                                       |
-| 1/5          | Scheduling: Local Search                                                                                                                               |                                                                                                                    |
+| 30/4         | Scheduling: Complexity, Single Machine Problems                                                                                                        | [Slides][30]; [Slides][31]                                                                                         |
+| 1/5          | Scheduling: Shop Problems                                                                                                                              |                                                                                                                    |
 |--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 7/5          | SAT: LP rounding                                                                                                                                       |                                                                                                                    |
 | 8/5          | SAT: Randomized algorithms and derandomization                                                                                                         | 5.1-5.3 [WS]                                                                                                       |
@@ -146,7 +146,7 @@ The overview will be continousuly updated during the course.
 [28]: {{ "/assets/dm865-lec180423.pdf" | absolute_url }}
 [29]: {{ "/assets/dm865-scheduling-class-handout.pdf" | absolute_url }}
 [30]: {{ "/assets/dm865-scheduling-complex-handout.pdf" | absolute_url }}
-
+[31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
 
 ## Assessment and Grading
 
