@@ -83,7 +83,7 @@ The overview will be continousuly updated during the course.
 | 1/5          | Scheduling: Shop Problems                                                                                                                           | [Slides][31]                                                                                                       |   |   |
 |--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---+---|
 | 7/5          | Scheduling: Flow Shop                                                                                                                               |  [Slides][32]                                                                                                                   |   |   |
-| 8/5          | Scheduling: Job Shop                                                                                                                                |                                                                                                                    |   |   |
+| 8/5          | Scheduling: Job Shop                                                                                                                                |  [Slides][33]                                                                                                                    |   |   |
 | 9/5          | Scheduling: Resource Constrained Project Scheduling                                                                                                 |                                                                                                                    |   |   |
 |--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---+---|
 | 14/5         | MAX SAT: Randomized algorithms and derandomization                                                                                                  | 5.1-5.3 [WS]                                                                                                       |   |   |
@@ -147,7 +147,8 @@ The overview will be continousuly updated during the course.
 [29]: {{ "/assets/dm865-scheduling-class-handout.pdf" | absolute_url }}
 [30]: {{ "/assets/dm865-scheduling-complex-handout.pdf" | absolute_url }}
 [31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
-[32]: {{ "/assets/dm865-scheduling-heur-handout.pdf" | absolute_url }}
+[32]: {{ "/assets/dm865-scheduling-flow-handout.pdf" | absolute_url }}
+[33]: {{ "/assets/dm865-scheduling-job-handout.pdf" | absolute_url }}
 
 ## Assessment and Grading
 
