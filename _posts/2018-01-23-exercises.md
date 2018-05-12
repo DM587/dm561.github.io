@@ -258,3 +258,11 @@ Classfy the following scheduling applications:
 
 	- A late delivery implies a penalty that depends on the importance 
 	  of the order or the client and the tardiness of the delivery.
+
+
+
+#### Sheet 12: <a name="sheet12"></a> Exercises for Friday, May 18.
+
+1. Explain the derandomized version of the algorithm in Section 5.3.
+
+2. Do Exercise 5.7
