@@ -155,7 +155,7 @@ The overview will be continousuly updated during the course.
 - Oral exam based on the theoretical part and the practical project
   assignment. Ordinary session: June 6th. Reexams: August 28th.
   
-  [Guidelines]({% post_url examQs %})
+  [Guidelines]({% post_url 2018-05-10-examQs %})
 
 
 ## Course Evaluation
