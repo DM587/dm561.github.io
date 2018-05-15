@@ -154,9 +154,7 @@ The overview will be continousuly updated during the course.
 ## Assessment and Grading
 
 - Oral exam based on the theoretical part and the practical project
-  assignment. Ordinary session: June 6th. Reexams: August 28th.
-  
-  [Guidelines]({% post_url 2018-05-10-examQs %})
+  assignment. Ordinary session: June 5th. Reexams: August 28th.
 
 
 ## Course Evaluation
