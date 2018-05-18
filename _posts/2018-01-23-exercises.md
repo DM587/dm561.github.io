@@ -271,4 +271,4 @@ Classfy the following scheduling applications:
 #### Sheet 13: <a name="sheet13"></a> Exercises for Tuesday, May 22.
 
 1. Do Exercise 5.7 <br>
-   Hint: Using $\lambda=n \ln n \: Z^*_{\text{LP}}$ may result in a $3 \ln n$-approximation algorithm.
+   Hint: Using $\lambda=n \cdot \ln n \cdot Z^*_{\text{LP}}$ may result in a $3 \ln n$-approximation algorithm.
