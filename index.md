@@ -87,9 +87,9 @@ The overview will be continousuly updated during the course.
 | 9/5          | Scheduling: Resource Constrained Project Scheduling                                                                                                 | [Slides][34] [BK chp 1,3]                                                                                          |
 |--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 | 15/5         | MAX SAT: Randomized algorithms and derandomization                                                                                                  | 5.1-5.3 [WS]; [Lecture notes][35]                                                                                  |
-| 18/5         | Exercises <br> MAX SAT: LP rounding                                                                                                                 | [Exercise sheet 12]({% post_url 2018-01-23-exercises%}#sheet12) <br> 5.4-5.6 [WS]                                                                                                       |
+| 18/5         | Exercises <br> MAX SAT: LP rounding                                                                                                                 | [Exercise sheet 12]({% post_url 2018-01-23-exercises%}#sheet12) <br> 5.4-5.6 [WS]; [Lecture notes][36]                                                                  |
 |--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
-| 22/5         |                                                                                                                                                     |                                                                                                                    |
+| 22/5         | Exercise <br> Discussion of the exam <br> Assignment of exam slots                             | [Exercise sheet 13]({% post_url 2018-01-23-exercises%}#sheet13)                                                                            |
 |--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------|
 
 
@@ -150,6 +150,7 @@ The overview will be continousuly updated during the course.
 [33]: {{ "/assets/dm865-scheduling-job-handout.pdf" | absolute_url }}
 [34]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
 [35]: {{ "/assets/dm865-lec180515.pdf" | absolute_url }}
+[36]: {{ "/assets/dm865-lec180518.pdf" | absolute_url }}
 
 ## Assessment and Grading
 
