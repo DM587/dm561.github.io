@@ -268,7 +268,7 @@ Classfy the following scheduling applications:
 2. Do Exercise 5.7
 
 
-#### Sheet 13: <a name="sheet12"></a> Exercises for Tuesday, May 22.
+#### Sheet 13: <a name="sheet13"></a> Exercises for Tuesday, May 22.
 
 1. Do Exercise 5.7 <br>
    Hint: Using $\lambda=n \ln n \: Z^*_{\text{LP}}$ may result in a $3 \ln n$-approximation algorithm.
