@@ -151,6 +151,7 @@ The overview will be continousuly updated during the course.
 [34]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
 [35]: {{ "/assets/dm865-lec180515.pdf" | absolute_url }}
 [36]: {{ "/assets/dm865-lec180518.pdf" | absolute_url }}
+[37]: {{ "/assets/dm865-lec180522.pdf" | absolute_url }}
 
 ## Assessment and Grading
 
