@@ -7,7 +7,7 @@ categories: exam
 ---
 
 
-The oral exam takes place on June 6, in [U59](https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb927423b7d0540c9a4be/) from TBA.
+The oral exam takes place on June 6, in [U59](https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb927423b7d0540c9a4be/) from 9:30.
 
 
 
