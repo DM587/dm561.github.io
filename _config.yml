@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DM865 - Heuristics and Approximation Algorithms
+title: DM561 - Linear Algebra with Applications
 email: marco@imada.sdu.dk
-description: Course on Heuristics and Approximation Algorithms
+description: Course on linear algebra, second year of Bachelor in Computer Science at University of Southern Denmark
 # >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dm865.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dm561.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-repository: "belzebuu/DM865"
+repository: "belzebuu/DM561"
 show_downloads: false
 
 show_downloads: false
