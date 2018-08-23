@@ -34,27 +34,36 @@ w3.includeHTML();
 
 
 
-## Contents 
+## Contents
 
-The overview will be continousuly updated during the course.
+### Introductory Classes
 
-| Date | Lectures  	 | Suggested reading |
+
+| Date | Topic 	 | Suggested reading |
 |------+--------------------+-------------------|
 |      |                    |                   |
 |------+--------------------+-------------------|
 
+### Exercises and Assignments
+
+| Week     | Topic  	 | Suggested reading |
+|------+--------------------+-------------------|
+|      |                    |                   |
+|------+--------------------+-------------------|
+
+
 ## References 
 
-### Recommended book:
+#### Recommended book:
 
 
 - [AR] Howard Anton and Chris Rorres. [Elementary Linear Algebra With
   Supplemental
   Applications](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118677455.html). Edition
-  International Student Version]] 11th Edition. 2014. Wiley
+  International Student Version. 11th Edition. 2014. Wiley
 
   
-### Other References:  
+#### Other References:  
 
 
 - [PK] Philip N. Klein. [Coding the Matrix: Linear Algebra through
