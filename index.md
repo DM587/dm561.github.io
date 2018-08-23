@@ -9,7 +9,7 @@ layout: default
 
 ## General information
 
-- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/
+- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
 
 - [BlackBoard](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1)
 
@@ -45,7 +45,7 @@ The overview will be continousuly updated during the course.
 
 ## References 
 
-**** Recommended book:
+### Recommended book:
 
 
 - [AR] Howard Anton and Chris Rorres. [Elementary Linear Algebra With
@@ -54,7 +54,7 @@ The overview will be continousuly updated during the course.
   International Student Version]] 11th Edition. 2014. Wiley
 
   
-**** Other References:  
+### Other References:  
 
 
 - [PK] Philip N. Klein. [Coding the Matrix: Linear Algebra through
