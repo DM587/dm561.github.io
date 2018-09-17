@@ -26,8 +26,7 @@ layout: default
 
 <div class="w3-responsive">
 
-
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=egkljh81e5gn1qa11drhvli5g1quqn6e%40import.calendar.google.com&amp;color=%23853104&amp;src=i1sgtn4cueuhfc0o5u0aao73ikbrkuol%40import.calendar.google.com&amp;color=%23853104&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=egkljh81e5gn1qa11drhvli5g1quqn6e%40import.calendar.google.com&amp;color=%23853104&amp;src=i1sgtn4cueuhfc0o5u0aao73ikbrkuol%40import.calendar.google.com&amp;color=%23853104&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="980" height="600" frameborder="0" scrolling="no"></iframe>
 
 <!-- <div w3-include-html="./assets/timetable.html"></div> 
 <script>
@@ -48,21 +47,21 @@ w3.includeHTML();
 ### Introductory Classes
 
 
-| Week |  Date | Topic 	 | Suggested reading |
-|------+-------+----------------+-------------------|
-|   45 | 05.11 |                |                   |
-|      | 07.11 |                |                   |
-|------+-------+----------------+-------------------|
-|   46 | 14.11 |                |                   |
-|------+-------+----------------+-------------------|
-|   47 | 21.11 |                |                   |
-|------+-------+----------------+-------------------|
-|   48 | 28.11 |                |                   |
-|------+-------+----------------+-------------------|
-|   49 | 05.12 |                |                   |
-|------+-------+----------------+-------------------|
-|   50 | 12.12 |                |                   |
-|------+-------+----------------+-------------------|
+| Week |  Date | Teacher | Topic 	 | Suggested reading |
+|------+-------+---------+----------------+-------------------|
+|   45 | 05.11 |         |                |                   |
+|      | 07.11 |         |                |                   |
+|------+-------+---------+----------------+-------------------|
+|   46 | 14.11 | DM      |                |                   |
+|------+-------+---------+----------------+-------------------|
+|   47 | 21.11 | DM      |                |                   |
+|------+-------+---------+----------------+-------------------|
+|   48 | 28.11 |         |                |                   |
+|------+-------+---------+----------------+-------------------|
+|   49 | 05.12 |         |                |                   |
+|------+-------+---------+----------------+-------------------|
+|   50 | 12.12 |         |                |                   |
+|------+-------+---------+----------------+-------------------|
 
 
 
