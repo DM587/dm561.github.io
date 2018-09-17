@@ -18,8 +18,9 @@ layout: default
 
 ## Schedule
 
-<a href="https://mitsdu.sdu.dk/skema/activity/N340003101/e18">MitSDU</a>
+<a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e18">MitSDU</a>
 
+<!--
 <button onclick="myFunction('Demo1')" class="w3-btn w3-cell w3-left-align">Show alternative view <i class="fa fa-caret-down"></i></button>
 <div id="Demo1" class="w3-container w3-hide">
 
@@ -32,6 +33,7 @@ w3.includeHTML();
 
 </div>
 
+-->
 
 
 ## Contents
