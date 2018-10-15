@@ -1,0 +1,100 @@
+
+\usepackage{framed}
+\usepackage{comment}
+
+
+\newcounter{excount}
+
+
+\renewcommand{\thesection}{Exercise \arabic{section}}
+\renewcommand{\thesubsection}{Exercise \arabic{subsection}}
+\newcommand{\exercise}[2]{\bigskip{\bf\large Exercise \stepcounter{excount}\arabic{excount}#1\ \ #2}\medskip}
+\renewcommand{\thesubsubsection}{Exercise \arabic{subsection}.\alph{subsubsection}}
+
+\setlength{\parindent}{0pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{framed}
+\usepackage{comment}
+
+
+%\newif\ifshow
+%\showtrue
+%\showfalse
+
+\ifshow%
+\newenvironment{solution}%
+{%
+\bigskip%
+%\begin{framed}
+  \color{blue}
+  \textbf{Solution:}
+ \smallskip
+
+}
+{%
+ \color{black}
+%\end{framed}%
+}%
+\else
+\excludecomment{solution}
+\fi
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newif\ifshow
+%\showtrue
+%%\showfalse
+%\ifshow%
+%\newenvironment{solution}%
+%{%
+%\bigskip%
+% \color{blue}
+%\begin{framed}
+%  \textbf{Solution}
+%
+%\smallskip
+%}
+%{%
+%\end{framed}%
+% \color{black}
+%}%
+%%\newcommand{\answer}[2]{\\ \red{\textbf{Answer:} #1}}  % show solutions
+%%\newcommand{\sol}[1]{\hspace{10mm}}                   % hide solutions
+%\newcommand{\sol}[1]{\color{blue}#1\color{black}}
+%\newcommand{\answer}[1]{\color{blue}Answer: #1}
+%\else
+%\newenvironment{solution}%
+%{}{}
+%%\excludecomment{solution}
+%%\newcommand{\answer}[2]{\\ \red{\textbf{Answer:} #1}}  % show solutions
+%%\newcommand{\sol}[1]{\hspace{10mm}}                   % hide solutions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{notation}{Notation}
+\newtheorem{summary}{Summary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\newtheorem{corollary}{Corollary}
+\newtheorem{property}{Property}
+\newtheorem{conjecture}{Conjecture}
+
+
+
+\renewcommand{\Re}{\ensuremath{\mathbb{R}}}
+\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\inner}[2]{\ensuremath{\left\langle\bf{#1},\bf{#2}\right\rangle}}
+
+\newcommand{\mes}[1]{\ensuremath{\left\|\bf{#1}\right\|}}
+\newcommand{\rank}{\ensuremath{\operatorname{rank}}}
+%\newcommand{\det}{\ensuremath{\operatorname{det}(#1)}}
+\newcommand{\Lin}{\ensuremath{\operatorname{Lin}}}

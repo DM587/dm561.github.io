@@ -1,0 +1,180 @@
+\documentclass[a4paper,10pt]{article}
+%\pdfoutput=1
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+%\usepackage{palatino}
+\usepackage[math]{kurier}
+%\usepackage[sc]{mathpazo} % consider options: osf, sc
+\usepackage{xspace}
+%\PassOptionsToPackage{latex2html}{hyperref}  
+%\usepackage{html} 
+\usepackage{url} 
+%\usepackage{booktabs} 
+%\usepackage{hyperref}
+%\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{rotating}
+%\usepackage{srctex}
+\usepackage{color}
+\usepackage{enumerate}
+%\usepackage{afterpage}
+
+\usepackage{arydshln}
+\usepackage{etoolbox}
+\usepackage{blkarray}
+\usepackage{multirow}
+
+\usepackage{listings}
+\usepackage[vlined]{algorithm2e}
+
+
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+
+\graphicspath{{Figures/}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mylstset}
+\usepackage{mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newif\ifshow
+\showtrue
+%\showfalse
+\usepackage{exercises}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage[all]{xy}
+
+
+\newcommand{\row}[1]{
+%HEVEA \begin{comment}
+\ensuremath \overrightarrow{\mathbf #1}
+%HEVEA \end{comment}
+%HEVEA \overrightarrow{\mathbf #1}
+}
+
+
+
+\graphicspath{{Figures/}}
+
+
+\title{%
+\begin{flushleft}
+DM561 -- Linear Algebra and Applications\\[0.3cm]
+{\Large Obligatory Assignment 1, Autumn 2018} %
+% \ahref{\url{http://www.imada.sdu.dk/~marco/DM559/Assignments-LA/sheet2.pdf}}{\tiny [pdf format]}
+\\
+\hrulefill
+\\[-1.8cm]
+\end{flushleft}
+}
+
+
+%\hrulefill \\[-1.8cm]
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{solution}
+Contains Solutions!
+\end{solution}
+
+
+
+\begin{center}
+\color{red}
+  {\bf Deadline: Wednesday, April 4 at 18:00.}
+\color{black}
+\end{center}
+
+\color{red}In red the modifications after publication.\color{black}
+
+This is the second obligatory assignment in DM559. The number 0.2
+indicates that this is Assignment 2 of the part 0 of the course (the
+part on Linear Algebra). The part 1 will start in week 12.
+
+The Assignment has to be carried out individually.  You can consult with
+peers, if you are unable to proceed, but without exchanging full
+solutions.
+
+
+The submission is electronic via:
+\begin{center}
+\url{http://valkyrien.imada.sdu.dk/milpApp/}.
+\end{center} 
+%The submission is individual and
+%electronic via Blackboard SDU Assignment.
+
+
+
+The deliverable is a PDF document, as it will be at the written
+exam. Hence, experiment and get acquainted with the tools and forms you
+want to use for producing this document in a similar setting as the
+exam. In any case, you have to put your answers in this
+\myhref{\mypage/Assignments-LA/template_answers.tex}{template} You can
+handwrite your answers and add them as picture in the template. Be aware
+that at the exam you can use digital pen or hand scanner (that is, a
+silent scanner) but you cannot bring handycameras. You can of course
+also typset your answers in LaTeX. You can use either Danish or English.
+Keep the newpage separation after each
+\color{red}exercise\color{black}\ present in the template. Write your
+name and CPR number where indicated in the template.
+
+\medskip
+
+In some parts, you are asked to write Python code. You have to include
+the code in the PDF document \emph{together with the output of the
+  execution of the code}. Use the LaTeX environment \verb=lstlisting=
+as shown in the template for doing this. Your code must work correctly
+if fully copied and pasted from your report.
+%
+%Only PDF files are accepted. Use the this Latex template:
+%\url{http://www.imada.sdu.dk/~marco/DM559/Files/template_assignments.tex}
+%Handwriting the answers and including a picture or a scan of them in the
+%template is allowed.
+%
+
+\medskip
+In your answers, you have to justify the steps that you are doing. If
+theorems and definitions from the slides of the course or from the text
+book (specify which edition) are used, give reference.
+
+
+\medskip
+The tasks are all about linear algebra. Your goal is to answer correctly
+to as many subtasks as you can. Tasks and subtasks are presented in
+increasing order of difficulty. You are welcome to ask in class for
+explanations that could put you on the right path for solving the tasks.
+
+\medskip
+\emph{Exercises \color{red}1-3b\color{black}\ must be completed to pass the assignment and I
+  expect that they can be carried out in less than one working day if
+  you are up-to-date with the subject. Exercises \color{red}3c-5\color{black}\ are real-life
+  applications of linear algebra.  }
+
+
+
+\clearpage
+
+
+\exercise{*}{Change of basis}
+
+
+
+
+
+\end{document}
