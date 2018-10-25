@@ -16,6 +16,8 @@ layout: default
 - Teachers: [Christian Kudahl](https://imada.sdu.dk/~kudahl/), [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
+- Teachers: [Jonas Herskind Sejr](http://findresearcher.sdu.dk:8080/portal/en/person/sejr), Hans Kristian Anders Møller
+
 ## Schedule
 
 <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e18">MitSDU</a>
