@@ -128,7 +128,7 @@ w3.includeHTML();
 
 #### Recommended book:
 
-- [HJ1] [Python Essentials][1] Jeffrey Humpherys and Tyler J. Jarvis, managing editors
+- [HJ1] [Python Essentials][1]. Jeffrey Humpherys and Tyler J. Jarvis, managing editors
 
 <!--
 - [HJ2] [Labs for Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](2)
