@@ -11,7 +11,8 @@ layout: default
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
 
-- [BlackBoard](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1)
+- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390712_1)
+
 
 - Teachers: [Christian Kudahl](https://imada.sdu.dk/~kudahl/), [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 

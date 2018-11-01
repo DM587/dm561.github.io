@@ -1,0 +1,41 @@
+Dear All,
+
+from week 45 we start the second part of "Linear Algebra with
+Applications", which will be taught by Daniel Merkle and Marco
+Chiarandini.
+
+The goal of this part of the course is learning to carry out the linear
+algebra calculations that you have been discussiing so far in the
+scientific computing enviroment of Python. After the first week where
+there will be a review of the syntax of the Python programming language
+we will work with the Linear Algebra computations of a few
+applications. We that you will enjoy this part and learn a lot!
+
+
+For this part of the course the main webpage becomes:
+
+    https://dm561.github.io/
+
+That will be the place where we will post relevant material for this
+course: updated schedule, slides, lecture notes, links, etc. Please,
+take a look at the page.
+
+The page is also linked from the left menu in the BlackBoard system. The
+BlackBoard system will be used from now on only to post announcements
+like this one.
+
+
+
+
+
+See you on Monday, November 5, at 8:15.
+We look forward to seeing you there.
+
+Best regards,
+Marco
+
+
+
+There you can find the recommended
+book for the Linear Algebra part (a PDF version can be found on the
+Web).
