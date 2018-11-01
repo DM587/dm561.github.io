@@ -18,7 +18,7 @@ For example, the first assignment (which will not be graded, and is just used to
 To complete that assignment, provide your implementation in the file \texttt{asg0-onlytesting/onlytesting.py} and submit it via \texttt{git}.
 After grading, you will be able to get access to a file called \texttt{asg0-onlytesting/grade.txt} with your score and some feedback. Each assignment will have a formal deadline. However we will provide testing results once a day, such that you can improve your code. The grading will be based on your implementation at the exact time of the deadline of the assignment.
 
-
+\newpage
 \section*{Setup} % ============================================================
 
 \begin{warn}
@@ -125,18 +125,19 @@ Collecting matplotlib
 
 \subsection*{Setup Without Git} % ---------------------------------------------
 
-Even if you aren't using git to submit files, you must install it (\url{http://git-scm.com/downloads}) in order to get the data files for each lab.
-Share your folder with your instructor according to their directions, and follow steps \ref{step:download-data} and \ref{step:install-dependencies} of the previous section to download the data files and install package dependencies.
+Note, that you must have git installed in order to i.) get the data files for each lab and ii.) to submit you solution. Git is installed in the Computer Lab --- if you want to install it within your own environment, \url{http://git-scm.com/downloads} is a good starting point.
 
 \section*{Using Git} % ========================================================
 
 Git manages the history of a file system through \emph{commits}, or checkpoints.
 Use \li{git status} to see the files that have been changed since the last commit.
-These changes are then moved to the \emph{staging area}, a list of files to save during the next commit, with \li{git add <filename(s)>}.
-Save the changes in the staging area with \li{git commit -m "<A brief message describing the changes>"}.
+These changes are then moved to the (local) \emph{staging area} (a list of files for the next commit) with \li{git add <filename(s)>}.
+Record the changes in the staging area with the command \li{git commit -m "<A brief message describing the changes>"}.
 
-All of these commands are done within a clone of the repository, stored somewhere on a computer.
-This repository must be manually synchronized with the online repository via two other git commands: \li{git pull}, to pull updates from the web to the computer; and \li{git push}, to push updates from the computer to the git server.
+All of these commands are done within a ``clone'' of the repository, which is stored somewhere on a computer.
+This repository must be manually synchronized with the remote repository server via two other git commands: \li{git pull}, to pull updates from the web to the computer; and \li{git push}, to push updates from the computer to the git server.
+
+In a nutshell, for the Labs in DM561/DM562 you usually have to modify one file only. This file first has to be added to the staging area, then it has to be commited, and then it has to be pushed to the remote server. In order to get the grading, you have to pull the corresponding file from the server after we tested your solution and created the grading file.
 
 \begin{table}[H]
 \begin{tabular}{l|l}
@@ -206,7 +207,8 @@ Long version:
 # Navigate to the clone of the repository.
 $ <b<cd>b> ~/Desktop/Student-Materials/
 
-# Pull any updates from the online repository (such as preliminary feedback and grading).
+# Pull any updates from the online repository (such as preliminary feedback and grading), if they exist.
+
 $ git pull
 
 remote: Counting objects: 4, done.
@@ -217,9 +219,11 @@ From https://git.imada.sdu.dk/DM561-DM562-2018/josej16-repo
    6dde06d..e24cee5  master     -> origin/master
 Updating 6dde06d..e24cee5
 Fast-forward
- asg0/grade.txt | 33 +++++----------------------------
+ asg0-onlytesting/grade.txt | 33 +++++----------------------------
  1 file changed, 5 insertions(+), 28 deletions(-)
 
+# It seems someone graded your solution, and you would find the result in the file asg0-onlytesting/grade.txt
+ 
 # Work on the labs. For example, modify asg0-onlytesting/onlytesting.py
 
 $ git status
