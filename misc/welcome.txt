@@ -5,37 +5,44 @@ Applications", which will be taught by Daniel Merkle and Marco
 Chiarandini.
 
 The goal of this part of the course is learning to carry out the linear
-algebra calculations that you have been discussiing so far in the
-scientific computing enviroment of Python. After the first week where
-there will be a review of the syntax of the Python programming language
-we will work with the Linear Algebra computations of a few
-applications. We that you will enjoy this part and learn a lot!
+algebra calculations that you have been discussing so far in the
+scientific computing enviroment of Python. After the first week, where
+there will be a review of the syntax of the Python programming language,
+we will work with a few Linear Algebra applications and their
+computations. We hope that you will enjoy and learn a lot!
 
 
-For this part of the course the main webpage becomes:
+For this part of the course, we will use the BlackBoard system only to
+post announcements like this one.  The main web page becomes instead:
 
     https://dm561.github.io/
 
-That will be the place where we will post relevant material for this
-course: updated schedule, slides, lecture notes, links, etc. Please,
-take a look at the page.
+and will be referred to as the "web page".  There you will find relevant
+material for this course: updated schedules, slides, lecture notes,
+links, etc. The web page is linked also from the left menu in BlackBoard.
 
-The page is also linked from the left menu in the BlackBoard system. The
-BlackBoard system will be used from now on only to post announcements
-like this one.
+During the remaing weeks you will be asked to hand in laboratory (lab)
+work, consisting of programming assignments. Each lab will have a
+specifications file - a Python file with predefined functions for you to
+implement. Using these spec files will allow us, instructors and
+teaching assistants, to quickly test and grade your submissions.
+
+The first assignement, asg0, will not be graded and will serve to test
+the submission procedure. It is already available from the web page and
+has deadline Friday 9, at 18.
+
+Our first class is on Monday, November 5, at 8:15.
+
+It is important that before the class you get started by downloading the
+"Python Essentials" lab manual availble from the web page. The first
+appendix in the manual has instructions about how the lab materials are
+organized and how to get set up. The second appendix introduces you to
+the working environment. You must go through these two appendices on
+your own possibly before the class of Monday.
 
 
-
-
-
-See you on Monday, November 5, at 8:15.
 We look forward to seeing you there.
 
 Best regards,
 Marco
 
-
-
-There you can find the recommended
-book for the Linear Algebra part (a PDF version can be found on the
-Web).

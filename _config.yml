@@ -32,7 +32,7 @@ show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
 
 
-exclude: [ "slides", "assignments", "code", "acme-material"]
+exclude: [ "slides", "assignments", "code", "acme-material", "misc"]
 
 collections:
   - notes

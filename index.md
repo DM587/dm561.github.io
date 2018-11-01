@@ -83,44 +83,44 @@ w3.includeHTML();
 ### Introductory Classes
 
 
-| Week |  Date | Teacher        | Topic 	                  | Suggested reading |
-|------+-------+----------------+---------------------------------+-------------------|
-|   45 | 05.11 | Marco & Daniel | Python                          |                   |
-|      | 07.11 | Marco & Daniel | Python                          |                   |
-|------+-------+----------------+---------------------------------+-------------------|
-|   46 | 14.11 | Daniel         | Graph Isomorphism and Molecules |                   |
-|------+-------+----------------+---------------------------------+-------------------|
-|   47 | 21.11 | Marco          | Linear Regression               |                   |
-|------+-------+----------------+---------------------------------+-------------------|
-|   48 | 28.11 | Daniel         | From Random Polygon to Ellipse  |                   |
-|------+-------+----------------+---------------------------------+-------------------|
-|   49 | 05.12 | Marco          | Page Rank                       |                   |
-|------+-------+----------------+---------------------------------+-------------------|
-|   50 | 12.12 | Daniel         | Eigenfaces                      |                   |
-|------+-------+----------------+---------------------------------+-------------------|
+| Week |  Date | Teacher        | Topic 	                  | Suggested reading            |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   45 | 05.11 | Marco & Daniel | Python                          | App A, B and ch 1-3 of [HJ1] |
+|      | 07.11 | Marco & Daniel | Python                          | ch 4-6 of [HJ1]              |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   46 | 14.11 | Daniel         | Graph Isomorphism and Molecules |                              |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   47 | 21.11 | Marco          | Linear Regression               |                              |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   48 | 28.11 | Daniel         | From Random Polygon to Ellipse  |                              |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   49 | 05.12 | Marco          | Page Rank                       |                              |
+|------+-------+----------------+---------------------------------+------------------------------|
+|   50 | 12.12 | Daniel         | Eigenfaces                      |                              |
+|------+-------+----------------+---------------------------------+------------------------------|
 
 
 
 ### Exercises and Assignments
 
-| Week | Type | Topic  	 | Suggested reading |
-|------+------+-----------------+-------------------|
-|   45 | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   46 | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   47 | E    |                 |                   |
-|      | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   48 | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   49 | E    |                 |                   |
-|      | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   50 | L    |                 |                   |
-|------+------+-----------------+-------------------|
-|   51 | L    |                 |                   |
-|------+------+-----------------+-------------------|
+| Week | Type | Exercises  	 | Assignment                           |
+|------+------+---------------------+--------------------------------------|
+|   45 | L    |                     | [asg0]({% post_url 2018-11-01-asg0}) |
+|------+------+---------------------+--------------------------------------|
+|   46 | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
+|   47 | E    |                     |                                      |
+|      | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
+|   48 | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
+|   49 | E    |                     |                                      |
+|      | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
+|   50 | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
+|   51 | L    |                     |                                      |
+|------+------+---------------------+--------------------------------------|
 
 
 
@@ -128,14 +128,21 @@ w3.includeHTML();
 
 #### Recommended book:
 
+- [HJ1] [Python Essentials](1) Jeffrey Humpherys and Tyler J. Jarvis, managing editors
 
-- [AR] Howard Anton and Chris Rorres. [Elementary Linear Algebra With
-  Supplemental
-  Applications](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118677455.html). Edition
-  International Student Version. 11th Edition. 2014. Wiley
+- [HJ2] [Labs for Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](2)
+  Jeffrey Humpherys and Tyler J. Jarvis, managing editors
 
   
-#### Other References:  
+#### Other References:
+
+- [HJ] Jeffrey Humpherys and Tyler
+  J. Jarvis. [Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](http://bookstore.siam.org/ot152/). 2017. Society
+  for Industrial and Applied Mathematics.
+
+- [AR] Howard Anton and Chris Rorres. [Elementary Linear Algebra With
+  Supplemental Applications](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118677455.html). Edition
+  International Student Version. 11th Edition. 2014. Wiley
 
 
 - [PK] Philip N. Klein. [Coding the Matrix: Linear Algebra through
@@ -165,9 +172,8 @@ w3.includeHTML();
 
 
 
-<!--
-[1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
--->
+[1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
+
 
 ## Assessment and Grading
 
