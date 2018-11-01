@@ -24,14 +24,19 @@ After grading, you will be able to get access to a file called \texttt{asg0-pyth
 \begin{warn}
 We strongly recommend using a Unix-based operating system (Mac or Linux) for the labs.
 Unix has a true bash terminal, works well with git and python, and is the preferred platform for computational and data scientists.
-It is possible to do this curriculum with Windows, but expect some road bumps along the way. We will ensure that all the exercises wan be solved in the IMADA Computing Lab. You can use your own environment, but you should not expect that we are able to answer your environment specific questions.
+It is possible to do this curriculum with Windows, but expect some road bumps along the way. We will ensure that all the exercises can be solved in the IMADA Computer Lab. You can use your own environment, but you should not expect that we are able to answer your environment specific questions.
 \end{warn}
 
 Code has to be submitted using git. 
 
 \subsection*{Setup With Git} % ------------------------------------------------
 
-\emph{Git} is a program that manages updates between an online code repository and the copies of the repository, called \emph{clones}, stored locally on computers. Git is installed in the IMADA Computer Lab. If you follow the instructions given below, using git is very easy, and the tutorials given below will provide much more information as needed. Nevertheless, git is an industry-standard collaboration tool, and being able to use it efficiently is an asset.
+\emph{Git} is a program that manages updates between an online code
+repository and the copies of the repository, called \emph{clones},
+stored locally on computers. Git is installed in the IMADA Computer
+Lab. The instructions given below in this document should be enough for
+the needs in this course. The tutorials linked below will provide much
+more information than needed in this course. Nevertheless, git is an industry-standard collaboration tool, and being able to use it efficiently is an asset.
 
 If you decide to use your own computer, and git is not already installed on your computer, you can download it at \url{http://git-scm.com/downloads} (or use the installation procedure of your specific system).
 If you have never used git, you might want to read a few of the following resources.
@@ -44,7 +49,7 @@ If you have never used git, you might want to read a few of the following resour
 \item Training video series by GitHub: \href{https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-}{\texttt{https://www.youtube.com/playlist?list=PLg7.../}}
 \end{itemize}
 
-There are many websites for hosting online git repositories. IMADA has its own server for hosting git repositories  \url{https://git.imada.sdu.dk}. While not needed for submitting your code, you can login to the webpage using your university account name and the same password as you use for reading your mail or logging into blackboard. Chose as authentication source ``SDU''. See Fig.~\ref{fig:gogs} for an example. Via the webpage you will always be able to see the state of your code that will be used for auto-grading.
+There are many websites for hosting online git repositories. IMADA has its own server for hosting git repositories  \url{https://git.imada.sdu.dk}. While not needed for submitting your code, you can login to the webpage using your university account name and the same password as you use for reading your mail or logging into blackboard. Choose as authentication source ``SDU''. See Fig.~\ref{fig:gogs} for an example. Via the webpage you will always be able to see the state of your code that will be used for auto-grading.
 
 \begin{figure}
   \includegraphics[width=\textwidth]{gogs}
@@ -55,10 +60,11 @@ There are many websites for hosting online git repositories. IMADA has its own s
 \begin{enumerate}
 
 \item \emph{Clone your existing repository}.
-  Usually you have to create a repository. However, we already created a repository for each student of DM561 and DM562. You will not have to create any repositories, but only clone it.
+
+  Usually, you have to create a repository. However, we already created a repository for each student of DM561 and DM562. You will not have to create any repositories, but only clone it.
   
 \item \emph{Connect your folder to the new repository}.
-\label{step:connect-folder}
+\label{step:connect-folder}\label{step:download-data}
 In a shell application (Terminal on Linux or Mac, or Git Bash (\url{https://gitforwindows.org/}) on Windows), enter the following commands (we will use the student with the username ``josej16'' as example, of course you have to change this.
 
 \begin{lstlisting}
@@ -98,7 +104,6 @@ drwx------ 2 josej16 josej16 4096 Oct 31 19:48 asg0-onlytesting
 \item \emph{Install Python package dependencies}.
 \label{step:install-dependencies}
 Some of the labs require third-party Python packages that you might not have installed on your system. If they are missing you will see an error message similar to 
-Run the following command to install the necessary packages.
 \begin{lstlisting}
 $ python test.py 
 Traceback (most recent call last):
@@ -171,7 +176,9 @@ Merge branch 'master' of https://git.imada.sdu.dk/<name>/<repo> into master
 ~
 ~
 \end{lstlisting}
-This means that someone else (the grading system) has pushed a commit (e.g., the file containing your grades) that you do not yet have, while you have also made one or more commits locally that they do not have.
+This means that someone else (the grading system) has pushed a commit
+(e.g., the file containing your grades) that you do not yet have, while
+you have also made one or more commits locally that they (the grading system) do not have.
 This screen, displayed in \emph{vim} (\url{https://en.wikipedia.org/wiki/Vim_(text_editor)}), is asking you to enter a message (or use the default message) to create a \emph{merge commit} that will reconcile both changes.
 To close this screen and create the merge commit, type \li{:wq} and press \li{enter}.
 \end{info}

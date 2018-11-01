@@ -4,107 +4,166 @@
 \objective{One of the great advantages of Python is its lack of overhead: it is relatively easy to download, install, start up, and execute.
 This appendix introduces tools for installing and updating specific packages and gives an overview of possible environments for working efficiently in Python.
 }
+%
+%\section*{Installing Python via Anaconda} % ===================================
+%
+%% There are a wide variety of ways to install most of the Python packages required for these labs.
+%
+%% We suggest students use Anaconda because it includes nearly all the packages we use.
+%% They also tend to update their packages more often.
+%% It is also much less intrusive on the host filesystem.
+%
+%
+%A \emph{Python distribution} is a single download containing everything needed to install and run Python, together with some common packages.
+%For this curriculum, we \textbf{strongly} recommend using the \emph{Anaconda} distribution to install Python.
+%Anaconda includes IPython, a few other tools for developing in Python, and a large selection of packages that are common in applied mathematics, numerical computing, and data science.
+%Anaconda is free and available for Windows, Mac, and Linux.
+%
+%Follow these steps to install Anaconda.
+%\begin{enumerate}
+%\item Go to \url{https://www.anaconda.com/download/}.
+%\item Download the \textbf{Python 3.6} graphical installer specific to your machine.
+%\item Open the downloaded file and proceed with the default configurations.
+%\end{enumerate}
+%
+%For help with installation, see \url{https://docs.anaconda.com/anaconda/install/}.
+%This page contains links to detailed step-by-step installation instructions for each operating system, as well as information for updating and uninstalling Anaconda.
 
-\section*{Installing Python via Anaconda} % ===================================
 
-% There are a wide variety of ways to install most of the Python packages required for these labs.
+\section*{Installing Python}
 
-% We suggest students use Anaconda because it includes nearly all the packages we use.
-% They also tend to update their packages more often.
-% It is also much less intrusive on the host filesystem.
-
-
-A \emph{Python distribution} is a single download containing everything needed to install and run Python, together with some common packages.
-For this curriculum, we \textbf{strongly} recommend using the \emph{Anaconda} distribution to install Python.
-Anaconda includes IPython, a few other tools for developing in Python, and a large selection of packages that are common in applied mathematics, numerical computing, and data science.
-Anaconda is free and available for Windows, Mac, and Linux.
-
-Follow these steps to install Anaconda.
-\begin{enumerate}
-\item Go to \url{https://www.anaconda.com/download/}.
-\item Download the \textbf{Python 3.6} graphical installer specific to your machine.
-\item Open the downloaded file and proceed with the default configurations.
-\end{enumerate}
-
-For help with installation, see \url{https://docs.anaconda.com/anaconda/install/}.
-This page contains links to detailed step-by-step installation instructions for each operating system, as well as information for updating and uninstalling Anaconda.
 
 \begin{warn}
 This curriculum uses Python 3.6, \textbf{not} Python 2.7.
 With the wrong version of Python, some example code within the labs may not execute as intended or result in an error.
 \end{warn}
 
+
+Python 3.6 is installed in the IMADA Computer Lab. If you need to
+install it in your Linux machines you can use the installer of your Linux
+distribution. For example, in Ubuntu:
+
+\begin{lstlisting}
+$ sudo apt-get install python3.6
+\end{lstlisting}
+
+In MacOs Python 3.6 should come out of the box and usable from command
+line of the Terminal application.
+
+
+
+\begin{info}
+While Mac and Linux computers come with a built-in bash terminal, Windows computers do not.
+Windows does come with \emph{Powershell}, a terminal-like application, but some commands in Powershell are different than their bash analogs, and some bash commands are missing from Powershell altogether.
+There are two good alternatives to the bash terminal for Windows:
+\begin{itemize}
+% \item Install Linux on your machine or get a new non-Windows computer (seriously)
+\item Windows subsystem for linux: \href{https://docs.microsoft.com/en-us/windows/wsl/install-win10}{\texttt{docs.microsoft.com/en-us/windows/wsl/}}.
+\item Git bash: \url{https://gitforwindows.org/}.
+\end{itemize}
+% If you can, avoid using Windows.
+\end{info}
+
+Once the Windows subsystem for linux is installed, one can proceed using
+the shell as under Linux. For example the installation of Python 3.6 can
+be done via \lstinline{apt-get} as shown above.
+
+In all operating systems, to make sure that you use Python 3 you are
+reccomended to call the program with the
+executable \lstinline{python3}. For example to execute the script of the
+first (not graded) assignment:
+
+\begin{lstlisting}
+$ python3 asg0-onlytesting/onlytesting.py
+\end{lstlisting}
+
+
 \section*{Managing Packages} % ================================================
 
 A \emph{Python package manager} is a tool for installing or updating Python packages, which involves downloading the right source code files, placing those files in the correct location on the machine, and linking the files to the Python interpreter.
 \textbf{Never} try to install a Python package without using a package manager (see \url{https://xkcd.com/349/}).
-
-\subsection*{Conda} % ---------------------------------------------------------
-
-Many packages are not included in the default Anaconda download but can be installed via Anaconda's package manager, \li{conda}.
-See \url{https://docs.anaconda.com/anaconda/packages/pkg-docs} for the complete list of available packages.
-When you need to update or install a package, \textbf{always} try using \li{conda} first.
-
-\begin{table}[H] % Conda commands.
-\centering
-\begin{tabular}{l|l}
-    Command & Description \\
-    \hline
-    \li{conda install <package-name>} & Install the specified package.\\
-    \li{conda update <package-name>} & Update the specified package.\\
-    \li{conda update conda} & Update \li{conda} itself.\\
-    \li{conda update anaconda} & Update \textbf{all} packages included in Anaconda.\\
-    \li{conda --<<help>>} & Display the documentation for \li{conda}.
-\end{tabular}
-\end{table}
-
-For example, the following terminal commands attempt to install and update \li{matplotlib}.
-
-\begin{lstlisting}
-$ conda update conda                # Make sure that conda is up to date.
-$ conda install matplotlib          # Attempt to install matplotlib.
-$ conda update matplotlib           # Attempt to update matplotlib.
-\end{lstlisting}
-
-See \url{https://conda.io/docs/user-guide/tasks/manage-pkgs.html} for more examples.
-
-\begin{info}
-The best way to ensure a package has been installed correctly is to try importing it in IPython.
-
-\begin{lstlisting}
-# Start IPython from the command line.
-$ ipython
-<<IPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.>>
-
-# Try to import matplotlib.
-<g<In [1]>g>: from matplotlib import pyplot as plt      # Success!
-\end{lstlisting}
-\end{info}
-
-\begin{warn}
-Be careful not to attempt to update a Python package while it is in use.
-It is safest to update packages while the Python interpreter is not running.
-\end{warn}
+%
+%\subsection*{Conda} % ---------------------------------------------------------
+%
+%Many packages are not included in the default Anaconda download but can be installed via Anaconda's package manager, \li{conda}.
+%See \url{https://docs.anaconda.com/anaconda/packages/pkg-docs} for the complete list of available packages.
+%When you need to update or install a package, \textbf{always} try using \li{conda} first.
+%
+%\begin{table}[H] % Conda commands.
+%\centering
+%\begin{tabular}{l|l}
+%    Command & Description \\
+%    \hline
+%    \li{conda install <package-name>} & Install the specified package.\\
+%    \li{conda update <package-name>} & Update the specified package.\\
+%    \li{conda update conda} & Update \li{conda} itself.\\
+%    \li{conda update anaconda} & Update \textbf{all} packages included in Anaconda.\\
+%    \li{conda --<<help>>} & Display the documentation for \li{conda}.
+%\end{tabular}
+%\end{table}
+%
+%For example, the following terminal commands attempt to install and update \li{matplotlib}.
+%
+%\begin{lstlisting}
+%$ conda update conda                # Make sure that conda is up to date.
+%$ conda install matplotlib          # Attempt to install matplotlib.
+%$ conda update matplotlib           # Attempt to update matplotlib.
+%\end{lstlisting}
+%
+%See \url{https://conda.io/docs/user-guide/tasks/manage-pkgs.html} for more examples.
+%
+%\begin{info}
+%The best way to ensure a package has been installed correctly is to try importing it in IPython.
+%
+%\begin{lstlisting}
+%# Start IPython from the command line.
+%$ ipython
+%<<IPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.>>
+%
+%# Try to import matplotlib.
+%<g<In [1]>g>: from matplotlib import pyplot as plt      # Success!
+%\end{lstlisting}
+%\end{info}
+%
+%\begin{warn}
+%Be careful not to attempt to update a Python package while it is in use.
+%It is safest to update packages while the Python interpreter is not running.
+%\end{warn}
 
 \subsection*{Pip} % -----------------------------------------------------------
 
 The most generic Python package manager is called \li{pip}.
-While it has a larger package list, \li{conda} is the cleaner and safer option.
-Only use \li{pip} to manage packages that are not available through \li{conda}.
+%While it has a larger package list, \li{conda} is the cleaner and safer option.
+%Only use \li{pip} to manage packages that are not available through \li{conda}.
+If not present you can install it via:
+\begin{lstlisting}
+$ sudo apt-get install python3-pip
+\end{lstlisting}
+
 
 \begin{table}[H] % Pip commands.
 \centering
 \begin{tabular}{l|l}
     Command & Description \\
     \hline
-    \li{pip install package-name} & Install the specified package.\\
-    \li{pip install --upgrade package-name} & Update the specified package.\\
-    \li{pip freeze} & Display the version number on all installed packages.\\
-    \li{pip --<<help>>} & Display the documentation for \li{pip}.
+    \li{pip3 install package-name} & Install the specified package.\\
+    \li{pip3 install --upgrade package-name} & Update the specified package.\\
+    \li{pip3 freeze} & Display the version number on all installed packages.\\
+    \li{pip3 --<<help>>} & Display the documentation for \li{pip}.
 \end{tabular}
 \end{table}
 
 See \url{https://pip.pypa.io/en/stable/user_guide/} for more complete documentation.
+In the IMADA Computer Lab all packages that you need in the course
+should be already installed. If you need to install packages via pip you
+have to do it in your local directory adding the flag \lstinline{--user}
+to the installation command. For example:
+\begin{lstlisting}
+$ pip3 install matplotlib --user
+\end{lstlisting}
+
+
+
 
 \section*{Workflows} % ========================================================
 
@@ -146,23 +205,14 @@ $ ipython
 IPython is an enhanced version of Python that is more user-friendly and interactive.
 It has many features that cater to productivity such as tab completion and object introspection.
 
-\begin{info}
-While Mac and Linux computers come with a built-in bash terminal, Windows computers do not.
-Windows does come with \emph{Powershell}, a terminal-like application, but some commands in Powershell are different than their bash analogs, and some bash commands are missing from Powershell altogether.
-There are two good alternatives to the bash terminal for Windows:
-\begin{itemize}
-% \item Install Linux on your machine or get a new non-Windows computer (seriously)
-\item Windows subsystem for linux: \href{https://docs.microsoft.com/en-us/windows/wsl/install-win10}{\texttt{docs.microsoft.com/en-us/windows/wsl/}}.
-\item Git bash: \url{https://gitforwindows.org/}.
-\end{itemize}
-% If you can, avoid using Windows.
-\end{info}
-
 \subsection*{Jupyter Notebook} % ----------------------------------------------
 
-The Jupyter Notebook (previously known as IPython Notebook) is a browser-based interface for Python that comes included as part of the Anaconda Python Distribution.
-It has an interface similar to the IPython interpreter, except that input is stored in cells and can be modified and re-evaluated as desired.
-See \href{https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks}{\texttt{https://github.com/jupyter/jupyter/wiki/}} for some examples.
+The Jupyter Notebook (previously known as IPython Notebook) is a
+browser-based interface for Python. You can install it via pip.
+%that comes included as part of the Anaconda Python Distribution.
+It has an interface similar to the IPython interpreter, except that input is stored in cells and can be modified and re-evaluated as desired.\\
+See \href{https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks}{\texttt{https://github.com/jupyter/jupyter/wiki/}}
+for some examples.
 
 To begin using Jupyter Notebook, run the command \li{jupyter notebook} in the terminal.
 This will open your file system in a web browser in the Jupyter framework.
