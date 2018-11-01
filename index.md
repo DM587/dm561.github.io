@@ -105,7 +105,7 @@ w3.includeHTML();
 
 | Week | Type | Exercises  	 | Assignment                           |
 |------+------+---------------------+--------------------------------------|
-|   45 | L    |                     | [asg0]({% post_url 2018-11-01-asg0}) |
+|   45 | L    |                     | [asg0]({% post_url 2018-11-01-asg0 %}) |
 |------+------+---------------------+--------------------------------------|
 |   46 | L    |                     |                                      |
 |------+------+---------------------+--------------------------------------|
@@ -130,8 +130,10 @@ w3.includeHTML();
 
 - [HJ1] [Python Essentials](1) Jeffrey Humpherys and Tyler J. Jarvis, managing editors
 
+<!--
 - [HJ2] [Labs for Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](2)
   Jeffrey Humpherys and Tyler J. Jarvis, managing editors
+-->
 
   
 #### Other References:
