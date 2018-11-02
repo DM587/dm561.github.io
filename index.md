@@ -9,7 +9,8 @@ layout: default
 
 ## General information
 
-- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
+- Official course description:
+  [DM561](https://odinlister.sdu.dk/fagbesk/internkode/DM561/), [DM562](https://odinlister.sdu.dk/fagbesk/internkode/DM562/)
 
 - BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390712_1)
 
