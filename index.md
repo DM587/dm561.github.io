@@ -27,7 +27,7 @@ layout: default
 
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
-w3-left-align">Schedule for section H1 <i class="fa fa-caret-down"></i></button>
+w3-left-align">Schedule for DM561, section H1 <i class="fa fa-caret-down"></i></button>
 <div id="h1" class="w3-container w3-hide">
 
 <div class="w3-responsive">
@@ -45,7 +45,8 @@ w3.includeHTML();
 
 
 
-<button onclick="myFunction('h2')" class="w3-btn w3-cell w3-left-align">Schedule for section H2 <i class="fa fa-caret-down"></i></button>
+<button onclick="myFunction('h2')" class="w3-btn w3-cell
+w3-left-align">Schedule for DM561, section H2 <i class="fa fa-caret-down"></i></button>
 <div id="h2" class="w3-container w3-hide">
 
 <div class="w3-responsive">
@@ -62,7 +63,7 @@ w3.includeHTML();
 
 
 <button onclick="myFunction('dm562h2')" class="w3-btn w3-cell
-w3-left-align">Schedule for DM562 section H1 <i class="fa fa-caret-down"></i></button>
+w3-left-align">Schedule for DM562, section H1 <i class="fa fa-caret-down"></i></button>
 <div id="dm562h2" class="w3-container w3-hide">
 
 <div class="w3-responsive">
