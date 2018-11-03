@@ -43,7 +43,7 @@ def squares():
 
 def multiples(arg):
     """
-    Returns a list of numbers in the range [0,100) that are multiples of arg. 
+    Returns a list of numbers in the range [0,100] that are multiples of arg. 
 
     Parameters
     ----------
