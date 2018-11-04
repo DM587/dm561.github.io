@@ -64,6 +64,28 @@ There are two good alternatives to the bash terminal for Windows:
 % If you can, avoid using Windows.
 \end{info}
 
+
+
+The Command Prompt in Windows is a shell but based on DOS rather than
+Unix.  We will use the \emph{Bash shell}. After the installation of the
+Windows subsystem for Linux there will be a Bash on Ubuntu on Windows
+program that will provide a bash shell. From the shell, the Windows file system is located
+at `/mnt/c` in the Bash shell environment. If one wants to use Windows
+tools to edit files (for example with
+\href{https://notepad-plus-plus.org/}{Notepad++} or
+\href{https://atom.io/}{atom}), then one must work in the Windows
+directories. For example:
+
+\begin{lstlisting}
+mkdir /mnt/c/Users/username/Desktop/DM561
+cd /mnt/c/Users/username/Desktop/DM561
+\end{lstlisting}
+
+If one really wants to know where the Linux files are from Windows,
+\href{https://www.howtogeek.com/261383/how-to-access-your-ubuntu-bash-files-in-windows-and-your-windows-system-drive-in-bash/}{here there is some information}.
+
+
+
 Once the Windows subsystem for linux is installed, one can proceed using
 the shell as under Linux. For example the installation of Python 3.6 can
 be done via \lstinline{apt-get} as shown above.
