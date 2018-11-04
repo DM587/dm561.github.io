@@ -37,8 +37,8 @@ It is important that before the class you get started by downloading the
 "Python Essentials" lab manual availble from the web page. The first
 appendix in the manual has instructions about how the lab materials are
 organized and how to get set up. The second appendix introduces you to
-the working environment. You must go through these two appendices on
-your own possibly before the class of Monday.
+the working environment. We expect you to go through these two
+appendices on your own as soon as possible.
 
 
 We look forward to seeing you there.
