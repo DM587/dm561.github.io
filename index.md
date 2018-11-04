@@ -179,17 +179,3 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
-
-## Assessment and Grading
-
-- Oral exam based on the theoretical part and the practical project
-  assignment. Ordinary session: June 6th. Reexams: August 28th.
-
-  [Guidelines]({% post_url 2018-05-10-examQs %})
-
-
-## Course Evaluation
-
-- Mid term evaluation
-
-- Final evaluation
