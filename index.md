@@ -87,7 +87,7 @@ w3.includeHTML();
 
 | Week |  Date | Teacher        | Topic 	                  | Suggested reading            |
 |------+-------+----------------+---------------------------------+------------------------------|
-|   45 | 05.11 | Marco & Daniel | Python                          | App A, B and ch 1-3 of [HJ1] |
+|   45 | 05.11 | Marco & Daniel | Python                          | App A, B and ch 1-3 of [HJ1]; [DB]  |
 |      | 07.11 | Marco & Daniel | Python                          | ch 4-6 of [HJ1]              |
 |------+-------+----------------+---------------------------------+------------------------------|
 |   46 | 14.11 | Daniel         | Graph Isomorphism and Molecules |                              |
@@ -140,6 +140,8 @@ w3.includeHTML();
   
 #### Other References:
 
+- [DB] David Beazley. [Python Tutorial Video](https://www.youtube.com/watch?v=lyDLAutA88s)
+
 - [HJ] Jeffrey Humpherys and Tyler
   J. Jarvis. [Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](http://bookstore.siam.org/ot152/). 2017. Society
   for Industrial and Applied Mathematics.
@@ -169,9 +171,8 @@ w3.includeHTML();
 
 
 
-- [Immersive linear algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and
+- [SAA] [Immersive linear algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and
   T. Akenine-Möller. 2017.
-
 
 
 
