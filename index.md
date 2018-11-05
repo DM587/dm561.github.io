@@ -178,4 +178,4 @@ w3.includeHTML();
 
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
-[2]: {{ "/assets/lec1.pdf" | absolute_url }}
+[2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
