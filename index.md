@@ -107,7 +107,7 @@ w3.includeHTML();
 
 | Week | Type | Exercises  	 | Assignment                           |
 |------+------+---------------------+--------------------------------------|
-|   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}) |
+|   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}) [FAQ][3]|
 |------+------+---------------------+--------------------------------------|
 |   46 | L    |                     |                                      |
 |------+------+---------------------+--------------------------------------|
@@ -179,3 +179,4 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
+[3]: {{ "/assets/faq.txt" | absolute_url }}
