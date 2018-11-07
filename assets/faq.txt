@@ -13,4 +13,3 @@ Cmd('git') failed due to: exit code(128)
     a = [1**2,2**2,4**2,5**2,6**2,7**2,8**2,9**2,10**2]
                                                       ^
 TabError: inconsistent use of tabs and spaces in indentation
-

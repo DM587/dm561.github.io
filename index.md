@@ -87,8 +87,8 @@ w3.includeHTML();
 
 | Week |  Date | Teacher        | Topics and Slides  	                  | Suggested reading            |
 |------+-------+----------------+---------------------------------+------------------------------|
-|   45 | 05.11 | Marco & Daniel | [Intro to Python][2]                          | App A, B and ch 1-3 of [HJ1]; [DB]  |
-|      | 07.11 | Marco & Daniel | Python                          | ch 4-6 of [HJ1]              |
+|   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                          | App A, B and ch 1-3 of [HJ1]; [DB]  |
+|      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4]                         | ch 4-6 of [HJ1]              |
 |------+-------+----------------+---------------------------------+------------------------------|
 |   46 | 14.11 | Daniel         | Graph Isomorphism and Molecules |                              |
 |------+-------+----------------+---------------------------------+------------------------------|
@@ -107,7 +107,7 @@ w3.includeHTML();
 
 | Week | Type | Exercises  	 | Assignment                           |
 |------+------+---------------------+--------------------------------------|
-|   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}) |
+|   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}); [FAQ][3]|
 |------+------+---------------------+--------------------------------------|
 |   46 | L    |                     |                                      |
 |------+------+---------------------+--------------------------------------|
@@ -179,3 +179,5 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
+[4]: {{ "/assets/dm561-lec2.pdf" | absolute_url }}
+[3]: {{ "/assets/faq.txt" | absolute_url }}
