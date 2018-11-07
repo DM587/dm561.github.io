@@ -1,1 +1,16 @@
 Make sure you commented out all plotting facilities. There is no need to plot, only the textual results count.
+
+
+pulling ssh://git@git.imada.sdu.dk/DM561-DM562-2018/moell17-repo
+Cmd('git') failed due to: exit code(128)
+  cmdline: git pull -v origin
+  stderr: 'error: The following untracked working tree files would be overwritten by merge:
+	asg0-onlytesting/__pycache__/asg0.cpython-36.pyc
+
+
+(pygrade-virtualenv) pygrade@quadcore01:~/pygrade-virtualenv/grading/students/rbart17-repo/asg0-onlytesting$ python asg0.py   
+  File "asg0.py", line 41
+    a = [1**2,2**2,4**2,5**2,6**2,7**2,8**2,9**2,10**2]
+                                                      ^
+TabError: inconsistent use of tabs and spaces in indentation
+
