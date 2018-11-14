@@ -109,7 +109,7 @@ w3.includeHTML();
 |------+------+---------------------+--------------------------------------|
 |   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}); [FAQ][3]|
 |------+------+---------------------+--------------------------------------|
-|   46 | L    |                     |  [asg1]({% post_url 2018-11-11-asg1 %})        |
+|   46 | L    |   [sheet2][7]                  |  [asg1]({% post_url 2018-11-11-asg1 %})        |
 |------+------+---------------------+--------------------------------------|
 |   47 | E    |                     |                                      |
 |      | L    |                     |                                      |
@@ -183,3 +183,4 @@ w3.includeHTML();
 [3]: {{ "/assets/faq.txt" | absolute_url }}
 [5]: {{ "/assets/DM561-DM562-Graphs-small.pdf" | absolute_url }}
 [6]: {{ "/assets/graph-permutation.py" | absolute_url }}
+[7]: {{ "assets/ex-week46.pdf" | absolute_url }}
