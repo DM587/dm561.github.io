@@ -27,18 +27,18 @@ G = nx.from_numpy_matrix(np.array(B))
 plt.figure()
 plt.subplot(211)
 
-# the annoying of zero- and one- indexing let's us rename the depicted labels 
+# the annoyingness of zero- and one- indexing let's rename the depicted labels 
 mathLabels = {0: 1, 1:2, 2:3, 3:4, 4:5}
 nx.draw(G, with_labels=True, labels=mathLabels)
 
-# As taught in the lecture P*(P*A)^T
+# As taught in the lecture P*(P*B)^T
 A = np.matmul(P,np.transpose(np.matmul(P,B)))
 
 # Since python 3.5 the following also works (note the stronger binding of
 # the transpose operator
 A = P@(P@B).T
 
-# More clever (see Appendix C or the numpy documentation)
+# More clever (see Appendix C of the Python Essentials)
 # define how rows should be permuted 
 # r = np.array([0, 3, 1, 4, 2])
 # A = (B[np.array(r),:].T)[np.array(r),:]
