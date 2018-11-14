@@ -90,7 +90,7 @@ w3.includeHTML();
 |   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                          | App A, B and ch 1-3 of [HJ1]; [DB]  |
 |      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4]                         | ch 4-6 of [HJ1]              |
 |------+-------+----------------+---------------------------------+------------------------------|
-|   46 | 14.11 | Daniel         | Graph Isomorphism and Molecules |                              |
+|   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6] |                              |
 |------+-------+----------------+---------------------------------+------------------------------|
 |   47 | 21.11 | Marco          | Linear Regression               |                              |
 |------+-------+----------------+---------------------------------+------------------------------|
@@ -109,7 +109,7 @@ w3.includeHTML();
 |------+------+---------------------+--------------------------------------|
 |   45 | L    |   [sheet1]( {% post_url 2018-11-04-sheet1 %})                   | [asg0]({% post_url 2018-11-01-asg0 %}); [FAQ][3]|
 |------+------+---------------------+--------------------------------------|
-|   46 | L    |                     |                                      |
+|   46 | L    |                     |  [asg1]({% post_url 2018-11-11-asg1 %})        |
 |------+------+---------------------+--------------------------------------|
 |   47 | E    |                     |                                      |
 |      | L    |                     |                                      |
@@ -181,3 +181,5 @@ w3.includeHTML();
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
 [4]: {{ "/assets/dm561-lec2.pdf" | absolute_url }}
 [3]: {{ "/assets/faq.txt" | absolute_url }}
+[5]: {{ "/assets/DM561-DM562-Graphs-small.pdf" | absolute_url }}
+[6]: {{ "/assets/graph-permutation.py" | absolute_url }}
