@@ -186,5 +186,5 @@ w3.includeHTML();
 [7]: {{ "assets/ex-week46.pdf" | absolute_url }}
 [8]: {{ "assets/ex-week47.pdf" | absolute_url }}
 [9]: {{ "/assets/DM561-DM562-RandomPolygon.pdf" | absolute_url }}
-[10]: {{https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf}}
-[11]: {{https://www.pathlms.com/siam/courses/8265/sections/12047}}
+[10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
+[11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
