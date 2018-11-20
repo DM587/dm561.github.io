@@ -90,7 +90,7 @@ w3.includeHTML();
 |   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                     | App A, B and ch 1-3 of [HJ1]; [DB]                |
 |      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4]                     | ch 4-6 of [HJ1]                                   |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
-|   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6] |                                                   |
+|   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6] | [Additional slides on Ullmann algorithm][12]      |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
 |   47 | 21.11 | Daniel         | [From Random Polygon to Ellipse][9]               | [Article (pp 1-5,17)][10]; [Video (optional)][11] |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
@@ -188,3 +188,4 @@ w3.includeHTML();
 [9]: {{ "/assets/DM561-DM562-RandomPolygon.pdf" | absolute_url }}
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
+[12]: {{ "assets/ullmann.pdf" | absolute_url }}
