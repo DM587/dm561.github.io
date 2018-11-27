@@ -88,13 +88,13 @@ w3.includeHTML();
 | Week |  Date | Teacher        | Topics and Slides  	                       | Suggested reading                                 |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
 |   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                     | App A, B and ch 1-3 of [HJ1]; [DB]                |
-|      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4]                     | ch 4-6 of [HJ1]                                   |
+|      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4];                     | ch 4-6 of [HJ1]                                   |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
 |   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6] | [Additional slides on Ullmann algorithm][12]      |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
 |   47 | 21.11 | Daniel         | [From Random Polygon to Ellipse][9]               | [Article (pp 1-5,17)][10]; [Video (optional)][11] |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
-|   48 | 28.11 | Marco          | Least Squares Data Fitting                        | Sc. 6.3-6.5 of [AR]; [Lecture Notes][13]          |
+|   48 | 28.11 | Marco          |  [Intro to Python - Part 3][14] Least Squares Data Fitting                        | Sc. 6.3-6.5 of [AR]; [Lecture Notes][13]          |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
 |   49 | 05.12 | Marco          | Page Rank                                         |                                                   |
 |------+-------+----------------+---------------------------------------------------+---------------------------------------------------|
@@ -190,3 +190,4 @@ w3.includeHTML();
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
 [12]: {{ "assets/ullmann.pdf" | absolute_url }}
 [13]: {{ "assets/linreg-notes.pdf" | absolute_url }}
+[14]: {{ "/assets/dm561-lec3.pdf" | absolute_url }}
