@@ -98,7 +98,7 @@ w3.includeHTML();
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
 |   49 | 05.12 | Marco          | [Page Rank][16]                                                  | Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X) |
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
-|   50 | 12.12 | Daniel         | [Eigenfaces][20]                                                       | [Article][21]; [Chapter 7 (Facial Recognition)]; [Visual Intro][23]; [PCA Tutorial][24]; [Eigenfaces (OpenCV based)][25]                                                                              |
+|   50 | 12.12 | Daniel         | [Eigenfaces][20]                                                       | [Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24]; [Eigenfaces (OpenCV based)][25]                                                                              |
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
 
 
@@ -202,3 +202,4 @@ w3.includeHTML();
 [23]: {{ "http://setosa.io/ev/principal-component-analysis/" | absolute_url }}
 [24]: {{ "https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html" | absolute_url }}
 [25]: {{ "https://www.learnopencv.com/eigenface-using-opencv-c-python/" | absolute_url }}
+[26]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
