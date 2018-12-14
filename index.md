@@ -98,7 +98,7 @@ w3.includeHTML();
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
 |   49 | 05.12 | Marco          | [Page Rank][16]                                                  | Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X) |
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
-|   50 | 12.12 | Daniel         | Eigenfaces                                                       |                                                                               |
+|   50 | 12.12 | Daniel         | [Eigenfaces][20]                                                       | [Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24]; [Eigenfaces (OpenCV based)][25]                                                                              |
 |------+-------+----------------+------------------------------------------------------------------+-------------------------------------------------------------------------------|
 
 
@@ -119,7 +119,7 @@ w3.includeHTML();
 |                         49 | E    | sheet5                                      |              |                                                                 |
 |                            | L    | [sheet6]( {% post_url 2018-12-04-sheet6 %}) |  [sheet6][19]             | [asg4][17] (Reload the page! Last update: Saturday 8 at 14:05.) |
 |----------------------------+------+---------------------------------------------+--------------+-----------------------------------------------------------------|
-|                         50 | L    | sheet6                                |              |      [asg5][20]                                                            |
+|                         50 | L    | sheet6                                |              |      [asg5][27]                                                            |
 |----------------------------+------+---------------------------------------------+--------------+-----------------------------------------------------------------|
 |                         51 | L    |                                             |              |                                                                 |
 |----------------------------+------+---------------------------------------------+--------------+-----------------------------------------------------------------|
@@ -196,4 +196,11 @@ w3.includeHTML();
 [17]: {{ "/assets/asg4.pdf" | absolute_url }}
 [18]: {{ "/assets/sheet5.html" | absolute_url }}
 [19]: {{ "/assets/sheet6.html" | absolute_url }}
-[20]: {{ "/assets/asg5.pdf" | absolute_url }}
+[20]: {{ "/assets/DM561-DM562-PCA-Eigenfaces.pdf" | absolute_url }}
+[21]: {{ "https://arxiv.org/abs/1404.1100" | absolute_url}}
+[22]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
+[23]: {{ "http://setosa.io/ev/principal-component-analysis/" | absolute_url }}
+[24]: {{ "https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html" | absolute_url }}
+[25]: {{ "https://www.learnopencv.com/eigenface-using-opencv-c-python/" | absolute_url }}
+[26]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
+[27]: {{ "/assets/asg5.pdf" | absolute_url }}
