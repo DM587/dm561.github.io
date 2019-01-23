@@ -1,0 +1,210 @@
+% ANUfinalexam.tex (Version 2.0)
+% ===============================================================================
+% Australian National University Final Exam LaTeX template.
+% 2004; 2009, Timothy Kam, ANU School of Economics
+% Licence type: Free as defined in the GNU General Public Licence: http://www.gnu.org/licenses/gpl.html
+
+\documentclass[a4paper,12pt,fleqn]{article}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{amscd, amssymb,amsmath,color}
+
+% Insert your course information here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\institution}{University of Southern Denmark}
+\newcommand{\titlehd}{Linear Algebra}
+\newcommand{\examdate}{Spring 2019}
+\newcommand{\examcode}{MM505 Re-exam}
+\newcommand{\readtime}{3 Weeks}
+\newcommand{\lastwords}{End of Examination}
+\newlist{subquestion}{enumerate}{1}
+\setlist[subquestion,1]{label=(\alph*)}
+\def\la{\langle}
+\def\ra{\rangle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\R{\mathbb R}
+
+
+% ANU Exams Office mandated margins and footer style
+\setlength{\topmargin}{0cm}
+\setlength{\textheight}{9.25in}
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\textwidth}{16cm}
+\pagestyle{fancy}
+\lhead{} 
+\chead{} 
+\rhead{} 
+\lfoot{} 
+\cfoot{\footnotesize{Page \thepage \ of \pageref{finalpage} -- \titlehd \ (\examcode)}} 
+\rfoot{} 
+
+% DEPRECATED: ANU Exams Office mandated margins and footer style
+%\setlength{\topmargin}{0cm}
+%\setlength{\textheight}{9.25in}
+%\setlength{\oddsidemargin}{0.0in}
+%\setlength{\evensidemargin}{0.0in}
+%\setlength{\textwidth}{16cm}
+%\pagestyle{fancy}
+%\lhead{} %left of the header
+%\chead{} %center of the header
+%\rhead{} %right of the header
+%\lfoot{} %left of the footer
+%\cfoot{} %center of the footer
+%\rfoot{Page \ \thepage \ of \ \pageref{finalpage} \\
+%       \texttt{\examcode}} %Print the page number in the right footer
+
+\renewcommand{\headrulewidth}{0pt} %Do not print a rule below the header
+\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+
+% Title page
+
+\begin{center}
+%\vspace{5cm}
+\large\textbf{\institution}
+\end{center}
+\vspace{1cm}
+
+\begin{center}
+\textit{ \examdate}
+\end{center}
+\vspace{1cm}
+
+\begin{center}
+\large\textbf{\titlehd}
+\end{center}
+
+\begin{center}
+\large\textbf{\examcode}
+\end{center}
+\vspace{4cm}
+
+
+\begin{center}
+You have xxx weeks to answer this take-home exam. You may use
+the course book, the slides from the lecture, and notes from the
+lectures and the exercises. You are allowed to use tools such as Maple to
+assist in calculations, but you must write the calculations out in full so
+that they can be followed by the examiners. 
+It is not sufficient to present an answer, you must show how you found it.
+If you use a theorem from the book (or the slides), make a reference to it. \newline
+\vspace{5mm}
+
+For questions, you may contact the lecturer by e-mail
+xxx@imada.sdu.dk. \\
+You may answer in Danish or English. Your solution must be handed in as
+a single PDF file clearly stating your {\bf full name and birth date} on the front
+page. You have to hand in using SDU Assignment before xxx.
+In case of irrecoverable technical problems with Blackboard, you may
+hand in the exam electronically by sending an email to the lecturer before the deadline. \\
+\end{center}
+
+% End title page
+
+
+
+\newpage
+\section*{Problem 1}
+Consider the following system of linear equations in variables $x,y,z,w\in \R$.
+\begin{align*}
+x+2y&=0 \\
+-2w+x&=4 \\
+2z+2y&=-1 \\
+4x+8y&=0
+\end{align*}
+\noindent
+\begin{enumerate}
+\item Write the augmented matrix of this system.
+\item Reduce this matrix to row echelon form by performing a sequence of elementary row
+operations.
+\item Solve the system and write its general solution in parametric form.
+\end{enumerate}
+
+
+\section*{Problem 2}
+Consider the following matrix
+$$
+M=\left[ \begin{array}{ccc} 1 & 0 & 1 \\ -1 & 1 & 0 \\ 2 & 2 & 2 \end{array} \right].
+$$ \\
+\noindent
+\begin{enumerate}
+\item Find $M^{-1}$ by performing row operations on the double
+matrix $[M\; | \;I]$.
+\item Is it possible to express $M$ as a product of elementary matrices? Explain why or why not.
+\end{enumerate}
+
+\newpage
+
+\section*{Problem 3}
+Consider the following matrix
+$$
+M=\left[ \begin{array}{ccc} x_1 & x_2 & x_3 \\ x_4 & x_5 & x_6 \\ x_7 & x_8 & x_9  \end{array} \right]
+$$ \\
+with $x_i \in \R$ for all $i$ and $\det(M)=10$.
+Let $N$ be given by
+$$
+N=\left[ \begin{array}{ccc} x_4 & x_5 & x_6 \\ x_1 & x_2 & x_3 \\ x_7+2x_1 & x_8+2x_2 & x_9+2x_3  \end{array} \right]
+$$ \\
+\begin{enumerate}
+\item Find $\det(N)$.
+\item Find $\det(N^2)$.
+\end{enumerate}
+
+
+
+\section*{Problem 4}
+Let $P_1$ be the vector space consisting of polynomials of degree at most one with real coefficients with
+the usual addition and scalar multiplication and with the inner product $\langle p,q\rangle=p(0)q(0)+p(1)q(1)$.
+\begin{enumerate}
+\item Let $T: P_1 \to P_1$ be a linear transformation with $\text{rank}(T)=1$.
+Is $S$ an isomorphism?
+\item Consider the two polynomials $f,g \in P_1$ with $f(x)=x+1$ and $g(x)=2x+\frac12$.
+Do these form a basis for $P_1$? If so, is it an orthonormal basis?
+\item Is it possible to find two orthogonal polynomials $f,g\in P_1$ and a scalar $t\in \R$ such that 
+$t \cdot f=g$? Find such an $f$, $g$ and $t$ or show that it is not possible.
+\end{enumerate}
+
+\newpage
+
+\section*{Problem 5}
+Consider the linear transformation $T: \R^2 \rightarrow \R^2$ given by
+$$
+	T\left( \begin{array}{c} x \\ y \end{array} \right) = \left( \begin{array}{c} 0 \\ y-3x \end{array} \right)
+$$
+\begin{enumerate}
+\item Find a basis for the kernel of $T$.
+\item Find the rank and nullity of $T$.
+\item Find the matrix of T with respect to the basis $B=\left\{ \left( \begin{array}{c} 2 \\ 2 \end{array} \right), \left( \begin{array}{c} 3 \\ 0 \end{array} \right)  \right\}$.
+That is, find $[T]_{B}$.
+\end{enumerate}
+
+\section*{Problem 6}
+Consider the following matrix
+$$
+A=\left[ \begin{array}{ccc} 2 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 3 & 2 \end{array} \right]
+$$ \\
+\begin{enumerate}
+\item Find the eigenvalues for $A$.
+\item For each eigenvalue, find a basis for the corresponding eigenspace.
+\item Can you find matrices $P$ and $D$ such that such that $P^*AP=D$ with $D$ diagonal? Find $D$ and $P$ or argue that it is not possible.
+\end{enumerate}
+
+
+\begin{center}
+\vspace{3cm}
+--------- \textit{\lastwords} ---------
+\end{center}
+
+
+\label{finalpage}
+
+\end{document}
