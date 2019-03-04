@@ -1,0 +1,273 @@
+%\documentclass[a4paper,10pt]{report}
+\documentclass[a4paper,10pt]{article}
+%\pdfoutput=1
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+%\usepackage{palatino}
+\usepackage[math]{kurier}
+%\usepackage[sc]{mathpazo} % consider options: osf, sc
+\usepackage{xspace}
+%\PassOptionsToPackage{latex2html}{hyperref}  
+%\usepackage{html} 
+\usepackage{url} 
+%\usepackage{booktabs} 
+%\usepackage{hyperref}
+%\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{rotating}
+%\usepackage{srctex}
+\usepackage{color}
+\usepackage{enumerate}
+%\usepackage{afterpage}
+
+\usepackage{arydshln}
+\usepackage{etoolbox}
+\usepackage{blkarray}
+\usepackage{multirow}
+
+\usepackage{listings}
+\usepackage[vlined]{algorithm2e}
+
+
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+
+\graphicspath{{Figures/}}
+
+\usepackage{physics}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mylstset}
+\usepackage{mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newif\ifshow
+\showtrue
+%\showfalse
+\usepackage{exercises}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage[all]{xy}
+
+
+\newcommand{\row}[1]{
+%HEVEA \begin{comment}
+\ensuremath \overrightarrow{\mathbf #1}
+%HEVEA \end{comment}
+%HEVEA \overrightarrow{\mathbf #1}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{enumitem}
+\newcommand{\lastwords}{End of Examination}
+\newlist{subquestion}{enumerate}{1}
+\setlist[subquestion,1]{label=(\alph*)}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\R{\mathbb R}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\setcounter{tocdepth}{1}
+
+
+
+
+\title{%
+\begin{flushleft}
+DM561 -- Linear Algebra with Applications\\[0.3cm]
+%{\Large Reexam for Obligatory Assignments, Autumn 2018} %
+%\ahref{\url{http://www.imada.sdu.dk/~marco/DM559/Assignments-LA/sheet2.pdf}}{\tiny
+%  [pdf format]}
+%\\
+\hrulefill
+\\[-1.8cm]
+\end{flushleft}
+}
+
+
+%\hrulefill \\[-1.8cm]
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+
+
+
+\medskip
+
+\begin{itemize}
+
+\itemsep=1ex
+
+\item The reexam consists of two separated assignments:
+
+\begin{itemize}
+
+\item \emph{Theory assignment}:
+  \begin{itemize}
+\item Specifications in this document
+\item {\bf Deadline: Monday, March 25, 2019 at noon}
+\item Hand in PDF via BlackBoard SDU Assignments.
+  \end{itemize}
+  
+\item \emph{Applications assignment}:
+  \begin{itemize}
+  \item Specifications at the course web page
+    \url{https://dm561.github.io/}:\\ assignments: asg1, asg2, asg3, asg4,
+    asg5, asg6
+  \item {\bf Deadline: Monday, April 1, 2019 at noon}
+  \item Hand in via git push as during the course.
+  \end{itemize}
+\end{itemize}
+  
+
+
+\item You are expected to work individually on the assignments.
+
+  
+\item Deadline extensions will not be conceded.
+\end{itemize}
+
+
+\clearpage
+
+\section*{Theory Assignment}
+
+
+You may use the course book, the slides from the lecture, and notes from
+the lectures and the exercises. You are allowed to use tools such as
+Python or Maple to assist you in calculations, but you must write the calculations out
+in full so that they can be followed by the examiners.  It is not
+sufficient to present an answer, you must show how you found it.  If you
+use a theorem from the book (or the slides), make a reference to
+it. \newline
+\vspace{5mm}
+
+For questions, you may contact the lecturer by e-mail
+\url{marco@imada.sdu.dk}. \\ You may answer in Danish or English. Your
+solution must be handed in as a single PDF file clearly stating your
+{\bf full name and birth date} on the front page. You have to hand in
+using SDU Assignment before Monday, March 25 at noon.
+%In case of
+%irrecoverable technical problems with Blackboard, you may hand in the
+%exam electronically by sending an email to the lecturer before the
+%deadline. \\
+
+
+% End title page
+
+
+
+\newpage
+\section*{Problem 1}
+Consider the following system of linear equations in variables $x,y,z,w\in \R$.
+\begin{align*}
+x+2y&=0 \\
+-2w+x&=4 \\
+2z+2y&=-1 \\
+4x+8y&=0
+\end{align*}
+\noindent
+\begin{enumerate}
+\item Write the augmented matrix of this system.
+\item Reduce this matrix to row echelon form by performing a sequence of elementary row
+operations.
+\item Solve the system and write its general solution in parametric form.
+\end{enumerate}
+
+
+\section*{Problem 2}
+Consider the following matrix
+$$
+M=\left[ \begin{array}{ccc} 1 & 0 & 1 \\ -1 & 1 & 0 \\ 2 & 2 & 2 \end{array} \right].
+$$ \\
+\noindent
+\begin{enumerate}
+\item Find $M^{-1}$ by performing row operations on the double
+matrix $[M\; | \;I]$.
+\item Is it possible to express $M$ as a product of elementary matrices? Explain why or why not.
+\end{enumerate}
+
+
+
+\section*{Problem 3}
+Consider the following matrix
+$$
+M=\left[ \begin{array}{ccc} x_1 & x_2 & x_3 \\ x_4 & x_5 & x_6 \\ x_7 & x_8 & x_9  \end{array} \right]
+$$ \\
+with $x_i \in \R$ for all $i$ and $\det(M)=10$.
+Let $N$ be given by
+$$
+N=\left[ \begin{array}{ccc} x_4 & x_5 & x_6 \\ x_1 & x_2 & x_3 \\ x_7+2x_1 & x_8+2x_2 & x_9+2x_3  \end{array} \right]
+$$ \\
+\begin{enumerate}
+\item Find $\det(N)$.
+\item Find $\det(N^2)$.
+\end{enumerate}
+
+
+
+\section*{Problem 4}
+Let $P_1$ be the vector space consisting of polynomials of degree at most one with real coefficients with
+the usual addition and scalar multiplication and with the inner product $\langle p,q\rangle=p(0)q(0)+p(1)q(1)$.
+\begin{enumerate}
+\item Let $T: P_1 \to P_1$ be a linear transformation with $\text{rank}(T)=1$.
+Is $S$ an isomorphism?
+\item Consider the two polynomials $f,g \in P_1$ with $f(x)=x+1$ and $g(x)=2x+\frac12$.
+Do these form a basis for $P_1$? If so, is it an orthonormal basis?
+\item Is it possible to find two orthogonal polynomials $f,g\in P_1$ and a scalar $t\in \R$ such that 
+$t \cdot f=g$? Find such an $f$, $g$ and $t$ or show that it is not possible.
+\end{enumerate}
+
+\newpage
+
+\section*{Problem 5}
+Consider the linear transformation $T: \R^2 \rightarrow \R^2$ given by
+$$
+	T\left( \begin{array}{c} x \\ y \end{array} \right) = \left( \begin{array}{c} 0 \\ y-3x \end{array} \right)
+$$
+\begin{enumerate}
+\item Find a basis for the kernel of $T$.
+\item Find the rank and nullity of $T$.
+\item Find the matrix of T with respect to the basis $B=\left\{ \left( \begin{array}{c} 2 \\ 2 \end{array} \right), \left( \begin{array}{c} 3 \\ 0 \end{array} \right)  \right\}$.
+That is, find $[T]_{B}$.
+\end{enumerate}
+
+\section*{Problem 6}
+Consider the following matrix
+$$
+A=\left[ \begin{array}{ccc} 2 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 3 & 2 \end{array} \right]
+$$ \\
+\begin{enumerate}
+\item Find the eigenvalues for $A$.
+\item For each eigenvalue, find a basis for the corresponding eigenspace.
+\item Can you find matrices $P$ and $D$ such that such that $P^*AP=D$ with $D$ diagonal? Find $D$ and $P$ or argue that it is not possible.
+\end{enumerate}
+
+
+\begin{center}
+\vspace{3cm}
+--------- \textit{\lastwords} ---------
+\end{center}
+
+
+\label{finalpage}
+
+
+\end{document}
