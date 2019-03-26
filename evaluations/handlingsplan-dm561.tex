@@ -1,0 +1,350 @@
+% latex handlingsplan template v0.001, daniel
+\documentclass[11pt]{article}
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[UKenglish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{sdublue}{cmyk}{1.00,0.65,0.0,0.3}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\chead{\Large \textcolor{sdublue}{\bfseries\rmfamily Handlingsplan for kursus under Det Naturvidenskabelige Studienævn}}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+\usepackage{tabu}
+
+\newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
+\newcommand{\answer}{\textcolor{red}{Please answer}}
+
+\setlength\parindent{0pt}
+\begin{document}
+\tabulinesep=1.2mm
+\begin{tabu} to 1.0\textwidth { | >{\mbox{}\color{sdublue}\bf}X[l] | X[2l] | } \hline
+Kursuskode og navn &  DM560 --- Introduction to Programming in C++ \\\hline
+Semester {\normalfont (Efterår/forår og årstal)} & Efterår 2018 \\\hline
+Undervisnings\-ansvarlig &  Marco Chiarandini \\\hline
+Øvrige undervisere &  Troels Risum Vigs{\o}e Frimer (instructor) \\\hline
+Antal tilmeldte studerende til kurset & 15 in BlackBoard 14 in the protocol \\\hline
+Antal studerende, som har deltaget i evalueringen &  7  \hfill
+Svarprocent:ca.~50\% \\\hline
+På hvilke studieretninger og semestre indgår kurset &  The course is elective in the second year of the Physics and Chemistry curriculum. In addition, this year there were three exchange Computer Science students and one Applied Mathematics student \\\hline
+Hvilken evalueringsform har været anvendt &  classical eletronic questionnaire \\\hline
+Har der været foretaget en midtvejsevaluering på kurset? &  yes, with the Delphi method  \\ 
+\hline
+\end{tabu}
+
+~\\[1cm]\textcolor{sdublue}{{\bf Beskriv evalueringens resultater} ---
+  f.eks. indenfor:\\ {\small \em Kursets opbygning og placering,
+    emner, undervisningsformer, fordeling af øvelsestimer,
+    forelæsninger og e-timer mv, de studerendes arbejdsbelastning,
+    undervisningsmaterialet, delprøver og forudsætningsprøver,
+    sammenhæng med studiet, de enkelte læreres undervisning:}}
+
+
+
+The course ran this year for the second time. It gives 5 ECTS and it is
+supposed to be an introductory course in programming assuming no
+previous knowledge. The course was designed to be an elective course for
+Physicist. The choice of using the programming language C++ was taken by
+the FKF department. This programming language is suitable for scientific
+computing due to its presumed efficiency and safeness against possible
+bugs. Probably due to a flaw in the system, the course had this year
+also 3 exchange students in Computer Science and an Applied Math
+student.
+
+The course run from October to December, thus it was spread more
+around the semester than done the previous year.
+
+The text book was the same as the previous year. The course followed
+the text book closely and presented the programming language C++ in a
+modern way, that is, leaving memory management at the last and using
+vectors from the standard library as the main type to avoid issues with
+memory management.  The contents of the course were shrunk removing the
+part on the graphics library.
+
+There were scheduled 14 introductory classes of two hours and 10
+training sessions. In addition, there were 2 class tests that were part
+of the final project and thus obligatory for the final pass/fail
+assessment. I held a flipped classroom class, which was recognised as
+useful by the students but few prepared for it. I used in class a
+reduced set of slides with respect to those later published for the
+students, in order to give more emphasis on the important aspects.  In
+the training classes, students had to work at a few exercises that were
+given in advance to let them prepare at home. Several activities were
+planned as group work and particularly work in pairs.
+
+The issues related with the working environment (Windows and Visual
+C++), which caused several problems the previous year, were partially
+improved by using command line tools (for building programs), simpler
+text editors and Windows Subsystem for Linux. However, students still
+claim to miss a introduction to command line and unix tools, such as
+remote connection to Linux machines for exchanging the files, running
+the code, etc.
+
+The final project consisted in implementing one of four different
+programs of varying complexity. The choice was left to the
+students. They all ended up choosing the easiest. The intention with
+alternative programs was to motivate the students and to meet the
+needs for different levels.
+
+The time allocated for carrying out the project was close to one month
+after the course ended. A deadline extension was asked a few days before
+the deadline and it was declined.
+
+The course materials are available at:
+http://www.imada.sdu.dk/~marco/DM560/.
+
+\medskip
+In the course evaluation via electronic questionnaire, there were 5
+respondents from Physics and Chemistry, and 2 from Computer Science.
+The outcome can be interpreted as follows.
+
+
+
+%
+%• The teacher was not good in understanding were the students might have difficulties.
+%• The setup of the course was not in order.
+%• The exercises were not well chosen.
+%• The pensum was not well suited to the premises of the students and too large.
+%• The introductory classes were not relevant, most of the learning occurred during the laboratory hours where students were asked to program.
+%• The introductory classes were much ahead with respect to the exercises. Or the course was too fast.
+%• The progression has been too steep, with a low start and then a fast increase in difficulty and amount of work.
+%• The second hand in was too difficult.
+%
+%
+%• There were good possibilities to give feedback to the teacher.
+%• The structure and the expectations have been overall made clear enough and the course page was usable and satisfactory.
+%• Overall the atmosphere during the course was polite and welcoming.
+%• The instructor was very helpful.
+%• The activities in group were helpful.
+%• The laboratory classes were good.
+%• The slides were good.
+%• It was appreciated that the teaching form changed during the course to meet the students’ status.
+%
+
+
+\begin{itemize}
+\item The students declare to have spent in average less than 10 hours
+  per week on this course.
+
+\item The course is perceived between average and very difficult.
+
+\item Some students comment that the course was for Computer
+  Scientists rather than for physicists due to the perception that a
+  certain knowledge of programming was assumed and that more emphasis
+  was given to understanding how things work rather than just making
+  them work. For these reasons, the course has been perceived as
+  challenging and overall not satisfactory for the final outcome.
+
+\item Some students, presumably the Physicists, report that the reasons
+  for not attending classes have been:
+  \begin{itemize}
+  \item overlaps with other courses in the semester;
+\item high workload during the semester (apparently all 30 ECTS, 5 courses,
+  were overlapping);
+\item burden of going to classes without having prepared due to the
+  requirement of a certain degree of active participation;
+\item difficulty to recover from have lagged behind and feeling of being judged
+  in class.
+\end{itemize}
+
+\item There are constantly two modes (satisfied and not satisfied) in the
+distribution of students about the information available before the
+course, the prerequisites, the motivations and the organization of the course. Most
+likely the two modes are due to the Physics students being
+dissatisfied, and the Computer Science students being satisfied.
+
+\item The distribution of students about the relevance of the course
+  and the pedagogical competences of the teacher have long tails but
+  peak on dissatisfaction. The preparation, knowledge, commitment,
+  respect and understanding of the teacher are assessed as
+  satisfactory.
+
+\item It was not clear what was expected from the final project. There is
+disagreement about the class test. It was asked whether it gave the
+opportunity to test the understanding of what was learned and to bring
+one self up-to-date with the contents of the course but no clear
+assessment arose. The exercises in class seem well chosen and
+beneficial although the calculator example was deemed  difficult and
+shorter exercises would be preferred.
+
+\item From the general comments it arises that: more summaries and
+  setting in perspective are desired.  More time should be dedicated to
+  installation and preparation of the environment, including an
+  introduction to linux.
+
+\item There is a general satisfaction with the instructor.
+
+\item The course web page outside BlackBoard is assessed as helpful.
+
+\end{itemize}
+
+  
+~\\[1cm]\textcolor{sdublue}{{\bf Giver evalueringen anledning til justering af undervisning mv.}:\\
+{\small \em Hvis ja, beskriv hvilke:}}
+
+
+ \begin{itemize}
+ \item The main changes from the previous edition have been recognized
+   as valid by the students and they will therefore be kept. Hence,
+   there will be no treatment of the graphics library and there will
+   be two class tests. However the class tests will be made optional
+   and used only for self assessment so as to avoid the feeling of
+   being judged. They will not be linked to the final assessment.
+
+
+
+  It will be made clear that questions of any type during classes are
+  welcome.
+ 
+   
+ \item The course will be scheduled even more spread throughout the
+   semester running in parallel with the other semester courses. This
+   should give a slower pace which perhaps suits better with a semester
+   that is tough for Physicists. A version of this course condensed in
+   half semester has already been tried and it did not work. More
+   lectures will be allocated in the first weeks to ensure everybody has
+   a working environment up and running.
+
+%   
+%   • More lectures will be put in the beginning of the semester to
+%   ensure less load on student when hand-ins in other courses kick in
+%   later on. As well as to ensure that everyone has all necessary
+%   programs installed on their machines as quick as possible to make
+%   the tutorial sessions most productive.
+%
+
+ \item The adoption of a different text book will be considered. The
+   example on the calculator that is a central part of the current text
+   book is perceived as difficult.  Ideally, a new text book should be
+   more concise, and give less emphasis to memory management and error
+   handling. These will be in any case the aims in the organization.
+
+
+
+ \item More time will be spent to introduce the working environment and
+   ensure that the students are settled with it. An announcement will be
+   sent a couple of weeks before the course, welcoming to the course and
+   inviting students to prepare their computers by either installing
+   recent versions of the operating systems and other tools or getting
+   acquainted with the computer lab machines. Specific instructions on
+   this material will be made available from the course web page.
+   
+
+
+ \item The contents of the course will include clear structure and will
+   be available from the start of the course, so students can see what
+   they will learn in the course as well as be able to ask for
+   adjustments of the content during the course.
+
+\item It will be made more clear what are the expectations from the
+  final project. The description of the last year final projects will
+  be made available from the start, so the students can see what they
+  are expected to know. They could as well come with possible topics
+  for the final projects themselves. In this way, they will be more
+  interested and excited about learning.
+
+
+ \item Before the class tests, examples from this year tests will be
+   made available for the preparation. The questions in the class test
+   will be made easier and such that only base knowledge is tested.
+
+
+
+  %
+%   • Lecture notes will be again made in two versions, one for
+%   lectures in class and one for the student (maybe two versions
+%   available for students).
+%
+
+ \item The slides will be restructured possibly making a condensed
+   version of them in order to make it easier to find content in
+   preparation to classes and during practice.
+%
+%   
+%   • Lecture notes for students will be restructured to be
+%   self-contained (easy for self-study) with minimum important
+%   information on key topics of the lectures, so that they can quickly
+%   look through them before the lectures (ensuring everyone have time
+%   for this) and easily consult with them later on if necessary (as
+%   exam preparation e.g.)
+%
+%
+%   •	Good online video lectures/course to supplement the course, with references to certain videos for the corresponding lectures.
+%
+
+   
+%   • To ensure the students get most out of the course, the contents
+%   of the course is adjusted to include the most important topics in
+%   order to teach one basic programing skills. More advanced topics,
+%   which contribute to deeper understanding of the C++ language, will
+%   be reviewed rather introductorily supplemented with references to
+%   the related literature/videos for self-study.
+%
+
+ \item In the introductory classes live coding will be used and the
+   whole work flow for building a program shown several times. It arose
+   from the final project that there were still lacks in this
+   fundamental step.
+   
+ \item The training sessions will contain shorter and easier exercises
+   to start with. Pair work will still be recommended as a work mode.
+%  
+%   
+%   • To make sure all students learn how to program to the minimum
+%   extent in C++, the tutorial exercises are chosen in a way that the
+%   key concepts of the lectures are exemplified with small
+%   exercises/programs, which are manageable and clear for all
+%   levels. The small/easy exercises are accompanied by at least one
+%   bigger and more advanced exercise on the lecture topic to meet the
+%   advanced level students.
+   %
+
+
+%   
+%   • Live coding will be a big part of the lectures, i.e. an
+%   introduction of a new concept and right away a quick small live
+%   coding example on how to make it work (thus giving an example of
+%   the whole work flow).
+%
+   
+%   • Midterm exam questions will be adjusted for the people actually
+%   taking the course (e.g. physicists, mathematicians, etc., not CS
+%   students) and will include the topics reflecting the key
+%   concepts/features of the C++ language, which were covered during
+%   the lectures to the date. These questions/answers should show how
+%   well the student understood the material and whether the basic
+%   knowledge were obtained.
+%  
+
+%   •	Both lecturer and instructor will try to be more pedagogical in explanation of the material; will try to make sure everyone understands the key moments and important points of the programming language and actually learn how to program; will try to keep up the warm and trustworthy atmosphere in order to encourage the students to ask questions, etc.
+%
+%   •	Towards the end of the course the students can be asked about any additional topics they want to be covered or any of the past topics repeated or elaborate more upon.
+%
+%   •	Not sure about group work (work in pair), will write like this: Students will be encouraged to work in groups/pairs by encouraging them to help each other if some of the classmates are stuck on something. This will help the students to get to know each other (if they are not from the same class/education) and will help them to progress faster and learn more.
+%
+%
+
+ \end{itemize}
+
+
+~\\[1cm]\textcolor{sdublue}{{\bf Giver evalueringen anledning til ændring i kursusbeskrivelsen?}\\
+{\small \em Hvis ja; beskriv hvilke:}}
+
+Nej. 
+
+~\\[1cm]
+\begin{tabu} to 1.0\textwidth { | >{\bf}X[3l] | >{\bf}X[l] | }
+  \hline
+  Behandlet af undervisningsudvalget på: & Dato:\\ & \\ & \\ \hline
+\end{tabu}
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
