@@ -1,0 +1,67 @@
+[
+    {
+	"week": 44,
+	"date": 2019-10-29,
+	"teacher": "Marco",
+        "topics": "Intro to Python - Part 1",
+	"turl": "/assets/dm561-lec1.pdf",
+	"sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
+    },
+    {
+	"week": 45,
+	"date": 2019-11-05,
+	"teacher": "Marco",
+        "topics": "Intro to Python - Part 2",
+	"turl": "/assets/dm561-lec2.pdf",
+	"sug_reading": "ch 4-6 of [HJ1]"
+    },
+    {
+	"week": 45,
+	"date": 2019-11-07,
+	"teacher": "Marco",
+        "topics": "Intro to Python - Part 3",
+	"_turl": "/assets/dm561-lec3.pdf",
+	"_sug_reading": "Sc. 6.3-6.5 of [AR]"
+    },
+    {
+	"week": 46,
+	"date": 2019-11-12,
+	"teacher": "Marco",
+        "topics": "Least Squares Data Fitting",
+	"_turl": "/assets/dm561-linreg.pdf",
+	"_sug_reading": "Lecture Notes"
+    },
+    {
+	"week": 47,
+	"date": 2019-11-19,
+	"teacher": "Daniel",
+        "topics": "Graph Isomorphism and Molecules",
+	"_turl": "/assets/DM561-DM562-Graphs-small.pdf",
+	"_sug_reading": "<a href=\"/assets/graph-permutation.py\">script</a> [Additional slides on Ullmann algorithm][12]"
+    },
+    {
+	"week": 48,
+	"date": 2019-11-26,
+	"teacher": "Daniel",
+        "topics": "From Random Polygon to Ellipse",
+	"_turl": "/assets/DM561-DM562-RandomPolygon.pdf",
+	"_sug_reading": "[Article (pp 1-5,17)][10]; [Video (optional)][11]"
+    },
+    {
+	"week": 49,
+	"date": 2019-12-03,
+	"teacher": "Marco",
+        "topics": "Page Rank",
+	"_turl": "/assets/dm561-pagerank.pdf",
+	"_sug_reading": "Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X)"
+    },
+    {
+	"week": 50,
+	"date": 2019-12-10,
+	"teacher": "Daniel",
+        "topics": "Eigenfaces",
+	"_turl": "/assets/DM561-DM562-PCA-Eigenfaces.pdf",
+	"_sug_reading": "[Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24];<br> [Eigenfaces (OpenCV based)][25]"
+    }
+]
+
