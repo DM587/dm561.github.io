@@ -12,19 +12,25 @@ layout: default
 - Official course description:
   [DM561](https://odinlister.sdu.dk/fagbesk/internkode/DM561/), [DM562](https://odinlister.sdu.dk/fagbesk/internkode/DM562/)
 
-- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390712_1)
+- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410238_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410243_1)
+
+- Teachers:
+  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski)
+  (DM561),
+  [Luís Cruz-Filipe](https://portal.findresearcher.sdu.dk/da/persons/lcf)
+  (DM562), 
+  [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
-- Teachers: [Christian Kudahl](https://imada.sdu.dk/~kudahl/), [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
-
-
-- Teachers: [Jonas Herskind Sejr](http://findresearcher.sdu.dk:8080/portal/en/person/sejr), Hans Kristian Anders Møller
+- Teachers: Rasmus Bo Adeltoft (DM561), Johannes Lauritsen (DM561),
+  [Nicklas Sindlev Andersen](https://imada.sdu.dk/~sindlev/)
 
 <!-- hmoel15@student.sdu.dk -->
 
 ## Schedule
 
-<a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e18">MitSDU</a>
+MitSDU: <a
+href="https://mitsdu.sdu.dk/skema/activity/N330024101/e19">DM561</a>, <a href="https://mitsdu.sdu.dk/skema/activity/N330025101/e19">DM562</a>
 
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
@@ -85,7 +91,7 @@ w3.includeHTML();
 ### Introductory Classes
 
 
-| Week |  Date | Teacher        | Topics and Slides  	                                      | Suggested reading                                                                                                                |
+| Week |  Date | Teacher        | Topics and Slides | Suggested reading                                |
 |------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
 |   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                                    | App A, B and ch 1-3 of [HJ1]; [DB]                                                                                               |
 |      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4];                                   | ch 4-6 of [HJ1]                                                                                                                  |
