@@ -35,8 +35,27 @@ show_downloads: false
 
 exclude: [ "slides", "assignments", "code", "acme-material", "misc"]
 
+
+data_dir            : _data
+
+
 collections:
   - notes
+  - solutions
+  - assignments
+
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:path
+  solutions:
+    output: true
+    permalink: /:collection/:path
+  assignments:
+    output: true
+    permalink: /:collection/:path
+
+
 
 collections:
   notes:

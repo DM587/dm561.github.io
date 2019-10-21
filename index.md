@@ -90,47 +90,79 @@ w3.includeHTML();
 
 ### Introductory Classes
 
-
-| Week |  Date | Teacher        | Topics and Slides | Suggested reading                                |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                                    | App A, B and ch 1-3 of [HJ1]; [DB]                                                                                               |
-|      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4];                                   | ch 4-6 of [HJ1]                                                                                                                  |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6]                | [Additional slides on Ullmann algorithm][12]                                                                                     |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   47 | 21.11 | Daniel         | [From Random Polygon to Ellipse][9]                              | [Article (pp 1-5,17)][10]; [Video (optional)][11]                                                                                |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   48 | 28.11 | Marco          | [Intro to Python - Part 3][14]; [Least Squares Data Fitting][15] | Sc. 6.3-6.5 of [AR]; [Lecture Notes][13]                                                                                         |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   49 | 05.12 | Marco          | [Page Rank][16]                                                  | Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X)                                        |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   50 | 12.12 | Daniel         | [Eigenfaces][20]                                                 | [Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24];<br> [Eigenfaces (OpenCV based)][25] |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
+<table>
+<thead>
+<tr>
+<th width="5%">Week</th>
+<th width="7%">Date</th>
+<th width="7%">Teacher</th>
+<th width="36%">Topics and Slides</th>
+<th width="55%">Suggested reading</th>
+</tr>
+</thead>
+{% for lecture in site.data.lectures %}
+{% assign date_format = site.minima.date_format | default: "%b %-d" %}
+<tbody>
+<tr>
+<td>{{ lecture.week }}</td>
+<td>{{ lecture.date | date: date_format }}</td>
+<td>
+{{ lecture.teacher }}
+</td>
+<td>
+{% if lecture.turl %}
+<a class="post-link" href="{{ lecture.turl | absolute_url }}">{{ lecture.topics | escape }}</a> 
+{% else %}
+{{ lecture.topics | escape }}
+{% endif %}
+</td>
+<td>{{ lecture.sug_reading }}</td>
+</tr>
+</tbody>
+{% endfor %}
+</table>
 
 
 
 ### Exercises and Assignments
 
-|                       Week | Type | Exercises  	                         | Solutions    | Assignment                                                                             |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         45 | L    | [sheet1]( {% post_url 2018-11-04-sheet1 %}) |              | [asg0]({% post_url 2018-11-01-asg0 %}); [FAQ][3]                                       |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         46 | L    | [sheet2][7]                                 |              | [asg1]({% post_url 2018-11-11-asg1 %})                                                 |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-| 47: H1: 22, H2: 20, H1: 21 | E    | [sheet3]( {% post_url 2018-11-16-sheet3 %}) |              |                                                                                        |
-| 47: H1: 23, H2: 27, H1: 22 | L    | [sheet4][8]                                 |              | [asg2]({% post_url 2018-11-21-asg2 %})                                                 |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         48 | L    | [sheet5]( {% post_url 2018-11-26-sheet5 %}) | [sheet5][18] | [asg3]({% post_url 2018-11-28-asg3 %})                                                 |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         49 | E    | sheet5                                      |              |                                                                                        |
-|                            | L    | [sheet6]( {% post_url 2018-12-04-sheet6 %}) | [sheet6][19] | [asg4][17] (Reload the page! Last update: 8 Dec. at 14:05.)                            |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         50 | L    | sheet6                                      |              | [asg5][27] (Reload the page! Last update: 3 Jan. at 14:00.)                            |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                         51 | L    | [sheet7][28]                                |              | [asg6]({% post_url 2018-12-21-asg6 %}) (Reload the page! Last update: 3 Jan. at 14:00) |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
-|                            |      |                                             |              | [Reexam][29]                                                                           |
-|----------------------------+------+---------------------------------------------+--------------+----------------------------------------------------------------------------------------|
+
+<table>
+<thead>
+<tr>
+<th width="5%">Week</th>
+<th width="7%">Type</th>
+<th width="20%">Sheet</th>
+<th width="20%">Solutions</th>
+<th width="30%">Assignments</th>
+</tr>
+</thead>
+{% assign origin = '2019-10-01' | date: "%s" %}
+{% assign end = '2019-12-01' | date: "%s" %}
+{% for post in site.posts reversed %}
+  {% capture date %}{{post.date | date: "%s" }}{% endcapture %}
+  {% if date > origin and date < end %}
+<tbody>
+<tr>
+{% assign date_format = site.minima.date_format | default: "%b %-d" %}
+<td>{{ post.week }}</td>
+<td>{{ post.type }}</td>
+<td><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></td>
+<td>
+{% if post.sol_url %} 
+<a class="post-link" href="{{ post.sol_url | absolute_url }}">solutions</a>
+{% endif %}
+</td>
+</tr>
+</tbody>
+{% endif %}
+{% endfor %}
+</table>
+
+
+
+
+
 
 
 ## References 
@@ -186,24 +218,23 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
-[4]: {{ "/assets/dm561-lec2.pdf" | absolute_url }}
+
 [3]: {{ "/assets/faq.txt" | absolute_url }}
-[5]: {{ "/assets/DM561-DM562-Graphs-small.pdf" | absolute_url }}
-[6]: {{ "/assets/graph-permutation.py" | absolute_url }}
+
+
 [7]: {{ "assets/ex-week46.pdf" | absolute_url }}
 [8]: {{ "assets/ex-week47.pdf" | absolute_url }}
-[9]: {{ "/assets/DM561-DM562-RandomPolygon.pdf" | absolute_url }}
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
 [12]: {{ "assets/ullmann.pdf" | absolute_url }}
 [13]: {{ "assets/linreg-notes.pdf" | absolute_url }}
 [14]: {{ "/assets/dm561-lec3.pdf" | absolute_url }}
 [15]: {{ "/assets/dm561-linreg.pdf" | absolute_url }}
-[16]: {{ "/assets/dm561-pagerank.pdf" | absolute_url }}
+
 [17]: {{ "/assets/asg4.pdf" | absolute_url }}
 [18]: {{ "/assets/sheet5.html" | absolute_url }}
 [19]: {{ "/assets/sheet6.html" | absolute_url }}
-[20]: {{ "/assets/DM561-DM562-PCA-Eigenfaces.pdf" | absolute_url }}
+
 [21]: {{ "https://arxiv.org/abs/1404.1100" | absolute_url}}
 [22]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
 [23]: {{ "http://setosa.io/ev/principal-component-analysis/" | absolute_url }}
