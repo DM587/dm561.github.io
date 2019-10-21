@@ -23,7 +23,7 @@ layout: default
 
 
 - Teachers: Rasmus Bo Adeltoft (DM561), Johannes Lauritsen (DM561),
-  [Nicklas Sindlev Andersen](https://imada.sdu.dk/~sindlev/)
+  [Nicklas Sindlev Andersen](https://imada.sdu.dk/~sindlev/) (DM562)
 
 <!-- hmoel15@student.sdu.dk -->
 
@@ -127,37 +127,36 @@ w3.includeHTML();
 ### Exercises and Assignments
 
 
-<table>
-<thead>
-<tr>
-<th width="5%">Week</th>
-<th width="7%">Type</th>
-<th width="20%">Sheet</th>
-<th width="20%">Solutions</th>
-<th width="30%">Assignments</th>
-</tr>
-</thead>
-{% assign origin = '2019-10-01' | date: "%s" %}
-{% assign end = '2019-12-01' | date: "%s" %}
-{% for post in site.posts reversed %}
-  {% capture date %}{{post.date | date: "%s" }}{% endcapture %}
-  {% if date > origin and date < end %}
-<tbody>
-<tr>
-{% assign date_format = site.minima.date_format | default: "%b %-d" %}
-<td>{{ post.week }}</td>
-<td>{{ post.type }}</td>
-<td><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title | escape }}</a></td>
-<td>
-{% if post.sol_url %} 
-<a class="post-link" href="{{ post.sol_url | absolute_url }}">solutions</a>
-{% endif %}
-</td>
-</tr>
-</tbody>
-{% endif %}
-{% endfor %}
-</table>
+
+
+
+| Week | Type | Sheet        | Topic  	 | Solutions | Assignments |
+|------+------+--------------+-----------------+-----------+-------------|
+|   44 | L    | sheet1       | Python          |           | asg0        |
+|   45 | L    |              | Python          |           | asg1        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   46 | L    | sheet2       |                 |           |             |
+|      | L    |              |                 |           | asg2        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   47 | L    | sheet3       |                 |           |             |
+|      | L    |              |                 |           | asg3        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   48 | L    | sheet4       |                 |           |             |
+|      | L    |              |                 |           | asg3        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   49 | L    | sheet5       |                 |           |             |
+|      | L    |              |                 |           | asg4        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   50 | L    | sheet6       |                 |           |             |
+|      | L    |              |                 |           | asg5        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   51 | L    | sheet7       |                 |           | asg6        |
+|------+------+--------------+-----------------+-----------+-------------|
+
+
+
+
+
 
 
 
@@ -218,29 +217,50 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
-
 [3]: {{ "/assets/faq.txt" | absolute_url }}
-
-
-[7]: {{ "assets/ex-week46.pdf" | absolute_url }}
-[8]: {{ "assets/ex-week47.pdf" | absolute_url }}
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
 [12]: {{ "assets/ullmann.pdf" | absolute_url }}
 [13]: {{ "assets/linreg-notes.pdf" | absolute_url }}
 [14]: {{ "/assets/dm561-lec3.pdf" | absolute_url }}
 [15]: {{ "/assets/dm561-linreg.pdf" | absolute_url }}
-
-[17]: {{ "/assets/asg4.pdf" | absolute_url }}
 [18]: {{ "/assets/sheet5.html" | absolute_url }}
 [19]: {{ "/assets/sheet6.html" | absolute_url }}
-
 [21]: {{ "https://arxiv.org/abs/1404.1100" | absolute_url}}
 [22]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
 [23]: {{ "http://setosa.io/ev/principal-component-analysis/" | absolute_url }}
 [24]: {{ "https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html" | absolute_url }}
 [25]: {{ "https://www.learnopencv.com/eigenface-using-opencv-c-python/" | absolute_url }}
 [26]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
-[27]: {{ "/assets/asg5.pdf" | absolute_url }}
-[28]: {{ "/assets/ex-week51.pdf" | absolute_url }}
-[29]: {{ "/assets/reexam.pdf" | absolute_url }}
+
+
+
+
+
+<!--
+
+{% capture page_link %}{% post_url 2019-10-21-sheet1 %}{% endcapture %}
+[31]: {{ page_link | absolute_url }}
+
+[32]: {{ "assets/ex-week46.pdf" | absolute_url }}
+[33]: {{ 2018-11-16-sheet3 | link_format }}
+[34]: {{ "assets/ex-week47.pdf" | absolute_url }}
+{% capture page_link %}{% post_url 2018-11-26-sheet5 %}{% endcapture %}
+[35]: {{ page_link | absolute_url }}
+{% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
+[36]: {{ page_link | absolute_url }}
+[37]: {{ "/assets/ex-week51.pdf" | absolute_url }}
+
+[50]: {{ "/assignments/asg0.html" | absolute_url }}
+[51]: {{ post_url 2018-11-11-asg1 }}
+[52]: {{ post_url 2018-11-21-asg2 }}
+[53]: {{ post_url 2018-11-28-asg3 }}
+[54]: {{ "/assets/asg4.pdf" | absolute_url }}
+[55]: {{ "/assets/asg5.pdf" | absolute_url }}
+[56]: {{ post_url 2018-12-21-asg6 }}
+
+
+[99]: {{ "/assets/reexam.pdf" | absolute_url }}
+
+
+-->

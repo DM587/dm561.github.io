@@ -57,12 +57,6 @@ collections:
 
 
 
-collections:
-  notes:
-    output: true
-    permalink: /:collection/:path
-
-
 
 # Build settings
 markdown: kramdown
