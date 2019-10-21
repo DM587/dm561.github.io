@@ -25,10 +25,9 @@ description: Course on linear algebra, second year of Bachelor in Computer Scien
 baseurl: "/~marco/Teaching/AY2018-2019/DM561"
 url: "https://imada.sdu.dk/"
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  belzebuu
 
 repository: "belzebuu/DM561"
-show_downloads: false
 
 show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
@@ -66,3 +65,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+github: [metadata]
