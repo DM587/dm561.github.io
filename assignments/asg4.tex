@@ -1,0 +1,360 @@
+\documentclass[a4paper,10pt]{article}
+%\pdfoutput=1
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+%\usepackage{palatino}
+\usepackage[math]{kurier}
+%\usepackage[sc]{mathpazo} % consider options: osf, sc
+\usepackage{xspace}
+%\PassOptionsToPackage{latex2html}{hyperref}  
+%\usepackage{html} 
+\usepackage{url} 
+%\usepackage{booktabs} 
+%\usepackage{hyperref}
+%\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{rotating}
+%\usepackage{srctex}
+\usepackage{color}
+\usepackage{enumerate}
+%\usepackage{afterpage}
+
+\usepackage{arydshln}
+\usepackage{etoolbox}
+\usepackage{blkarray}
+\usepackage{multirow}
+
+\usepackage{listings}
+\usepackage[vlined]{algorithm2e}
+
+
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+
+\graphicspath{{Figures/}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mylstset}
+\usepackage{mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newif\ifshow
+%\showtrue
+\showfalse
+\usepackage{exercises}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage[all]{xy}
+
+
+\newcommand{\row}[1]{
+%HEVEA \begin{comment}
+\ensuremath \overrightarrow{\mathbf #1}
+%HEVEA \end{comment}
+%HEVEA \overrightarrow{\mathbf #1}
+}
+
+
+
+\graphicspath{{Figures/}}
+
+
+\title{%
+\begin{flushleft}
+  DM561 -- Linear Algebra and Applications\\
+  DM562 -- Scientific Programming\\[0.3cm]
+{\Large Obligatory Assignment 4, Autumn 2018} %
+% \ahref{\url{http://www.imada.sdu.dk/~marco/DM559/Assignments-LA/sheet2.pdf}}{\tiny [pdf format]}
+\\
+\hrulefill
+\\[-1.8cm]
+\end{flushleft}
+}
+
+
+%\hrulefill \\[-1.8cm]
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{solution}
+Contains Solutions!
+\end{solution}
+
+
+
+\begin{center}
+%\color{red}
+  {\bf Deadline: Friday, December 14 at noon}
+%\color{black}
+\end{center}
+
+\color{red}In red the modifications after publication.\color{black}
+
+
+This document is associated with the files \lstinline{asg4.py} and
+\lstinline{draw.py} and data files, which are available in the git
+repository. The file \lstinline{asg4.py} is the only one that need to be
+edited and submitted.
+
+\bigskip
+
+\color{red} In \lstinline{asg4.py}, to make sure your code passes the
+docstring example tests you have to add
+\begin{lstlisting}
+np.set_printoptions(precision=3)
+\end{lstlisting}
+
+\vspace{-3ex}
+right after the import of Numpy.
+
+In  \lstinline{draw.py} you have to change the line:
+
+\begin{lstlisting}
+from asg4_sol import * 
+\end{lstlisting}
+
+\vspace{-3ex}
+
+to
+\begin{lstlisting}
+from asg4 import * 
+\end{lstlisting}
+\color{black}
+
+
+\bigskip
+%\subsection*{Task 1}
+
+In the Introduction to Python - Part 3, on slide 9, we compared three
+important models for growth functions in computer science applications:
+
+\begin{table}[h]
+  \begin{tabular}{ll}
+    \textbf{exponential model}&$y=ae^{bx}$\\
+    \textbf{power function model}&$y=ax^b$\\
+    \textbf{logarithmic model}&$y=a+b\ln x$
+  \end{tabular}
+\end{table}
+
+where $a$ and $b$ are to be determined to fit experimental data as
+closely as possible. In this exercise you will work with a procedure
+called \emph{linearization}, by which the data are transformed to a form
+in which a least squares straight line fit can be used to approximate
+the constants. Some calculus is required to carry out the task.
+
+
+Let $x$ denote the different size of two square matrices that we
+multiply with each other and $y$ the computation time registered by
+executing, for example, the script benchmark from Assignment 1.
+
+We will assume to have collected the following data (also available in
+the associated python script:
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{l|*{9}{c}}
+    x&2&3&4&5&6&7&8&9\\
+    y&1.75&1.91&2.03&2.13&2.22&2.30&2.37&2.43
+  \end{tabular}
+\end{table}
+    
+We will fit a linear model and the three models above using least
+squares and decide which is the best model.
+
+
+
+\paragraph{Linear function} Implement the function
+\lstinline{least_squares(A,b)} that takes an appropriate matrix $A$ and
+vector $\vec b$ and returns the least square solution $\vec z$ of the
+system $A\vec z=\vec b$. In the implementation, you are not allowed to
+use the Numpy and Scipy function \lstinline{linalg.lstsq(A,b)}.
+Using the function \lstinline{least_squares(A,b)} determine the linear
+function $y=ax + b$ that best fit the given data $(x_j,y_j)$.
+
+
+\paragraph{Exponential function}
+Making the substitution \[Y=\ln y\] in the equation $y=ae^x$ produces the
+equation $Y=bx+\ln a$, whose graph in the $xY$-plane is a line of slope
+$b$ and $Y$-intercept $\ln a$.  Verify this fact!
+
+Hence, a curve of the form $y=ae^x$ can be fitted to the given $n$ data
+points $(x_j,y_j)$ by letting $Y_j=\ln y_j$, then fitting a straight
+line to the transformed data points $(x_j,Y_j)$ by least squares to find
+$b$ and $\ln a$, and then computing $a$ from $\ln a$.  Implement this
+method to fit an exponential model in the function
+\lstinline{exponential_fit} that uses your
+\lstinline{linalg.lstsq(A,b)}. (You may need to use the functions
+\lstinline{np.log} and \lstinline{np.exp} for computing the natural
+logarithm). You can visualize the situation executing the file
+\lstinline{draw.py} that uses the function that you implement to draw a
+plot with the points and the fitted exponential curve.
+
+\paragraph{Power function}
+Making the substitutions \[X=\ln x\qquad \qquad Y=\ln y\] in the
+equation $y=ax^b$ produces the equation $Y=bX+\ln a$, whose graph in the
+$XY$-plane is a line of slope $b$ and $Y$-intercept $\ln a$. Verify this
+fact!
+
+Hence, a curve of the form $y=ae^x$ can be fitted to the given $n$ data
+points $(x_j,y_j)$ by letting $X_j=\ln x_j$ and $Y_j=\ln y_j$, then
+fitting a straight line to the transformed data points $(X_j,Y_j)$ by
+least squares to find $b$ and $\ln a$, and then computing $a$ from $\ln
+a$.  Implement this method to fit an power model in the function
+\lstinline{power_fit}. You can visualize the situation executing the
+file \lstinline{draw.py} that uses the function that you implement to
+draw a plot with the points and the fitted curve.
+
+
+\paragraph{Logarithmic function} Making the substitution \[X=\ln x\]
+in the equation $y=a+b\ln x^b$ produces the equation $Y=a+bX$, whose
+graph in the $Xy$-plane is a line of slope $b$ and $y$-intercept
+$a$. Verify this fact!
+
+Hence, a curve of the form $y=a+b\ln x$ can be fitted to the given $n$ data
+points $(x_j,y_j)$ by letting $X_j=\ln x_j$, then fitting a straight
+line to the transformed data points $(X_j,y_j)$ by least squares to find
+$b$ and $a$, and then computing $a$ from $\ln a$.  Implement this
+method to fit a logarithmic model in the function
+\lstinline{logarithmic_fit}. You can visualize the situation executing
+the file \lstinline{draw.py} that uses the function that you implement
+to draw a plot with the points and the fitted curve.
+
+
+\paragraph{Training error} Implement the function
+\lstinline{training_error(f,x,y)} that returns the \color{red}
+{\bf root}\color{black}\ sum of squared
+  errors for the model \lstinline{f}. Using this function compare the
+  training error of the four models and determine which model has the
+  best training error.
+
+
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\textwidth]{nonlin}
+\caption{The result of Task 1.}
+\end{figure}
+
+
+
+\end{document}
+\clearpage
+  
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\exercise{}{}
+
+  In the city of Odense, there is a network of bicycle rental stations,
+  where you can borrow a city bike for free with your mobile
+  phone. The stations are spread over the city and provide a convenient way
+  to get around. Bike rental data is made public in an anonymized form
+  and it can been analyzed in various ways.
+
+  The task we want to solve is to predict for a given time and day how
+  many people will rent a bike in front of the train station --- so that
+  you know if any bikes will be left for you when you have to cycle to
+  the SDU Campus.
+
+  We look at the data for August 2015 at this particular station. We
+  resample the data into 3 hour intervals to obtain the main trends for
+  each day. Below is a visualization of the rental frequencies for the
+  whole month:
+
+  \begin{center}
+    \includegraphics[width=\textwidth]{Figures/bike_aug2015}
+  \end{center}
+
+  Looking at the data, we can clearly distinguish day and night for each
+  day. The patterns for week days and weekends also seem to be quite
+  different.  
+
+%  When evaluating a prediction task on a time series like
+%  this, we usually want to learn from the past and predict for the
+%  future. This means when doing a split into a training
+%  and a test set, we want to use all the data up to a certain date as
+%  training set, and all the data past that date as a test set. This is
+%  how we would usually use time series pre‐ diction: given everything
+%  that we know about rentals in the past, what do we think will happen
+%  tomorrow?  
+
+  In all we have 248 data points. 
+  We use the first 184 data points, corresponding to the
+  first 23 days, as our training set, and the remaining 64 data points
+  corresponding to the remaining 8 days as our test set.
+
+  Two factors seem to be very important: the time of day and the day of
+  the week, when a particular number of rentals occurred. So the input
+  features are the time of the day: $x_1=\{0,3,6,9,...,21\}$ and the day
+  of the week: $x_2=\{0,1,2,\ldots,6\}$ (where $0$ corresponds to Monday
+  and so forth) and the output $y$ is the number of rentals in the
+  following three hours, which we can assume to be a real number that
+  can be rounded to an integer afterwards.
+
+  We consider two linear regression models:
+  \begin{eqnarray*}
+  {\cal H}_1: &&h_1(\vec\theta,\vec x)=\theta_0+\theta_1 x_1 + \theta_2 x_2\\
+  {\cal H}_2: &&h_2(\vec\theta,\vec x)=\theta_0+\theta_1 x_1 + \theta_2 x_2+\theta_3 x_1x_2 + \theta_4 x_1^2+\theta_5x_2^2
+  \end{eqnarray*}
+  Fitting the two models yields the two functions $g_1\in {\cal H}_1$ and
+  $g_2\in {\cal H}_2$ defined by the following parameters:
+\[
+\begin{array}{l|r|r|r|r|r|r}
+&\theta_0&\theta_1&\theta_2 &\theta_3 & \theta_4 &\theta_5\\
+\hline
+g_1&5.36&1.26& 0.71&&&\\
+g_2&-3.11& 1.29& 3.85& 0.07&-0.12& -0.16\\
+\hline
+\end{array}
+\]
+
+The predictions of the two models are visualized in the plots below:
+
+\begin{center}
+  \includegraphics[width=\textwidth]{Figures/h1}\\
+  \includegraphics[width=\textwidth]{Figures/h2}
+\end{center}
+
+The evaluation of the two models yields the following scores:
+
+\begin{center}
+\begin{tabular}{l|rr}
+&$g_1$&$g_2$\\
+\hline
+Training-set mean squared error:& 154.87&110.49\\
+Test-set mean squared error: & 151.27&86.66\\
+\hline
+\end{tabular}
+\end{center}
+\medskip
+
+How many bike rentals would have been predicted for Monday 31st August 2015 from
+9 to 12 by the model that the analysis above indicated to be the best?
+
+
+
+
+
+
+
+\end{document}

@@ -22,12 +22,12 @@ description: Course on linear algebra, second year of Bachelor in Computer Scien
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dm561.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/~marco/Teaching/AY2019-2020/DM561"
 #url: "https://imada.sdu.dk/"
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  belzebuu
 
 repository: "belzebuu/DM561"
-show_downloads: false
 
 show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
@@ -35,13 +35,26 @@ show_downloads: false
 
 exclude: [ "slides", "assignments", "code", "acme-material", "misc"]
 
+
+data_dir            : _data
+
+
 collections:
   - notes
+  - solutions
+  - assignments
 
 collections:
   notes:
     output: true
     permalink: /:collection/:path
+  solutions:
+    output: true
+    permalink: /:collection/:path
+  assignments:
+    output: true
+    permalink: /:collection/:path
+
 
 
 
@@ -65,3 +78,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+github: [metadata]

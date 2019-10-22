@@ -3,16 +3,16 @@ layout: default
 mathjax: true
 title:  asg0
 script:  asg0.py
-date:   2018-11-01 09:33:19 +0100
+date:   2019-10-01 09:33:19 +0100
 categories: assignments
 ---
 
 #### Assignment 0: Only testing
 
-*Submission Deadline: Friday, November 9 2018, at 12:00*
+*Submission Deadline: Wednesday, November 6 2019, at noon*
 
 
-You find the following spec file in your git repository.
+You find the following specifications file in your git repository.
 
 
 ```python

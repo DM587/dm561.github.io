@@ -12,19 +12,25 @@ layout: default
 - Official course description:
   [DM561](https://odinlister.sdu.dk/fagbesk/internkode/DM561/), [DM562](https://odinlister.sdu.dk/fagbesk/internkode/DM562/)
 
-- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390707_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_390712_1)
+- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410238_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410243_1)
+
+- Teachers:
+  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski)
+  (DM561),
+  [Luís Cruz-Filipe](https://portal.findresearcher.sdu.dk/da/persons/lcf)
+  (DM562), 
+  [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
-- Teachers: [Christian Kudahl](https://imada.sdu.dk/~kudahl/), [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
-
-
-- Teachers: [Jonas Herskind Sejr](http://findresearcher.sdu.dk:8080/portal/en/person/sejr), Hans Kristian Anders Møller
+- Teachers: Rasmus Bo Adeltoft (DM561), Johannes Lauritsen (DM561),
+  [Nicklas Sindlev Andersen](https://imada.sdu.dk/~sindlev/) (DM562)
 
 <!-- hmoel15@student.sdu.dk -->
 
 ## Schedule
 
-<a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e18">MitSDU</a>
+MitSDU: <a
+href="https://mitsdu.sdu.dk/skema/activity/N330024101/e19">DM561</a>, <a href="https://mitsdu.sdu.dk/skema/activity/N330025101/e19">DM562</a>
 
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
@@ -84,45 +90,77 @@ w3.includeHTML();
 
 ### Introductory Classes
 
-
-| Week |  Date | Teacher        | Topics and Slides  	                                      | Suggested reading                                                                                                                |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   45 | 05.11 | Marco & Daniel | [Intro to Python - Part 1][2]                                    | App A, B and ch 1-3 of [HJ1]; [DB]                                                                                               |
-|      | 07.11 | Marco & Daniel | [Intro to Python - Part 2][4];                                   | ch 4-6 of [HJ1]                                                                                                                  |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   46 | 14.11 | Daniel         | [Graph Isomorphism and Molecules][5], [script][6]                | [Additional slides on Ullmann algorithm][12]                                                                                     |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   47 | 21.11 | Daniel         | [From Random Polygon to Ellipse][9]                              | [Article (pp 1-5,17)][10]; [Video (optional)][11]                                                                                |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   48 | 28.11 | Marco          | [Intro to Python - Part 3][14]; [Least Squares Data Fitting][15] | Sc. 6.3-6.5 of [AR]; [Lecture Notes][13]                                                                                         |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   49 | 05.12 | Marco          | [Page Rank][16]                                                  | Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X)                                        |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-|   50 | 12.12 | Daniel         | [Eigenfaces][20]                                                 | [Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24];<br> [Eigenfaces (OpenCV based)][25] |
-|------+-------+----------------+------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
+<table>
+<thead>
+<tr>
+<th width="5%">Week</th>
+<th width="7%">Date</th>
+<th width="7%">Teacher</th>
+<th width="36%">Topics and Slides</th>
+<th width="55%">Suggested reading</th>
+</tr>
+</thead>
+{% for lecture in site.data.lectures %}
+{% assign date_format = site.minima.date_format | default: "%b %-d" %}
+<tbody>
+<tr>
+<td>{{ lecture.week }}</td>
+<td>{{ lecture.date | date: date_format }}</td>
+<td>
+{{ lecture.teacher }}
+</td>
+<td>
+{% if lecture.turl %}
+<a class="post-link" href="{{ lecture.turl | absolute_url }}">{{ lecture.topics | escape }}</a> 
+{% else %}
+{{ lecture.topics | escape }}
+{% endif %}
+</td>
+<td>{{ lecture.sug_reading }}</td>
+</tr>
+</tbody>
+{% endfor %}
+</table>
 
 
 
 ### Exercises and Assignments
 
-|                       Week | Type | Exercises  	                         | Solutions    | Assignment                                                   |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         45 | L    | [sheet1]( {% post_url 2018-11-04-sheet1 %}) |              | [asg0]({% post_url 2018-11-01-asg0 %}); [FAQ][3]             |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         46 | L    | [sheet2][7]                                 |              | [asg1]({% post_url 2018-11-11-asg1 %})                       |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-| 47: H1: 22, H2: 20, H1: 21 | E    | [sheet3]( {% post_url 2018-11-16-sheet3 %}) |              |                                                              |
-| 47: H1: 23, H2: 27, H1: 22 | L    | [sheet4][8]                                 |              | [asg2]({% post_url 2018-11-21-asg2 %})                       |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         48 | L    | [sheet5]( {% post_url 2018-11-26-sheet5 %}) | [sheet5][18] | [asg3]({% post_url 2018-11-28-asg3 %})                       |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         49 | E    | sheet5                                      |              |                                                              |
-|                            | L    | [sheet6]( {% post_url 2018-12-04-sheet6 %}) | [sheet6][19] | [asg4][17] (Reload the page! Last update: 8 Dec. at 14:05.)  |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         50 | L    | sheet6                                      |              | [asg5][27] (Reload the page! Last update: 18 Dec. at 18:00.) |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
-|                         51 | L    | [sheet7][28]                                |              |  [asg6]({% post_url 2018-12-21-asg6 %})	                |
-|----------------------------+------+---------------------------------------------+--------------+--------------------------------------------------------------|
+
+
+
+
+| Week | Type | Sheet        | Topic  	 | Solutions | Assignments |
+|------+------+--------------+-----------------+-----------+-------------|
+|   44 | L    | [sheet1][31] | Python          |           | [asg0][50]  |
+|   45 | L    |              | Python          |           | asg1        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   46 | L    | sheet2       |                 |           |             |
+|      | L    |              |                 |           | asg2        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   47 | L    | sheet3       |                 |           |             |
+|      | L    |              |                 |           | asg3        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   48 | L    | sheet4       |                 |           |             |
+|      | L    |              |                 |           | asg3        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   49 | L    | sheet5       |                 |           |             |
+|      | L    |              |                 |           | asg4        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   50 | L    | sheet6       |                 |           |             |
+|      | L    |              |                 |           | asg5        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   51 | L    | sheet7       |                 |           | asg6        |
+|------+------+--------------+-----------------+-----------+-------------|
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,29 +217,50 @@ w3.includeHTML();
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 [2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
-[4]: {{ "/assets/dm561-lec2.pdf" | absolute_url }}
 [3]: {{ "/assets/faq.txt" | absolute_url }}
-[5]: {{ "/assets/DM561-DM562-Graphs-small.pdf" | absolute_url }}
-[6]: {{ "/assets/graph-permutation.py" | absolute_url }}
-[7]: {{ "assets/ex-week46.pdf" | absolute_url }}
-[8]: {{ "assets/ex-week47.pdf" | absolute_url }}
-[9]: {{ "/assets/DM561-DM562-RandomPolygon.pdf" | absolute_url }}
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
 [12]: {{ "assets/ullmann.pdf" | absolute_url }}
 [13]: {{ "assets/linreg-notes.pdf" | absolute_url }}
 [14]: {{ "/assets/dm561-lec3.pdf" | absolute_url }}
 [15]: {{ "/assets/dm561-linreg.pdf" | absolute_url }}
-[16]: {{ "/assets/dm561-pagerank.pdf" | absolute_url }}
-[17]: {{ "/assets/asg4.pdf" | absolute_url }}
 [18]: {{ "/assets/sheet5.html" | absolute_url }}
 [19]: {{ "/assets/sheet6.html" | absolute_url }}
-[20]: {{ "/assets/DM561-DM562-PCA-Eigenfaces.pdf" | absolute_url }}
 [21]: {{ "https://arxiv.org/abs/1404.1100" | absolute_url}}
 [22]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
 [23]: {{ "http://setosa.io/ev/principal-component-analysis/" | absolute_url }}
 [24]: {{ "https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html" | absolute_url }}
 [25]: {{ "https://www.learnopencv.com/eigenface-using-opencv-c-python/" | absolute_url }}
 [26]: {{ "https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf" | absolute_url }}
-[27]: {{ "/assets/asg5.pdf" | absolute_url }}
-[28]: {{ "/assets/ex-week51.pdf" | absolute_url }}
+
+
+
+
+
+<!--
+
+{% capture page_link %}{% post_url 2019-10-21-sheet1 %}{% endcapture %}
+[31]: {{ page_link | absolute_url }}
+
+[32]: {{ "assets/ex-week46.pdf" | absolute_url }}
+[33]: {{ 2018-11-16-sheet3 | link_format }}
+[34]: {{ "assets/ex-week47.pdf" | absolute_url }}
+{% capture page_link %}{% post_url 2018-11-26-sheet5 %}{% endcapture %}
+[35]: {{ page_link | absolute_url }}
+{% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
+[36]: {{ page_link | absolute_url }}
+[37]: {{ "/assets/ex-week51.pdf" | absolute_url }}
+
+[50]: {{ "/assignments/asg0.html" | absolute_url }}
+[51]: {{ post_url 2018-11-11-asg1 }}
+[52]: {{ post_url 2018-11-21-asg2 }}
+[53]: {{ post_url 2018-11-28-asg3 }}
+[54]: {{ "/assets/asg4.pdf" | absolute_url }}
+[55]: {{ "/assets/asg5.pdf" | absolute_url }}
+[56]: {{ post_url 2018-12-21-asg6 }}
+
+
+[99]: {{ "/assets/reexam.pdf" | absolute_url }}
+
+
+-->

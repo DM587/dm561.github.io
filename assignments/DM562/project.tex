@@ -1,0 +1,187 @@
+\documentclass[a4paper]{article}
+
+\usepackage{geometry}
+\geometry{paper=a4paper,twoside}
+\geometry{top=18mm,bottom=27mm}
+\geometry{inner=21mm,outer=17mm}
+
+\usepackage[all]{xy}
+\usepackage{comment}
+
+\newcommand{\fit}{\mathsf{fit}}
+\newcommand{\cost}{\mathsf{cost}}
+
+\begin{document}
+
+\begin{center}\LARGE\bf
+  INTRODUCTION TO PROGRAMMING\\
+  \Large DM536, DM562 (Fall 2018)\\ \medskip
+  \large Second assignment -- Deadline: November 16th, 23h59\\
+\end{center}
+
+\section*{The traveling salesman problem}
+
+Consider the following problem.
+\begin{quote}
+  A traveling salesman needs to visit $n$ cities, returning to the initial city at the end of his
+  journey. In which order should he visit them in order to minimize the total distance he travels?
+\end{quote}
+
+This is a classical optimization problem, known as the \emph{Traveling Salesman Problem}. It has
+numerous practical applications, such as:
+\begin{itemize}
+\item planning routes for product distribution;
+\item optimizing resourse usage in factories;
+\item designing flight routes;
+\item analysing crystal structures.
+\end{itemize}
+The traveling salesman problem is also an example of an \emph{NP-complete} problem. From the
+practical side, this means that there are no known polynomial algorithms to solve it (and most
+computer scientists do not believe any such algorithms exist). Therefore, it is extremely useful to
+develop fast algorithms that can be used in practice to find good solutions (although possibly not
+the best ones).
+
+\section*{Simulated annealing}
+
+Simulated annealing is a technique for solving optimization problems that is inspired by the
+chemical process of annealing materials such as glass or metal. In this methodology, we randomly
+generate a potential solution, and then randomly change it. The amount by which we are allowed to
+change the candidate solution is measured by a ``temperature'', which decreases as the number of
+iterations increases. When mutations no longer produce better solutions, the process stops.
+
+\section*{The project}
+
+In this project we will apply simulated annealing to the traveling salesman problem. The parameters
+of the problem are a list of $n$ cities and their geographical coordinates (two real numbers). The
+distance between any two cities is defined as the Euclidean distance between their coordinates.
+
+The candidate solution consists of a path that passes once through each city in the list, and
+returns to the initial city. Each path $p$ has associated a cost $\cost(p)$, computed as the total
+distance the salesman will travel if he follows path $p$.
+
+There are two possible ways to mutate the solution.
+\begin{description}
+\item[Reversion.] The segment between two randomly chosen cities in the current path is reversed.
+\item[Transport.] A segment between two randomly chosen cities in the current path is moved to
+  another place in the path.
+\end{description}
+
+We start with the list of cities as candidate solution and an initial temperature $T$. At each
+iteration, we randomly choose one of the two possible mutations. Next, we compute the difference $d$
+in length between the original path and the new path. If this difference is negative (meaning that
+the new path is shorter) we replace the solution by the new one. Otherwise, we generate a uniformly
+distributed random number $r$ between $0$ and $1$ and replace the solution with the new one if
+$e^{-d}/T > r$. If we try $N_{\mathrm{stop}}$ mutations without improving the solution, we stop and
+return the current solution as the best one found. If we change our solution $N_{\mathrm{dec}}$
+times at the current temperature, we update $T$ to $0.9\times T$.
+
+The given class \verb!RandomUtils! provides methods for generating random numbers. Method
+\verb!boolean coinFlip()! returns \verb!true! with probability $\frac12$ and \verb!false! with
+probability $\frac12$. Method \verb!double getRandom()! returns a uniformly distributed random
+number in the interval $[0,1]$. Method \verb!int getRandomValue(int n)! returns a uniformly
+distributed value in the range $[0,n-1]$. Classes \verb!City! and \verb!CityGenerator! provide
+methods for working with cities and initializing the list of cities.
+
+\section*{Parameters and execution mode}
+
+
+Your program should start by interactively requesting the parameters $T$, $N_{\mathrm{stop}}$ and
+$N_{\mathrm{dec}}$ from the user.
+On termination, it should print the final solution and its cost.
+
+The simulation can be run in two modes:
+\begin{enumerate}
+\item in verbose mode;
+\item in silent mode.
+\end{enumerate}
+In verbose mode, every time you update the solution you print the new path and its cost; every time
+the temperature decreases, you also print out a message.
+In silent mode, there are no messages during the simulation (but you still show the final result).
+
+\section*{Expected results}
+
+You must hand in a class \verb!Simulator.java! implementing the functionality described above.
+Your class should run directly from the command line, and ask for any relevant input using only
+command-line interaction.
+
+You should also hand in a report describing the algorithm implemented, any design choices that you
+think are important to document, and examples. The report will be the basis for the evaluation.
+
+\section*{Suggestions}
+
+It is recommended that you initially develop your program to run always in verbose mode.
+Afterwards, you can add an interactive block to query the user for the desired mode, and extend your
+code to report only if required.
+
+\section*{Testing and examples}
+
+Here are some example executions. Consider using the values given for the parameters. Then
+experiment with your own set of cities and try to adjust the parameters to get the best results.
+
+\subsection*{Example execution}
+\begin{verbatim}
+Enter 1 to use the default list of cities, or 2 to read a custom list from a file.
+1
+Initial temperature: 1000
+Iterations until termination: 50
+Iterations until temperature decreases: 100
+Verbose mode (yes/no)? yes
+New cost: A; B; C; J; K; L; M; D; E; F; G; H; I; N; O; cost: 98.61617427157424
+New cost: A; B; C; J; K; L; M; D; E; F; G; H; N; I; O; cost: 97.59219951605684
+New cost: A; J; C; B; K; L; M; D; E; F; G; H; N; I; O; cost: 97.28526709091133
+New cost: A; J; C; B; K; L; M; D; G; F; E; H; N; I; O; cost: 92.16634050550802
+New cost: A; J; C; B; K; L; D; M; G; F; E; H; N; I; O; cost: 91.19246989831531
+New cost: N; I; O; A; J; C; B; K; L; D; M; G; F; E; H; cost: 91.1924698983153
+New cost: N; I; O; A; J; C; B; K; M; L; D; G; F; E; H; cost: 90.56539153414928
+New cost: N; A; J; C; B; I; O; K; M; L; D; G; F; E; H; cost: 89.37441862655926
+New cost: N; A; J; C; B; I; O; G; D; L; M; K; F; E; H; cost: 83.94075312819918
+New cost: N; A; J; C; B; I; O; G; D; L; M; E; K; F; H; cost: 83.87013744402356
+New cost: N; A; O; I; B; C; J; G; D; L; M; E; K; F; H; cost: 83.5218336050916
+New cost: N; A; O; I; B; C; J; D; G; L; M; E; K; F; H; cost: 79.82180427241855
+New cost: N; A; J; C; B; I; O; D; G; L; M; E; K; F; H; cost: 77.00937212639572
+Best path: N; A; J; C; B; I; O; D; G; L; M; E; K; F; H; cost: 77.00937212639572
+\end{verbatim}
+
+\subsection*{Example execution}
+\begin{verbatim}
+Enter 1 to use the default list of cities, or 2 to read a custom list from a file.
+2
+Please enter the file name:
+cities
+Initial temperature: 1000
+Iterations until termination: 100
+Iterations until temperature decreases: 50
+Verbose mode (yes/no)? yes
+New cost: A; B; C; D; E; H; I; J; F; G; K; L; M; N; O; cost: 101.81568180696138
+New cost: A; B; C; I; J; F; G; K; D; E; H; L; M; N; O; cost: 101.16060716187265
+New cost: A; B; C; I; J; K; G; F; D; E; H; L; M; N; O; cost: 100.93547427715662
+New cost: A; B; C; I; J; E; H; K; G; F; D; L; M; N; O; cost: 97.8211254927697
+New cost: A; B; C; I; J; E; H; K; G; L; D; F; M; N; O; cost: 93.6549995342063
+New cost: A; B; C; I; J; E; H; F; K; G; L; D; M; N; O; cost: 84.87492087686945
+New cost: A; B; C; I; O; N; M; D; L; G; K; F; H; E; J; cost: 83.54605127073576
+New cost: B; A; C; I; O; N; M; D; L; G; K; F; H; E; J; cost: 83.47187272016998
+New cost: B; A; C; I; O; N; M; D; E; H; F; K; G; L; J; cost: 81.78074855841416
+New cost: B; C; A; I; O; N; M; D; E; H; F; K; G; L; J; cost: 77.72474105169442
+New cost: B; C; A; I; O; N; D; E; H; F; K; G; L; M; J; cost: 76.24002320488822
+New cost: B; C; A; I; O; N; D; L; G; K; F; H; E; M; J; cost: 73.18465741137734
+New cost: B; C; A; I; O; N; D; L; G; K; F; E; H; M; J; cost: 72.86039650005222
+New cost: B; C; A; I; O; N; D; L; G; K; M; F; E; H; J; cost: 72.77869416528992
+New cost: B; C; A; I; O; N; D; L; G; K; M; E; F; H; J; cost: 70.37158143261439
+New cost: B; C; A; I; O; N; D; H; F; E; M; K; G; L; J; cost: 70.02038633740273
+New cost: B; J; C; A; I; O; N; D; H; F; E; M; K; G; L; cost: 68.37269723287774
+New cost: C; J; B; A; I; O; N; D; H; F; E; M; K; G; L; cost: 67.80841438141378
+Best path: C; J; B; A; I; O; N; D; H; F; E; M; K; G; L; cost: 67.80841438141378
+\end{verbatim}
+
+\subsection*{Example execution}
+\begin{verbatim}
+Enter 1 to use the default list of cities, or 2 to read a custom list from a file.
+1
+Initial temperature: 1000
+Iterations until termination: 10
+Iterations until temperature decreases: 25
+Verbose mode (yes/no)? no
+Best path: A; J; I; H; E; F; G; D; C; B; K; L; M; N; O; cost: 99.90270234212458
+\end{verbatim}
+
+\end{document}
