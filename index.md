@@ -237,10 +237,14 @@ w3.includeHTML();
 
 
 
-<!--
+
 
 {% capture page_link %}{% post_url 2019-10-21-sheet1 %}{% endcapture %}
 [31]: {{ page_link | absolute_url }}
+
+[50]: {{ "/assignments/asg0.html" | absolute_url }}
+
+<!--
 
 [32]: {{ "assets/ex-week46.pdf" | absolute_url }}
 [33]: {{ 2018-11-16-sheet3 | link_format }}
@@ -251,7 +255,7 @@ w3.includeHTML();
 [36]: {{ page_link | absolute_url }}
 [37]: {{ "/assets/ex-week51.pdf" | absolute_url }}
 
-[50]: {{ "/assignments/asg0.html" | absolute_url }}
+
 [51]: {{ post_url 2018-11-11-asg1 }}
 [52]: {{ post_url 2018-11-21-asg2 }}
 [53]: {{ post_url 2018-11-28-asg3 }}
