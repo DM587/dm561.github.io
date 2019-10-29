@@ -8,15 +8,22 @@ The individual mandatory assignments (called ``labs'' in the following) in the s
 
 Every lab has a corresponding specifications file with some code to get you started and to make your submission compatible with automated test drivers. The template code will be provided via IMADA Git Server at \url{https://git.imada.sdu.dk}. How to proceed in detail will be described below.
 
-\begin{warn}
-Do \textbf{not} move or rename the lab folders or the enclosed specifications files; if you do, the test drivers will not be able to find your assignment.
-\end{warn}
 
 To submit a lab, modify the provided specifications file and use \texttt{git} to submit your solution (discussed in the next section).
 The submissions will be automatically graded. 
 For example, the first assignment (which will not be graded, and is just used to introduce you to the procedure of how you should submit your solutions and how your solution is graded) has the specifications file \texttt{asg0-onlytesting/onlytesting.py}.
-To complete that assignment, provide your implementation in the file \texttt{asg0-onlytesting/onlytesting.py} and submit it via \texttt{git}.
-After grading, you will be able to get access to a file called \texttt{asg0-onlytesting/grade.txt} with your score and some feedback. Each assignment will have a formal deadline. However we will provide testing results once a day, such that you can improve your code. The grading will be based on your implementation at the exact time of the deadline of the assignment.
+To complete that assignment, provide your implementation in the file \texttt{asg0-onlytesting/asg0.py} and submit it via \texttt{git}.
+After grading, you will be able to get access to a file called \texttt{asg0-onlytesting/grade.txt} with your score and some feedback. Each assignment will have a formal deadline. However we will provide testing results once every hour (at minute 00), such that you can improve your code. The grading will be based on your implementation at the exact time of the deadline of the assignment.
+
+
+\begin{warn}
+Do \textbf{not} move or rename the lab folders or the enclosed
+specifications files; if you do, the test drivers will not be able to
+find your assignment. Do \textbf{not} edit the file
+\texttt{grade.txt}. This file is overwritten when you pull with git from
+the remote server and must stay unchanged. 
+\end{warn}
+
 
 \newpage
 \section*{Setup} % ============================================================
