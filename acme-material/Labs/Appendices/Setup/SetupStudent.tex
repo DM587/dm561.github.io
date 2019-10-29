@@ -72,7 +72,7 @@ There are many websites for hosting online git repositories. IMADA has its own s
   
 \item \emph{Connect your folder to the new repository}.
 \label{step:connect-folder}\label{step:download-data}
-In a shell application (Terminal on Linux or Mac, or Git Bash (\url{https://gitforwindows.org/}) on Windows), enter the following commands (we will use the student with the username ``josej16'' as example, of course you have to change this.
+In a shell application (Terminal on Linux or Mac, or Git Bash (\url{https://gitforwindows.org/}) on Windows), enter the following commands (we will use the student with the username ``username'' as example, of course you have to change this.
 
 \begin{lstlisting}
 # Navigate to the folder where you want to store your files
@@ -82,29 +82,29 @@ $ <b<cd>b> /path/to/folder  # cd means 'change directory'.
 $ <b<pwd>b>                 # pwd means 'print working directory'.
 /path/to/folder
 
-# Record your credentials (has to be done once only).
-$ git config --local user.name "Jonathan S. Ejejej"
-$ git config --local user.email "josej16@student.sdu.dk"
-
 # Clone the repository we provided
 
-$ git clone https://git.imada.sdu.dk/DM561-DM562-2019/josej16-repo.git
+$ git clone https://git.imada.sdu.dk/DM561-DM562-2019/username-repo.git
 
-Cloning into 'josej16-repo'...
-Username for 'https://git.imada.sdu.dk': josej16
-Password for 'https://josej16@git.imada.sdu.dk': ********
+Cloning into 'username-repo'...
+Username for 'https://git.imada.sdu.dk': username
+Password for 'https://username@git.imada.sdu.dk': ********
 remote: Counting objects: 48, done.
 remote: Compressing objects: 100% (44/44), done.
 remote: Total 48 (delta 16), reused 0 (delta 0)
 Unpacking objects: 100% (48/48), done.
 $ ls 
-josej16-repo
+username-repo
 
-$ cd josej16-repo
+$ cd username-repo
 $ ls -rtl
--rw------- 1 josej16 josej16   66 Oct 31 19:48 README.md
--rw------- 1 josej16 josej16  134 Oct 31 19:48 Info.md
-drwx------ 2 josej16 josej16 4096 Oct 31 19:48 asg0-onlytesting
+-rw------- 1 username username   66 Oct 31 19:48 README.md
+-rw------- 1 username username  134 Oct 31 19:48 Info.md
+drwx------ 2 username username 4096 Oct 31 19:48 asg0-onlytesting
+
+# Record your credentials (has to be done once only).
+$ git config --local user.name "Firstname Surname"
+$ git config --local user.email "username@student.sdu.dk"
 \end{lstlisting}
 
 
@@ -222,7 +222,7 @@ remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (4/4), done.
-From https://git.imada.sdu.dk/DM561-DM562-2019/josej16-repo
+From https://git.imada.sdu.dk/DM561-DM562-2019/username-repo
    6dde06d..e24cee5  master     -> origin/master
 Updating 6dde06d..e24cee5
 Fast-forward
@@ -270,7 +270,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (4/4), 373 bytes | 373.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0)
-To https://git.imada.sdu.dk/DM561-DM562-2019/josej16-repo.git
+To https://git.imada.sdu.dk/DM561-DM562-2019/username-repo.git
    e24cee5..72a5ab3  master -> master
 
 
