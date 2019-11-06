@@ -133,7 +133,7 @@ w3.includeHTML();
 | Week | Type | Sheet        | Topic  	 | Solutions | Assignments |
 |------+------+--------------+-----------------+-----------+-------------|
 |   44 | L    | [sheet1][31] | Python          |           | [asg0][50]  |
-|   45 | L    |              | Python          |           | asg1        |
+|   45 | L    |              | Python          |           | [asg1][51]    |
 |------+------+--------------+-----------------+-----------+-------------|
 |   46 | L    | sheet2       |                 |           |             |
 |      | L    |              |                 |           | asg2        |
@@ -243,6 +243,7 @@ w3.includeHTML();
 [31]: {{ page_link | absolute_url }}
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
+[51]: {{ "/assignments/asg1.html" | absolute_url }}
 
 <!--
 
