@@ -3,7 +3,7 @@
 	"week": 44,
 	"date": 2019-10-29,
 	"teacher": "Marco",
-        "topics": "Intro to Python - Part 1",
+        "topics": "Python - Part 1: basics, data types, control flow, std library, OO progr.",
 	"turl": "/assets/dm561-lec1.pdf",
 	"sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
     },
@@ -11,7 +11,7 @@
 	"week": 45,
 	"date": 2019-11-05,
 	"teacher": "Marco",
-        "topics": "Intro to Python - Part 2",
+        "topics": "Python - Part 2: exceptions, file i/o, numpy",
 	"turl": "/assets/dm561-lec2.pdf",
 	"sug_reading": "ch 4,6 of [HJ1]"
     },
@@ -19,7 +19,7 @@
 	"week": 45,
 	"date": 2019-11-07,
 	"teacher": "Marco",
-        "topics": "Intro to Python - Part 3",
+        "topics": "Python - Part 3: graphics, data viz, pandas",
 	"turl": "/assets/dm561-lec3.pdf",
 	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; (Ch 9 of [HJ2])"
     },

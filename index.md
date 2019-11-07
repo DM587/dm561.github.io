@@ -133,24 +133,25 @@ w3.includeHTML();
 | Week | Type | Sheet        | Topic  	 | Solutions | Assignments |
 |------+------+--------------+-----------------+-----------+-------------|
 |   44 | L    | [sheet1][31] | Python          |           | [asg0][50]  |
-|   45 | L    |              | Python          |           | [asg1][51]    |
 |------+------+--------------+-----------------+-----------+-------------|
-|   46 | L    | sheet2       |                 |           |             |
-|      | L    |              |                 |           | asg2        |
+|   45 | L    |              | Python          |           | [asg1][51]  |
 |------+------+--------------+-----------------+-----------+-------------|
-|   47 | L    | sheet3       |                 |           |             |
+|   46 | L    | [sheet2][32] |                 |           |             |
+|      | L    | [sheet3][33] |                 |           | asg2        |
+|------+------+--------------+-----------------+-----------+-------------|
+|   47 | L    | sheet4       |                 |           |             |
 |      | L    |              |                 |           | asg3        |
 |------+------+--------------+-----------------+-----------+-------------|
-|   48 | L    | sheet4       |                 |           |             |
+|   48 | L    | sheet5       |                 |           |             |
 |      | L    |              |                 |           | asg3        |
 |------+------+--------------+-----------------+-----------+-------------|
-|   49 | L    | sheet5       |                 |           |             |
+|   49 | L    | sheet6       |                 |           |             |
 |      | L    |              |                 |           | asg4        |
 |------+------+--------------+-----------------+-----------+-------------|
-|   50 | L    | sheet6       |                 |           |             |
+|   50 | L    | sheet7       |                 |           |             |
 |      | L    |              |                 |           | asg5        |
 |------+------+--------------+-----------------+-----------+-------------|
-|   51 | L    | sheet7       |                 |           | asg6        |
+|   51 | L    | sheet8       |                 |           | asg6        |
 |------+------+--------------+-----------------+-----------+-------------|
 
 
@@ -216,13 +217,12 @@ w3.includeHTML();
 
 - [SAA] [Immersive linear algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and
   T. Akenine-Möller. 2017.
-
+for $x$ in $(-1, 1)$ 
 
 
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
-[2]: {{ "/assets/dm561-lec1.pdf" | absolute_url }}
-[3]: {{ "/assets/faq.txt" | absolute_url }}
+
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
 [11]: {{"https://www.pathlms.com/siam/courses/8265/sections/12047" |absolute_url}}
 [12]: {{ "assets/ullmann.pdf" | absolute_url }}
@@ -246,6 +246,8 @@ w3.includeHTML();
 
 {% capture page_link %}{% post_url 2019-10-21-sheet1 %}{% endcapture %}
 [31]: {{ page_link | absolute_url }}
+[32]: {{ site.baseurl }}{% post_url 2019-11-07-sheet2 %}
+[33]: {{ site.baseurl }}{% post_url 2019-11-08-sheet3 %}
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
@@ -272,5 +274,5 @@ w3.includeHTML();
 
 [99]: {{ "/assets/reexam.pdf" | absolute_url }}
 
-
+[3]: {{ "/assets/faq.txt" | absolute_url }}
 -->
