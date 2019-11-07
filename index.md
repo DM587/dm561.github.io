@@ -168,7 +168,11 @@ w3.includeHTML();
 
 #### Recommended book:
 
-- [HJ1] [Python Essentials][1]. Jeffrey Humpherys and Tyler J. Jarvis, managing editors
+- [HJ1] [Python Essentials][1]. Jeffrey Humpherys and Tyler J. Jarvis,
+  managing editors
+  
+- [HJ2] [Data Science Essentials][1]. Jeffrey Humpherys and Tyler
+  J. Jarvis, managing editors
 
 <!--
 - [HJ2] [Labs for Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](2)
@@ -244,3 +248,28 @@ w3.includeHTML();
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
+
+<!--
+
+[32]: {{ "assets/ex-week46.pdf" | absolute_url }}
+[33]: {{ 2018-11-16-sheet3 | link_format }}
+[34]: {{ "assets/ex-week47.pdf" | absolute_url }}
+{% capture page_link %}{% post_url 2018-11-26-sheet5 %}{% endcapture %}
+[35]: {{ page_link | absolute_url }}
+{% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
+[36]: {{ page_link | absolute_url }}
+[37]: {{ "/assets/ex-week51.pdf" | absolute_url }}
+
+
+[51]: {{ post_url 2018-11-11-asg1 }}
+[52]: {{ post_url 2018-11-21-asg2 }}
+[53]: {{ post_url 2018-11-28-asg3 }}
+[54]: {{ "/assets/asg4.pdf" | absolute_url }}
+[55]: {{ "/assets/asg5.pdf" | absolute_url }}
+[56]: {{ post_url 2018-12-21-asg6 }}
+
+
+[99]: {{ "/assets/reexam.pdf" | absolute_url }}
+
+
+-->

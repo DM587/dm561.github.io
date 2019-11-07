@@ -20,8 +20,8 @@
 	"date": 2019-11-07,
 	"teacher": "Marco",
         "topics": "Intro to Python - Part 3",
-	"_turl": "/assets/dm561-lec3.pdf",
-	"_sug_reading": "Sc. 6.3-6.5 of [AR]"
+	"turl": "/assets/dm561-lec3.pdf",
+	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; Ch 9 of [HJ2]"
     },
     {
 	"week": 46,
