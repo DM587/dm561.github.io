@@ -13,7 +13,7 @@
 	"teacher": "Marco",
         "topics": "Intro to Python - Part 2",
 	"turl": "/assets/dm561-lec2.pdf",
-	"sug_reading": "ch 4-6 of [HJ1]"
+	"sug_reading": "ch 4,6 of [HJ1]"
     },
     {
 	"week": 45,
@@ -21,7 +21,7 @@
 	"teacher": "Marco",
         "topics": "Intro to Python - Part 3",
 	"turl": "/assets/dm561-lec3.pdf",
-	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; Ch 9 of [HJ2]"
+	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; (Ch 9 of [HJ2])"
     },
     {
 	"week": 46,
