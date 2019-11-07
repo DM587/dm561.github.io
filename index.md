@@ -171,8 +171,9 @@ w3.includeHTML();
 - [HJ1] [Python Essentials][1]. Jeffrey Humpherys and Tyler J. Jarvis,
   managing editors
   
-- [HJ2] [Data Science Essentials][1]. Jeffrey Humpherys and Tyler
-  J. Jarvis, managing editors
+- [HJ2]
+  [Data Science Essentials](https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/DataScienceEssentials.pdf). Jeffrey
+  Humpherys and Tyler J. Jarvis, managing editors
 
 <!--
 - [HJ2] [Labs for Foundations of Applied Mathematics. Volume 1. Mathematical Analysis](2)
