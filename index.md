@@ -139,7 +139,7 @@ w3.includeHTML();
 |   46 | L    | [sheet2][32] |                 |           |             |
 |      | L    | [sheet3][33] |                 |           | asg2        |
 |------+------+--------------+-----------------+-----------+-------------|
-|   47 | L    | sheet4       |                 |           |             |
+|   47 | L    | [sheet4][34]       |                 |           |             |
 |      | L    |              |                 |           | asg3        |
 |------+------+--------------+-----------------+-----------+-------------|
 |   48 | L    | sheet5       |                 |           |             |
@@ -200,9 +200,7 @@ w3.includeHTML();
   Science](https://www.amazon.com/dp/0615880991/). 1st Edition.
   Newtonian Press; 1 edition, September 3, 2013
 
- 
-
-- [AH] Martin Anthony and Michele Harvey, [Linear Algebra, Concepts and Methods](http://www.cambridge.org/us/academic/subjects/mathematics/algebra/linear-algebra-concepts-and-methods). 2012. Cambridge
+ - [AH] Martin Anthony and Michele Harvey, [Linear Algebra, Concepts and Methods](http://www.cambridge.org/us/academic/subjects/mathematics/algebra/linear-algebra-concepts-and-methods). 2012. Cambridge
 
 
 - [Le] Steven J. Leon, [Linear Algebra with
@@ -218,6 +216,9 @@ w3.includeHTML();
 - [SAA] [Immersive linear algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and
   T. Akenine-Möller. 2017.
 for $x$ in $(-1, 1)$ 
+
+
+- [MC] [Lecture Notes on Linear Regression][13] by Marco Chiarandini, 2018.
 
 
 
@@ -248,6 +249,7 @@ for $x$ in $(-1, 1)$
 [31]: {{ page_link | absolute_url }}
 [32]: {{ site.baseurl }}{% post_url 2019-11-07-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2019-11-08-sheet3 %}
+[34]: {{ site.baseurl }}{% post_url 2019-11-12-sheet4 %}
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
