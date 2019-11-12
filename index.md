@@ -217,9 +217,9 @@ w3.includeHTML();
   T. Akenine-Möller. 2017.
 for $x$ in $(-1, 1)$ 
 
-
+<!--
 - [MC] [Lecture Notes on Linear Regression][13] by Marco Chiarandini, 2018.
-
+-->
 
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
