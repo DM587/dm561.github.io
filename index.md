@@ -137,7 +137,7 @@ w3.includeHTML();
 |   45 | L    |              | Python          |           | [asg1][51]  |
 |------+------+--------------+-----------------+-----------+-------------|
 |   46 | L    | [sheet2][32] |                 |           |             |
-|      | L    | [sheet3][33] |                 |           | asg2        |
+|      | L    | [sheet3][33] |                 |           | [asg2][52]  |
 |------+------+--------------+-----------------+-----------+-------------|
 |   47 | L    | [sheet4][34]       |                 |           |             |
 |      | L    |              |                 |           | asg3        |
@@ -252,6 +252,7 @@ for $x$ in $(-1, 1)$
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
+[52]: {{ "/assets/asg_linreg.pdf" | absolute_url }}
 
 <!--
 
@@ -268,7 +269,7 @@ for $x$ in $(-1, 1)$
 [51]: {{ post_url 2018-11-11-asg1 }}
 [52]: {{ post_url 2018-11-21-asg2 }}
 [53]: {{ post_url 2018-11-28-asg3 }}
-[54]: {{ "/assets/asg4.pdf" | absolute_url }}
+
 [55]: {{ "/assets/asg5.pdf" | absolute_url }}
 [56]: {{ post_url 2018-12-21-asg6 }}
 
