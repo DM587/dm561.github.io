@@ -191,11 +191,11 @@ you implement to draw a plot with the points and the fitted linear
 regression.
 
 \paragraph{Exponential function}
-Making the substitution \[Y=\ln y\] in the equation $y=ae^x$ produces the
+Making the substitution \[Y=\ln y\] in the equation $y=ae^{bx}$ produces the
 equation $Y=bx+\ln a$, whose graph in the $xY$-plane is a line of slope
 $b$ and $Y$-intercept $\ln a$.  Verify this fact!
 
-Hence, a curve of the form $y=ae^x$ can be fitted to the given $n$ data
+Hence, a curve of the form $y=ae^{bx}$ can be fitted to the given $n$ data
 points $(x_i,y_i)$ by letting $Y_i=\ln y_i$, then fitting a straight
 line to the transformed data points $(x_i,Y_i)$ by least squares to find
 $b$ and $\ln a$, and then computing $a$ from $\ln a$.  Implement this
@@ -224,14 +224,14 @@ draw a plot with the points and the fitted curve.
 
 
 \paragraph{Logarithmic function} Making the substitution \[X=\ln x\]
-in the equation $y=a+b\ln x^b$ produces the equation $Y=a+bX$, whose
+in the equation $y=a+b\ln x$ produces the equation $Y=a+bX$, whose
 graph in the $Xy$-plane is a line of slope $b$ and $y$-intercept
 $a$. Verify this fact!
 
 Hence, a curve of the form $y=a+b\ln x$ can be fitted to the given $n$ data
-points $(x_i,y_i)$ by letting $X_i=\ln x_i$, then fitting a straight
+points $(x_i,y_i)$ by letting $X_i=\ln x_i$ and then fitting a straight
 line to the transformed data points $(X_i,y_i)$ by least squares to find
-$b$ and $a$, and finally computing $a$ from $\ln a$.  Implement this
+$b$ and $a$.  Implement this
 method to fit a logarithmic model in the function
 \lstinline{logarithmic_fit}. You can visualize the situation executing
 the file \lstinline{draw.py} that uses the function that you implement
