@@ -32,6 +32,25 @@
 \usepackage[vlined]{algorithm2e}
 
 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} \lhead{{DM561 -- {\sc Autumn} 2019}} \chead{}
+\rhead{{\sc Assignment}}
+
+%\setlength{\headheight}{4ex}
+\fancypagestyle{plain}{
+\lhead{Department of Mathematics and Computer Science\\
+University of Southern Denmark, Odense}
+\chead{}
+\rhead{\today\\
+DM \& MC}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+}
+
+
 \usepackage{fancyvrb}
 \RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
 
@@ -213,7 +232,7 @@ equation $y=ax^b$ produces the equation $Y=bX+\ln a$, whose graph in the
 $XY$-plane is a line of slope $b$ and $Y$-intercept $\ln a$.  Verify
 this fact!
 
-Hence, a curve of the form $y=ae^x$ can be fitted to the given $n$ data
+Hence, a curve of the form $y=ax^b$ can be fitted to the given $n$ data
 points $(x_i,y_i)$ by letting $X_i=\ln x_i$ and $Y_i=\ln y_i$, then
 fitting a straight line to the transformed data points $(X_i,Y_i)$ by
 least squares to find $b$ and $\ln a$, and finally computing $a$ from $\ln
