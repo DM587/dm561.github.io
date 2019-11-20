@@ -222,10 +222,13 @@ for $x$ in $(-1, 1)$
 
 
 - [NS]
-  [Numpy API reference](https://docs.scipy.org/doc/numpy/reference/) and
-  [Scipy API reference](https://docs.scipy.org/doc/scipy/reference/linalg.html)
-  (scipy is a superset of numpy often optimized in performance)
-
+  [`numpy` API reference](https://docs.scipy.org/doc/numpy/reference/) and
+  its submodule
+  [linalg](https://docs.scipy.org/doc/numpy/reference/routines.linalg.html);
+  and [`scipy` API reference](https://docs.scipy.org/doc/scipy/reference/)
+  and its submodule
+  [linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html).
+  (`scipy` is a superset of `numpy`.) 
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
