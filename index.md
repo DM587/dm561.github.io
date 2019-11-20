@@ -221,6 +221,12 @@ for $x$ in $(-1, 1)$
 - [MC] [Lecture Notes on Linear Regression][13] by Marco Chiarandini.
 
 
+- [NS]
+  [Numpy API reference](https://docs.scipy.org/doc/numpy/reference/) and
+  [Scipy API reference](https://docs.scipy.org/doc/scipy/reference/linalg.html)
+  (scipy is a superset of numpy often optimized in performance)
+
+
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
