@@ -140,7 +140,7 @@ w3.includeHTML();
 |      | L    | [sheet3][33] |                 |           | [asg2][52]  |
 |------+------+--------------+-----------------+-----------+-------------|
 |   47 | L    | [sheet4][34]       |                 |           |             |
-|      | L    |              |                 |           | asg3        |
+|      | L    |              |                 |           | [asg3][53]        |
 |------+------+--------------+-----------------+-----------+-------------|
 |   48 | L    | sheet5       |                 |           |             |
 |      | L    |              |                 |           | asg3        |
@@ -262,7 +262,8 @@ for $x$ in $(-1, 1)$
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
 [52]: {{ "/assets/asg_linreg.pdf" | absolute_url }}
-
+[53]: {{ "/assignments/asg3.html" | absolute_url }}
+[
 <!--
 
 [32]: {{ "assets/ex-week46.pdf" | absolute_url }}
