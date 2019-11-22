@@ -142,7 +142,7 @@ w3.includeHTML();
 |   47 | L    | [sheet4][34] |                 |           |             |
 |      | L    |              |                 |           | [asg3][53]  |
 |------+------+--------------+-----------------+-----------+-------------|
-|   48 | L    | [sheet5][37] |                 |           |             |
+|   48 | L    | [sheet5][35] |                 |           |             |
 |      | L    |              |                 |           | asg4        |
 |------+------+--------------+-----------------+-----------+-------------|
 |   49 | L    | sheet6       |                 |           |            |
@@ -258,6 +258,7 @@ for $x$ in $(-1, 1)$
 [32]: {{ site.baseurl }}{% post_url 2019-11-07-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2019-11-08-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2019-11-12-sheet4 %}
+[35]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
@@ -273,7 +274,6 @@ for $x$ in $(-1, 1)$
 [35]: {{ page_link | absolute_url }}
 {% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
 [36]: {{ page_link | absolute_url }}
-[37]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
 
 
 [51]: {{ post_url 2018-11-11-asg1 }}
