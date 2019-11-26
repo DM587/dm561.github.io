@@ -44,8 +44,8 @@
 	"date": 2019-11-26,
 	"teacher": "Daniel",
         "topics": "From Random Polygon to Ellipse",
-	"_turl": "/assets/DM561-DM562-RandomPolygon.pdf",
-	"_sug_reading": "[Article (pp 1-5,17)][10]; [Video (optional)][11]"
+	"turl": "/assets/DM561-DM562-RandomPolygon.pdf",
+	"sug_reading": "[Article (pp 1-5,17)][10]; [Video (optional)][11]"
     },
     {
 	"week": 49,
