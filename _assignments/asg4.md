@@ -2,8 +2,7 @@
 layout: default
 mathjax: true
 title:  asg4
-script1:  wiener.py  
-script2:  polygon.py  
+script:  polygon.py  
 date:   2019-12-01 09:37:49 +0100
 categories: assignments
 ---
@@ -18,7 +17,7 @@ The scripts that you have to edit and submit before the deadline are
 You get it by pulling your git repository.
 
 ```python
-{% include_relative {{ page.script1 }} %}
+{% include_relative {{ page.script }} %}
 ```
 
 
