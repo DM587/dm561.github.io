@@ -145,7 +145,7 @@ w3.includeHTML();
 |   48 | L    | [sheet5][35] |                   |               |             |
 |      | L    |              |                   |               | asg4        |
 |------+------+--------------+-------------------+---------------+-------------|
-|   49 | L    | sheet6       |                   |               |             |
+|   49 | L    | [sheet6][36]       |                   |               |             |
 |      | L    |              |                   |               | asg5        |
 |------+------+--------------+-------------------+---------------+-------------|
 |   50 | L    | sheet7       |                   |               |             |
@@ -260,6 +260,7 @@ for $x$ in $(-1, 1)$
 [34]: {{ site.baseurl }}{% post_url 2019-11-12-sheet4 %}
 [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
 [35]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
+[36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
