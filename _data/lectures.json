@@ -45,7 +45,7 @@
 	"teacher": "Daniel",
         "topics": "From Random Polygon to Ellipse",
 	"turl": "/assets/DM561-DM562-RandomPolygon.pdf",
-	"sug_reading": "[Article (pp 1-5,17)][10]; [Video (optional)][11]"
+	"sug_reading": "<a href=\"https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
     },
     {
 	"week": 49,
