@@ -52,8 +52,8 @@
 	"date": 2019-12-03,
 	"teacher": "Marco",
         "topics": "Page Rank",
-	"_turl": "/assets/dm561-pagerank.pdf",
-	"_sug_reading": "Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X)"
+	"turl": "/assets/dm561-pagerank.pdf",
+	"sug_reading": "Sc. 4.12, 9.2-9.3, 10.5 of [AR]; [Article](https://doi.org/10.1016/S0169-7552(98)00110-X)"
     },
     {
 	"week": 50,
