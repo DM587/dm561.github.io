@@ -7,7 +7,7 @@ date:   2019-12-06 09:37:49 +0100
 categories: assignments
 ---
 
-#### Assignment 5: PageRank Algorithm
+## Assignment 5: PageRank Algorithm
 
 *Submission Deadline: Monday, December 16, 2019, at noon*
 
