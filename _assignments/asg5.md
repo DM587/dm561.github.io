@@ -21,9 +21,9 @@ pulling your git repository. The file `asg5.py` is the only one that
 needs to be edited and submitted.
 
 
-## Task 1
+### Task 1
 
-### Subtask a.
+#### Subtask 1.a
 
 Write a class for representing directed graphs via their adjacency
 matrices. The constructor should accept an $n\times n$ adjacency
@@ -47,7 +47,7 @@ help you.)
 In the docstring example you find the same graph that was used in
 slides.
 
-### Subtask b.
+#### Subtask 2.b
 
 Add the following methods to your class from the previous Subtask. Each
 should accept a damping factor $\epsilon$ (defaulting to 0.85),
@@ -87,7 +87,7 @@ should get the following dictionary mapping labels to PageRank values.
 {'a': 0.095758635, 'b': 0.274158285, 'c': 0.355924792, 'd': 0.274158285}
 ```
 
-### Subtask c.
+#### Subtask 3.c
 
 Write a function that accepts a dictionary mapping labels to PageRank
 values, like the outputs in the previous Subtask and returns a list of
@@ -113,7 +113,7 @@ to `c`, while `c` splits its importance between `b` and `d`.
 Of course, constructing rankings is much more difficult to do by hand
 when there are more than just a few nodes in the graph.
 
-## Task 2
+### Task 2
 
 The file `web_stanford.txt` contains a subset of the information on
 [Stanford University webpages](http://snap.stanford.edu/data/web-Stanford.html)
