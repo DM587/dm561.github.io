@@ -261,6 +261,9 @@ for $x$ in $(-1, 1)$
 [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
 [35]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
+{% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
+[37]: {{ page_link | absolute_url }}
+
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
@@ -277,8 +280,6 @@ for $x$ in $(-1, 1)$
 {% capture page_link %}{% post_url 2018-11-26-sheet5 %}{% endcapture %}
 [35]: {{ page_link | absolute_url }}
 {% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
-[36]: {{ page_link | absolute_url }}
-{% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
 [36]: {{ page_link | absolute_url }}
 
 
