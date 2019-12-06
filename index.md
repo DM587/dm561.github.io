@@ -278,7 +278,7 @@ for $x$ in $(-1, 1)$
 [35]: {{ page_link | absolute_url }}
 {% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
 [36]: {{ page_link | absolute_url }}
-{% capture page_link %}{% post_url 2019-12-03-sheet7.md %}{% endcapture %}
+{% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
 [36]: {{ page_link | absolute_url }}
 
 
