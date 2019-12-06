@@ -9,7 +9,7 @@ categories: assignments
 
 #### Assignment 4: From Random Polygon to Ellipse / Wiener Index 
 
-*Submission Deadline: Monday, December 999999999 2019, at noon*
+*Submission Deadline: Monday, December 9 2019, at noon*
 
 
 The scripts that you have to edit and submit before the deadline are
