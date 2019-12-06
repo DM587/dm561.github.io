@@ -286,7 +286,7 @@ for $x$ in $(-1, 1)$
 [52]: {{ post_url 2018-11-21-asg2 }}
 [53]: {{ post_url 2018-11-28-asg3 }}
 
-[55]: {{ "/assets/asg5.pdf" | absolute_url }}
+
 [56]: {{ post_url 2018-12-21-asg6 }}
 
 
