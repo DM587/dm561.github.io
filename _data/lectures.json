@@ -61,7 +61,7 @@
 	"teacher": "Daniel",
         "topics": "Eigenfaces",
 	"turl": "/assets/DM561-DM562-PCA-Eigenfaces.pdf",
-	"sug_reading": "<a href=\"https://arxiv.org/abs/1404.1100\">Article</a>; 
+	"sug_reading": "<a href=\"https://arxiv.org/abs/1404.1100\">Article (Tutorial on PCA)</a>; 
         <a href=\"https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf\"> Chapter 7 (Facial Recognition)</a>; 
         <a href=\"http://setosa.io/ev/principal-component-analysis/\"> Visual Intro</a>; 
         <a href=\"https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html\"> PCA Tutorial</a>;
