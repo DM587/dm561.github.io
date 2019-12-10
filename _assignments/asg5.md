@@ -73,7 +73,7 @@ mapping label $i$ to its PageRank value $x_i$.
 3.`itersolve()`: in addition to $\epsilon$, accept an
   integer `maxiter` and a float `tol`. Iterate until
   $||\mathbf{x}_t - \mathbf{x}_{t-1}||_1 < \texttt{tol}$ or
-  $t \textgreater{} $ \texttt{maxiter}.
+  $t \textgreater{} \texttt{maxiter}$.
   Use $\mathbf{x}_{0}=[\frac{1}{n},\frac{1}{n},\ldots,\frac{1}{n}]^{\mathsf{T}}$
   as the initial vector (any positive vector that sums to $1$ will do,
   but this assumes equal starting probabilities).
