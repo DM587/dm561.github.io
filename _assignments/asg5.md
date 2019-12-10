@@ -54,7 +54,8 @@ should accept a damping factor $\epsilon$ (defaulting to 0.85),
 compute the PageRank vector $\mathbf{x}$, and return a dictionary
 mapping label $i$ to its PageRank value $x_i$.
 
-1. `linsolve()`: solve for $\mathbf{x}$ in slide 27 after
+
+**1. `linsolve()`**: solve for $\mathbf{x}$ in slide 27 after
   substituting the fact that
   $\mathbf{1}\mathbf{1}^{\mathsf{T}}\mathbf{x}=\mathbf{1}$ since
   $\sum_i x_t(i)=1$:
@@ -66,14 +67,14 @@ mapping label $i$ to its PageRank value $x_i$.
       \end{array}
   $$
 
-2.`eigensolve()`: solve $\bar{A}\mathbf{x} = \mathbf{x}$ from
+**2. `eigensolve()`**: solve $\bar{A}\mathbf{x} = \mathbf{x}$ from
   slide 28 for $\mathbf{x}$. Normalize the resulting eigenvector so that
   its entries sum to $1$.
 
-3.`itersolve()`: in addition to $\epsilon$, accept an
+**3. `itersolve()`**: in addition to $\epsilon$, accept an
   integer `maxiter` and a float `tol`. Iterate until
-  $||\mathbf{x}_t - \mathbf{x}_{t-1}||_1 < \texttt{tol}$ or
-  $t \textgreater{} \texttt{maxiter}$.
+  $$ ||\mathbf{x}_{t}- \mathbf{x}_{t-1}||_1 < \mathtt{tol} \; \text{or} \;
+  t > \mathtt{maxiter}$$.
   Use $\mathbf{x}_{0}=[\frac{1}{n},\frac{1}{n},\ldots,\frac{1}{n}]^{\mathsf{T}}$
   as the initial vector (any positive vector that sums to $1$ will do,
   but this assumes equal starting probabilities).
