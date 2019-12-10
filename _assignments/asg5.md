@@ -70,7 +70,7 @@ mapping label $i$ to its PageRank value $x_i$.
   slide 28 for $\mathbf{x}$. Normalize the resulting eigenvector so that
   its entries sum to $1$.
 
-3.`itersolve(): in addition to $\epsilon$, accept an
+3.`itersolve()`: in addition to $\epsilon$, accept an
   integer `maxiter` and a float `tol`. Iterate until
   $||\mathbf{x}_t - \mathbf{x}_{t-1}||_1 < \texttt{tol}$ or
   $t \textgreater{} $ \texttt{maxiter}.
