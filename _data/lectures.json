@@ -60,8 +60,8 @@
 	"date": 2019-12-10,
 	"teacher": "Daniel",
         "topics": "Eigenfaces",
-	"_turl": "/assets/DM561-DM562-PCA-Eigenfaces.pdf",
-	"_sug_reading": "[Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24];<br> [Eigenfaces (OpenCV based)][25]"
+	"turl": "/assets/DM561-DM562-PCA-Eigenfaces.pdf",
+	"sug_reading": "[Article][21]; [Chapter 7 (Facial Recognition)][26]; [Visual Intro][23]; [PCA Tutorial][24];<br> [Eigenfaces (OpenCV based)][25]"
     }
 ]
 
