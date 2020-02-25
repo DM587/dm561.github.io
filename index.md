@@ -274,26 +274,3 @@ for $x$ in $(-1, 1)$
 [55]: {{ "/assignments/asg5.html" | absolute_url }}
 [56]: {{ "/assignments/asg6.html" | absolute_url }}
 
-<!--
-
-[32]: {{ "assets/ex-week46.pdf" | absolute_url }}
-[33]: {{ 2018-11-16-sheet3 | link_format }}
-[34]: {{ "assets/ex-week47.pdf" | absolute_url }}
-{% capture page_link %}{% post_url 2018-11-26-sheet5 %}{% endcapture %}
-[35]: {{ page_link | absolute_url }}
-{% capture page_link %}{% post_url 2018-12-04-sheet6 %}{% endcapture %}
-[36]: {{ page_link | absolute_url }}
-
-
-[51]: {{ post_url 2018-11-11-asg1 }}
-[52]: {{ post_url 2018-11-21-asg2 }}
-[53]: {{ post_url 2018-11-28-asg3 }}
-
-
-[56]: {{ post_url 2018-12-21-asg6 }}
-
-
-[99]: {{ "/assets/reexam.pdf" | absolute_url }}
-
-[3]: {{ "/assets/faq.txt" | absolute_url }}
--->
