@@ -151,7 +151,7 @@ w3.includeHTML();
 |   50 | L    | [sheet7][37] | Page Rank                      |               |             |
 |      | L    |              |                                |               | [asg6][56]        |
 |------+------+--------------+--------------------------------+---------------+-------------|
-|   51 | L    | sheet8       |                                |               |             |
+|   51 | L    | [sheet8][38] |                                |               |             |
 |------+------+--------------+--------------------------------+---------------+-------------|
 
 
@@ -263,6 +263,7 @@ for $x$ in $(-1, 1)$
 [36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
+[38]: {{ "/assets/ex-week51-2019.pdf" | absolute_url }}
 
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
