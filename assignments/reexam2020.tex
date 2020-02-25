@@ -1,0 +1,311 @@
+%\documentclass[a4paper,10pt]{report}
+\documentclass[a4paper,10pt]{article}
+%\pdfoutput=1
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+%\usepackage{palatino}
+\usepackage[math]{kurier}
+%\usepackage[sc]{mathpazo} % consider options: osf, sc
+\usepackage{xspace}
+%\PassOptionsToPackage{latex2html}{hyperref}  
+%\usepackage{html} 
+\usepackage{url} 
+%\usepackage{booktabs} 
+%\usepackage{hyperref}
+%\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{rotating}
+%\usepackage{srctex}
+\usepackage{color}
+\usepackage{enumerate}
+%\usepackage{afterpage}
+
+\usepackage{arydshln}
+\usepackage{etoolbox}
+\usepackage{blkarray}
+\usepackage{multirow}
+
+\usepackage{listings}
+\usepackage[vlined]{algorithm2e}
+
+
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=5mm}
+
+\graphicspath{{Figures/}}
+
+\usepackage{physics}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{mylstset}
+\usepackage{mystyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newif\ifshow
+\showtrue
+%\showfalse
+\usepackage{exercises}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage[all]{xy}
+
+
+\newcommand{\row}[1]{
+%HEVEA \begin{comment}
+\ensuremath \overrightarrow{\mathbf #1}
+%HEVEA \end{comment}
+%HEVEA \overrightarrow{\mathbf #1}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{enumitem}
+\newcommand{\lastwords}{End of Examination}
+\newlist{subquestion}{enumerate}{1}
+\setlist[subquestion,1]{label=(\alph*)}
+\def\la{\langle}
+\def\ra{\rangle}
+\def\R{\mathbb R}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\setcounter{tocdepth}{1}
+
+
+
+
+\title{%
+\begin{flushleft}
+DM561 -- Linear Algebra with Applications\\[0.3cm]
+%{\Large Reexam for Obligatory Assignments, Autumn 2018} %
+%\ahref{\url{http://www.imada.sdu.dk/~marco/DM559/Assignments-LA/sheet2.pdf}}{\tiny
+%  [pdf format]}
+%\\
+\hrulefill
+\\[-1.8cm]
+\end{flushleft}
+}
+
+
+%\hrulefill \\[-1.8cm]
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\medskip
+
+\begin{itemize}
+
+\itemsep=1ex
+
+\item The reexam consists of two separated assignments:
+
+\begin{itemize}
+
+\item \emph{Theory assignment}:
+  \begin{itemize}
+\item Specifications in this document
+\item Hand in PDF via BlackBoard SDU Assignments.
+  \end{itemize}
+  
+\item \emph{Applications assignment}:
+  \begin{itemize}
+  \item Specifications at the course web page
+    \url{https://dm561.github.io/}:\\ assignments: asg1, asg2, asg3, asg4,
+    asg5, asg6
+%  \item {\bf Deadline: Monday, April 1, 2019 at noon}
+  \item Hand in via git push as during the course.
+  \end{itemize}
+\end{itemize}
+  
+\item {\bf Deadline for both assignments: Tuesday, March 31, 2020 at noon}
+
+\item You are expected to work individually on the assignments.
+
+  
+\item Deadline extensions will not be conceded.
+\end{itemize}
+
+
+\clearpage
+
+\section*{Theory Assignment}
+
+
+For questions, you may contact the lecturer by e-mail
+\url{marco@imada.sdu.dk}. \\ You may answer in Danish or English. Your
+solution must be handed in as a single PDF file clearly stating your
+{\bf full name and birth date} on the front page. You have to hand in
+using SDU Assignment before Tuesday, March 31 at noon.
+%In case of
+%irrecoverable technical problems with Blackboard, you may hand in the
+%exam electronically by sending an email to the lecturer before the
+%deadline. \\
+
+
+\bigskip
+% End title page
+
+You may use the course book, the slides from the lectures, and notes from
+the lectures and the exercises. You are allowed to use tools such as
+Python to assist you in calculations, but you must write the calculations out
+in full so that they can be followed by the examiners.  It is not
+sufficient to present an answer, you must show how you found it.  If you
+use a theorem from the book (or the slides), make a reference to
+it. \newline
+\vspace{10mm}
+
+
+\noindent
+{\bf Problem 1.}
+
+\vspace{3mm}\noindent
+Consider the following system of linear equations in variables $x_1$, $x_2$, $x_3$, $x_4$
+
+$$
+\begin{aligned}
+x_1 + x_2 - x_4 & = 1 \\
+2x_1 + x_2 +2x_3 & = 0 \\
+x_2 + x_3 & = -1 \\
+x_1 - x_2 + x_3 + x_4 & = 0
+\end{aligned} 
+$$
+
+\vspace{1mm}\noindent
+(a) Write the augmented matrix of the system. 
+
+\vspace{1mm}\noindent
+(b) Reduce the matrix to row echelon form by performing a sequence of elementary row operations. 
+
+\vspace{1mm}\noindent
+(c) Solve the system and write its general solution in parametric form. 
+
+\vspace{20mm}\noindent
+{\bf Problem 2.}
+
+\vspace{3mm}\noindent
+Consider the following matrix 
+$$
+A = \left[ \begin{array}{rrr} 1 & 1 & 1 \\ -1 & 1 & -2 \\ 0 & 2 & -2 \end{array} \right]
+$$
+
+\vspace{1mm}\noindent
+(a) Find its inverse (if it exists) by performing suitable row operations on the double matrix 
+$[A \mid I]$. 
+
+\vspace{1mm}\noindent
+(b) Calculate the determinant of $A$ by a cofactor expansion. 
+
+\vspace{20mm}\noindent
+{\bf Problem 3.}
+
+\vspace{3mm}\noindent
+Let $P_2=\{ a_0 + a_1x + a_2x^2 \mid a_0,a_1,a_2\in \R\}$ be the vector space of polynomials 
+with real coefficients and of degree at most 2. Consider elements $f_1=1 + x^2$, $f_2= 1+x$, $f_3= x+x^2$ 
+of this vector space. 
+
+\vspace{1mm}\noindent
+(a) Show that $\{f_1,f_2,f_3\}$ is a basis of $P_2$. 
+
+\vspace{1mm}\noindent
+(b) Write an arbitrary element $a_0 + a_1x + a_2x^2$ of $P_2$ as a linear combination of $f_1$, $f_2$ and $f_3$. 
+That is, find the coordinates of $a_0 + a_1x + a_2x^2$ with respect to the basis $\{f_1,f_2,f_3\}$. 
+
+
+\vspace{20mm}
+\newpage
+\noindent
+{\bf Problem 4.}
+
+\vspace{3mm}\noindent
+Consider a linear map $T:\R^2\to\R^2$ such that 
+$$
+T(x,y) = (x-2y, x+y). 
+$$
+Find the matrix of $T$ with respect to the basis $B=\{(1,-1),(1,0)\}$ of $\R^2$. That is, find $[T]_{B,B}$. 
+
+\vspace{20mm}\noindent
+{\bf Problem 5.}
+
+\vspace{3mm}\noindent
+Consider a linear map $:\R^3\to\R^3$ such that 
+$$
+U:\left( \begin{array}{c} x \\ y \\ z \end{array} \right) \mapsto 
+\left[ \begin{array}{rcc} 1 & 1 & 2 \\ 0 & 1 & 1 \\ -1 & 1 & 0 \end{array} \right] 
+\left( \begin{array}{c} x \\ y \\ z \end{array} \right)
+$$
+
+\vspace{1mm}\noindent
+(a) Find a basis for $\ker(U)$. 
+
+\vspace{1mm}\noindent
+(b) Give the rank and the nullity of $U$. 
+
+\vspace{1mm}\noindent
+(c) Doeas the vector 
+$$
+\left( \begin{array}{r} 2 \\ 1 \\ -1 \end{array} \right)
+$$
+belong to the range of $U$ (i.e. to the column space of $U$)?
+
+\noindent
+{\bf Problem 6.}
+
+\vspace{3mm}\noindent
+Consider the following matrix
+$$
+A=\left[ \begin{array}{rcc} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{array} \right] 
+$$
+
+\vspace{1mm}\noindent
+(a) Solve the characteristic equation for $A$ and thus find its eigenvalues. 
+
+\vspace{1mm}\noindent
+(b) For each eigenvalue, find a basis of the corresponding eigenspace. 
+
+\vspace{1mm}\noindent
+(c) By the Gramm-Schmidt orthogonalization process or otherwise, find an orthonormal basis of $\R^3 $
+(equipped with the standard Euclidean inner product) consisting of eigenvectors for $A$. 
+
+\vspace{1mm}\noindent
+(d) Find an orthogonal matrix $P$ and a diagonal matrix $D$ such that 
+$$
+A=PDP^{-1}. 
+$$
+
+\vspace{1mm}\noindent
+(e) Find matrix $A^{2020}$. 
+
+\vspace{20mm}\noindent
+{\bf Problem 7.}
+
+\vspace{3mm}\noindent
+Consider the space $\R^3$ equipped with the standard Euclidean inner product, and its subspace 
+$$
+W = \{(x-y,x,x+y) \mid x,y\in\R\}. 
+$$
+
+\vspace{1mm}\noindent
+(a) Find an orthonormal basis for $W$. 
+
+\vspace{1mm}\noindent
+(b) Let $v=(1,0,0)$. Find the orthogonal projection of $v$ onto $W$. 
+
+\vspace{1mm}\noindent
+(c) Find the distance from the vector $v$ to the subspace $W$. 
+
+\end{document}
