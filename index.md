@@ -22,15 +22,16 @@ layout: default
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
-- Teachers: Rasmus Bo Adeltoft (DM561), Johannes Lauritsen (DM561),
-  [Nicklas Sindlev Andersen](https://imada.sdu.dk/~sindlev/) (DM562)
+- Teachers: Robert Reine Rasmussen (DM561), Simon Skjernaa Erfurth
+  (DM561), Rasmus Kornbek (DM561, DM562), 
+  [Rui Zhang](https://portal.findresearcher.sdu.dk/en/persons/ruizhang) (DM562)
 
 <!-- hmoel15@student.sdu.dk -->
 
 ## Schedule
 
 MitSDU: <a
-href="https://mitsdu.sdu.dk/skema/activity/N330024101/e19">DM561</a>, <a href="https://mitsdu.sdu.dk/skema/activity/N330025101/e19">DM562</a>
+href="https://mitsdu.sdu.dk/skema/activity/N330024101/e20">DM561</a>, <a href="https://mitsdu.sdu.dk/skema/activity/N330025101/e20">DM562</a>
 
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
@@ -59,6 +60,24 @@ w3-left-align">Schedule for DM561, section H2 <i class="fa fa-caret-down"></i></
 <div class="w3-responsive">
 
 <div w3-include-html="./assets/dm561_h2.html"></div> 
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
+
+
+
+
+
+
+<button onclick="myFunction('h3')" class="w3-btn w3-cell
+w3-left-align">Schedule for DM561, section H3 <i class="fa fa-caret-down"></i></button>
+<div id="h3" class="w3-container w3-hide">
+
+<div class="w3-responsive">
+
+<div w3-include-html="./assets/dm561_h3.html"></div> 
 <script>
 w3.includeHTML();
 </script>
@@ -129,6 +148,35 @@ w3.includeHTML();
 
 
 
+| Week | Sheet | Topic  	 | Solutions | Assignments |
+|------+-------+-----------------+-----------+-------------|
+|   44 |       | Python          |           | asg0        |
+|------+-------+-----------------+-----------+-------------|
+|   45 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   46 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   47 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   48 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   49 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   50 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   51 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+
+
+
+
+<!--
+
 
 | Week | Type | Sheet        | Topic  	                | Solutions     | Assignments |
 |------+------+--------------+--------------------------------+---------------+-------------|
@@ -155,7 +203,7 @@ w3.includeHTML();
 |------+------+--------------+--------------------------------+---------------+-------------|
 
 
-
+-->
 
 
 
