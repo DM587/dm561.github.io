@@ -12,7 +12,8 @@ layout: default
 - Official course description:
   [DM561](https://odinlister.sdu.dk/fagbesk/internkode/DM561/), [DM562](https://odinlister.sdu.dk/fagbesk/internkode/DM562/)
 
-- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410238_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_410243_1)
+- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_422174_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_422179_1)
+
 
 - Teachers:
   [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski)
