@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+mathjax: true
 ---
 
 
@@ -19,12 +20,12 @@ layout: default
   [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski)
   (DM561),
   [Luís Cruz-Filipe](https://portal.findresearcher.sdu.dk/da/persons/lcf)
-  (DM562), 
+  (DM562),
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
 - Teachers: Robert Reine Rasmussen (DM561), Simon Skjernaa Erfurth
-  (DM561), Rasmus Kornbek (DM561, DM562), 
+  (DM561), Rasmus Kornbek (DM561, DM562),
   [Rui Zhang](https://portal.findresearcher.sdu.dk/en/persons/ruizhang) (DM562)
 
 <!-- hmoel15@student.sdu.dk -->
@@ -45,7 +46,7 @@ w3-left-align">Schedule for DM561, section H1 <i class="fa fa-caret-down"></i></
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=egkljh81e5gn1qa11drhvli5g1quqn6e%40import.calendar.google.com&amp;color=%23853104&amp;src=i1sgtn4cueuhfc0o5u0aao73ikbrkuol%40import.calendar.google.com&amp;color=%23853104&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="960" height="600" frameborder="0" scrolling="no"></iframe>
 -->
 
-<div w3-include-html="./assets/dm561_h1.html"></div> 
+<div w3-include-html="./assets/dm561_h1.html"></div>
 <script>
 w3.includeHTML();
 </script>
@@ -60,7 +61,7 @@ w3-left-align">Schedule for DM561, section H2 <i class="fa fa-caret-down"></i></
 
 <div class="w3-responsive">
 
-<div w3-include-html="./assets/dm561_h2.html"></div> 
+<div w3-include-html="./assets/dm561_h2.html"></div>
 <script>
 w3.includeHTML();
 </script>
@@ -78,7 +79,7 @@ w3-left-align">Schedule for DM561, section H3 <i class="fa fa-caret-down"></i></
 
 <div class="w3-responsive">
 
-<div w3-include-html="./assets/dm561_h3.html"></div> 
+<div w3-include-html="./assets/dm561_h3.html"></div>
 <script>
 w3.includeHTML();
 </script>
@@ -95,7 +96,7 @@ w3-left-align">Schedule for DM562, section H1 <i class="fa fa-caret-down"></i></
 
 <div class="w3-responsive">
 
-<div w3-include-html="./assets/dm562_h1.html"></div> 
+<div w3-include-html="./assets/dm562_h1.html"></div>
 <script>
 w3.includeHTML();
 </script>
@@ -131,7 +132,7 @@ w3.includeHTML();
 </td>
 <td>
 {% if lecture.turl %}
-<a class="post-link" href="{{ lecture.turl | absolute_url }}">{{ lecture.topics | escape }}</a> 
+<a class="post-link" href="{{ lecture.turl | absolute_url }}">{{ lecture.topics | escape }}</a>
 {% else %}
 {{ lecture.topics | escape }}
 {% endif %}
@@ -214,13 +215,13 @@ w3.includeHTML();
 
 
 
-## References 
+## References
 
 #### Recommended book:
 
 - [HJ1] [Python Essentials][1]. Jeffrey Humpherys and Tyler J. Jarvis,
   managing editors
-  
+
 - [HJ2]
   [Data Science Essentials](https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/DataScienceEssentials.pdf). Jeffrey
   Humpherys and Tyler J. Jarvis, managing editors
@@ -230,7 +231,7 @@ w3.includeHTML();
   Jeffrey Humpherys and Tyler J. Jarvis, managing editors
 -->
 
-  
+
 #### Other References:
 
 - [DB] David Beazley. [Python Tutorial Video](https://www.youtube.com/watch?v=lyDLAutA88s)
@@ -263,8 +264,7 @@ w3.includeHTML();
 
 
 - [SAA] [Immersive linear algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and
-  T. Akenine-Möller. 2017.
-for $x$ in $(-1, 1)$ 
+  T. Akenine-Möller. 2017. for $x$ in $(-1, 1)$ 
 
 
 - [MC] [Lecture Notes on Linear Regression][13] by Marco Chiarandini.
@@ -277,7 +277,7 @@ for $x$ in $(-1, 1)$
   and [`scipy` API reference](https://docs.scipy.org/doc/scipy/reference/)
   and its submodule
   [linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html).
-  (`scipy` is a superset of `numpy`.) 
+  (`scipy` is a superset of `numpy`.)
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
@@ -322,4 +322,3 @@ for $x$ in $(-1, 1)$
 [54]: {{ "/assignments/asg4.html" | absolute_url }}
 [55]: {{ "/assignments/asg5.html" | absolute_url }}
 [56]: {{ "/assignments/asg6.html" | absolute_url }}
-
