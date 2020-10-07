@@ -4,6 +4,10 @@
 @import "jekyll-theme-architect";
 
 
+header h1 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 #header_wrap {
 background: #264040;
 }
@@ -17,7 +21,6 @@ background: #264040;
 header.inner {
 max-width: 1000px;
 }
-
 
 
 #main_content.inner {
@@ -55,7 +58,9 @@ tr:hover {background-color: #e5e5e5;}
 
 
 thead, th {
-/*background: #3b5998;*/
+  color: white;
+  background: #2e7bcf; // url(../images/header-bg.jpg) 0 0 repeat-x;
+  // background: #3b5998;
 }
 
 
