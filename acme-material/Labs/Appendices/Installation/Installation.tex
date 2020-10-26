@@ -34,21 +34,30 @@ This appendix introduces tools for installing and updating specific packages and
 
 
 \begin{warn}
-This curriculum uses Python 3.6, \textbf{not} Python 2.7.
-With the wrong version of Python, some example code within the labs may not execute as intended or result in an error.
+This curriculum uses Python 3.8.5, which is the default for Ubuntu
+20.04, \textbf{not} Python 2.7.  With the wrong version of Python, some
+example code within the labs may not execute as intended or result in an
+error. Be aware that the Computer Lab has installed Python 3.6. Hence,
+if something works there it should work also in the testing environment
+that uses 3.8.5.\footnote{Backward compatibility should be granted while
+if you use some of the new features of the latest versions of Python
+then you might get some errors in the earlier versions. In this latter
+case, you can try to resolve the issue by importing \lstinline{from
+__future__}.}
 \end{warn}
 
-
-Python 3.6 is installed in the IMADA Computer Lab. If you need to
-install it in your Linux machines you can use the installer of your Linux
-distribution. For example, in Ubuntu:
-
-\begin{lstlisting}
-$ sudo apt-get install python3.6
-\end{lstlisting}
-
-In MacOs Python 3.6 should come out of the box and usable from command
-line of the Terminal application.
+%
+%Python 3.6 is installed in the IMADA Computer Lab. If you need to
+%install it in your Linux machines you can use the installer of your Linux
+%distribution. For example, in Ubuntu:
+%
+%\begin{lstlisting}
+%$ sudo apt-get install python3.8.5
+%\end{lstlisting}
+%
+%In MacOs Python 3.6 should come out of the box and usable from command
+%line of the Terminal application.
+%
 
 
 
@@ -72,8 +81,8 @@ Windows subsystem for Linux there will be a Bash on Ubuntu on Windows
 program that will provide a bash shell. From the shell, the Windows file system is located
 at `/mnt/c` in the Bash shell environment. If one wants to use Windows
 tools to edit files (for example with
-\href{https://notepad-plus-plus.org/}{Notepad++} or
-\href{https://atom.io/}{atom}), then one must work in the Windows
+\href{https://code.visualstudio.com/}{VS Code} or
+\href{https://atom.io/}{Atom}), then one must work in the Windows
 directories. For example:
 
 \begin{lstlisting}
@@ -87,8 +96,8 @@ If one really wants to know where the Linux files are from Windows,
 
 
 Once the Windows subsystem for linux is installed, one can proceed using
-the shell as under Linux. For example the installation of Python 3.6 can
-be done via \lstinline{apt-get} as shown above.
+the shell as under Linux. For example the installation of Python 3.8.5 can
+be done via \lstinline{apt-get}.
 
 In all operating systems, to make sure that you use Python 3 you are
 reccomended to call the program with the
@@ -199,10 +208,12 @@ The most basic way of developing in Python is to write code in a text editor, th
 There are many different text editors available for code development. Many text editors are designed specifically for computer programming which contain features such as syntax highlighting and error detection, and are highly customizable.
 Try installing and using some of the popular text editors listed below.
 \begin{itemize}
+\item {VS Code}: \url{https://code.visualstudio.com/}
 \item Atom: \url{https://atom.io/}
 \item Sublime Text: \url{https://www.sublimetext.com/}
-\item Notepad++ (Windows): \url{https://notepad-plus-plus.org/}
-\item Geany: \url{https://www.geany.org/}
+\item Spyder IDE: \url{https://www.spyder-ide.org/} (an IDE similar to Matlab)
+%\item Notepad++ (Windows): \url{https://notepad-plus-plus.org/}
+%\item Geany: \url{https://www.geany.org/}
 \item Vim: \url{https://www.vim.org/}
 \item Emacs: \url{https://www.gnu.org/software/emacs/}
 \end{itemize}
@@ -213,12 +224,12 @@ $ ls                        # List the files in the current directory.
 hello_world.py
 $ cat hello_world.py        # Print the contents of the file to the terminal.
 <<print("hello, world!")>>
-$ python hello_world.py     # Execute the file.
+$ python3 hello_world.py     # Execute the file.
 <<hello, world!>>
 
 # Alternatively, start IPython and run the file.
-$ ipython
-<<IPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.>>
+$ ipython3
+<<IPython 7.9.0 -- An enhanced Interactive Python. Type '?' for help.>>
 
 <g<In [1]>g>: <p<%run>p> hello_world.py
 <<hello, world!>>
@@ -232,9 +243,12 @@ It has many features that cater to productivity such as tab completion and objec
 The Jupyter Notebook (previously known as IPython Notebook) is a
 browser-based interface for Python. You can install it via pip.
 %that comes included as part of the Anaconda Python Distribution.
-It has an interface similar to the IPython interpreter, except that input is stored in cells and can be modified and re-evaluated as desired.\\
+It has an interface similar to the IPython interpreter, except that
+input is stored in cells and can be modified and re-evaluated as
+desired.\\
 See \href{https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks}{\texttt{https://github.com/jupyter/jupyter/wiki/}}
-for some examples.
+for some
+examples. 
 
 To begin using Jupyter Notebook, run the command \li{jupyter notebook} in the terminal.
 This will open your file system in a web browser in the Jupyter framework.
@@ -245,8 +259,18 @@ Jupyter Notebooks differ from other forms of Python development in that notebook
 As such, Juptyer Notebook files cannot be run in any other development environment.
 They also have the file extension \texttt{.ipynb} rather than the standard Python extension \texttt{.py}.
 
-Jupyter Notebooks also support Markdown---a simple text formatting language---and \LaTeX, and can embedded images, sound clips, videos, and more.
-This makes Jupyter Notebook the ideal platform for presenting code.
+Jupyter Notebooks also support Markdown---a simple text formatting
+language---and \LaTeX, and can embedded images, sound clips, videos, and
+more.  This makes Jupyter Notebook the ideal platform for presenting
+code.
+
+As an alternative to the procedure described that requires a browser to
+work with the notebooks,
+\href{https://code.visualstudio.com/docs/python/jupyter-support}{VS
+Code has native support for Jupyter notebooks}. Try opening a notebook
+file, eg, \lstinline{code mynotebook.ipynb}.
+
+
 
 \subsection*{Integrated Development Environments} % ---------------------------
 
