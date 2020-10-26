@@ -59,8 +59,8 @@ If you have never used git, you might want to read a few of the following resour
 There are many websites for hosting online git repositories. IMADA has its own server for hosting git repositories  \url{https://git.imada.sdu.dk}. While not needed for submitting your code, you can login to the webpage using your university account name and the same password as you use for reading your mail or logging into blackboard. Choose as authentication source ``SDU''. See Fig.~\ref{fig:gogs} for an example. Via the webpage you will always be able to see the state of your code that will be used for auto-grading.
 
 \begin{figure}
-  \includegraphics[width=\textwidth]{gogs}
-  \caption{IMADA Git Server (Gogs) login page}
+  \includegraphics[width=\textwidth]{gitea}
+  \caption{IMADA Git Server (Gitea) login page}
   \label{fig:gogs}
 \end{figure}
 
@@ -72,7 +72,7 @@ There are many websites for hosting online git repositories. IMADA has its own s
   
 \item \emph{Connect your folder to the new repository}.
 \label{step:connect-folder}\label{step:download-data}
-In a shell application (Terminal on Linux or Mac, or Git Bash (\url{https://gitforwindows.org/}) on Windows), enter the following commands (we will use the student with the username ``username'' as example, of course you have to change this.
+In a shell application (Terminal on Linux or Mac, or Git Bash (\url{https://gitforwindows.org/} on Windows), enter the following commands (we will use the student with the username ``username'' as example, of course you have to change this).
 
 \begin{lstlisting}
 # Navigate to the folder where you want to store your files
@@ -84,7 +84,7 @@ $ <b<pwd>b>                 # pwd means 'print working directory'.
 
 # Clone the repository we provided
 
-$ git clone https://git.imada.sdu.dk/DM561-DM562-2019/username-repo.git
+$ git clone https://git.imada.sdu.dk/DM561-DM562-2020/username-repo.git
 
 Cloning into 'username-repo'...
 Username for 'https://git.imada.sdu.dk': username
@@ -222,7 +222,7 @@ remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (4/4), done.
-From https://git.imada.sdu.dk/DM561-DM562-2019/username-repo
+From https://git.imada.sdu.dk/DM561-DM562-2020/username-repo
    6dde06d..e24cee5  master     -> origin/master
 Updating 6dde06d..e24cee5
 Fast-forward
@@ -270,7 +270,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (4/4), 373 bytes | 373.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0)
-To https://git.imada.sdu.dk/DM561-DM562-2019/username-repo.git
+To https://git.imada.sdu.dk/DM561-DM562-2020/username-repo.git
    e24cee5..72a5ab3  master -> master
 
 
