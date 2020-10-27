@@ -24,11 +24,12 @@ mathjax: true
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 
-- Teachers: Robert Reine Rasmussen (DM561), Simon Skjernaa Erfurth
-  (DM561), Rasmus Kornbek (DM561, DM562),
+- Teacher assistants: 
+  Robert Reine Rasmussen (DM561-H2), 
+  Rasmus Kornbek (DM561-H1, DM562-H1),
+  Simon Skjernaa Erfurth (DM561), 
   [Rui Zhang](https://portal.findresearcher.sdu.dk/en/persons/ruizhang) (DM562)
 
-<!-- hmoel15@student.sdu.dk -->
 
 ## Schedule
 
