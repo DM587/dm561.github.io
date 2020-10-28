@@ -153,7 +153,7 @@ w3.includeHTML();
 
 | Week | Sheet        | Topic  	 | Solutions | Assignments |
 |------+--------------+-----------------+-----------+-------------|
-|   44 | [colab1][40] | Python          |           | [asg0][50]  |
+|   44 | [colab1][40]; [sheet1][31] | Python          |           | [asg0][50]  |
 |------+--------------+-----------------+-----------+-------------|
 |   45 |              |                 |           |             |
 |------+--------------+-----------------+-----------+-------------|
@@ -303,7 +303,7 @@ w3.includeHTML();
 
 
 
-{% capture page_link %}{% post_url 2019-10-21-sheet1 %}{% endcapture %}
+{% capture page_link %}{% post_url 2020-10-28-sheet1 %}{% endcapture %}
 [31]: {{ page_link | absolute_url }}
 [32]: {{ site.baseurl }}{% post_url 2019-11-07-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2019-11-08-sheet3 %}
