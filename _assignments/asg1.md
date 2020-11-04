@@ -8,7 +8,7 @@ categories: assignments
 
 ### Assignment 1: Vector and Matrix 
 
-**Submission Deadline: Monday, November 18 2019, at noon**
+**Submission Deadline: Monday, November 16 2020, at noon**
 
 
 In this assignment you are asked to implement your own Vector and Matrix
