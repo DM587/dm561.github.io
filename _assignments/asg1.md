@@ -21,8 +21,9 @@ file `banchmark.py` that will use your implementations to carry out the
 comparison with NumPy.
 
 The files `vec-sparse.py` and `mat-sparse.py` are for an optional part
-of the assignment. For implementing the methods in these files you will
-get help by the instructors in second exercise class of week 46.
+of the assignment. For implementing the methods in these files you
+will get help by the instructors in the first exercise class of week
+46.
 
 Your job is to implement the appropriate methods for the classes `Vec`
 and `Mat` such that the functions in the doctest examples and those in
@@ -87,9 +88,9 @@ them out, but you do so at your own risk.
 
 #### Sparse Vectors and Matrices (Optional)
 
-This part will be discussed in class in the second exercise session of
-week 46. It is associated with the files `vec_sparse.py` and
-`mat_sparse.py`.
+This part will be discussed in class probably in the second exercise
+session of week 46. It is associated with the files `vec_sparse.py`
+and `mat_sparse.py`.
 
 A vector (matrix) most of whose values are zeros is called a *sparse
 vector (matrix)*.
