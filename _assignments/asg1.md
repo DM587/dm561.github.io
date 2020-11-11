@@ -96,7 +96,7 @@ vector (matrix)*.
 
 *Sparse representation*:
 To represent sparse vectors and matrices in Euclidean spaces, it might be useful to regard
-them as functions from a domain $D$ to a co-domain $mathbb{R}$. For
+them as functions from a domain $D$ to a co-domain $\mathbb{R}$. For
 example the vector
 $
 [3.14159, 2.718281828, −1.0, 2.0]
