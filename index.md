@@ -280,6 +280,9 @@ w3.includeHTML();
   [linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html).
   (`scipy` is a superset of `numpy`.)
 
+- [Wi] Introduction to Graoh Theory, Robin J. Wilson, 5th edition, 2010.
+
+
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
 [10]: {{ "https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf" |absolute_url }}
