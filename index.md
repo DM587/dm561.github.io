@@ -311,7 +311,7 @@ w3.includeHTML();
 [311]: {{ "https://gitlab.com/wozar/solutions" | absolute_url }}
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2020-11-08-sheet3 %}
-[34]: {{ site.baseurl }}{% post_url 2019-11-12-sheet4 %}
+[34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
 [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
 [35]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
