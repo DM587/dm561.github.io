@@ -160,7 +160,7 @@ w3.includeHTML();
 |   46 | [sheet3][33]               | Python, Part 3 - plotting | [sheet3][311] |             |
 |      | [sheet4][34]               | Least Squares             |               | [asg2][52]  |
 |------+----------------------------+---------------------------+---------------+-------------|
-|   47 |                            |                           |               |             |
+|   47 |  [sheet5][35]              | Graph Theory              |               |             |
 |      |                            |                           |               |             |
 |------+----------------------------+---------------------------+---------------+-------------|
 |   48 |                            |                           |               |             |
@@ -313,7 +313,7 @@ w3.includeHTML();
 [33]: {{ site.baseurl }}{% post_url 2020-11-08-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
 [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
-[35]: {{ "/assets/ex-week48-2019.pdf" | absolute_url }}
+[35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
