@@ -23,7 +23,7 @@ P=np.array([[ 1,  0,  0,  0,  0],
 
 
 # for drawing the graph, only
-G = nx.from_numpy_matrix(np.array(B))
+G = nx.from_numpy_matrix(B)
 plt.figure()
 plt.subplot(211)
 
@@ -38,10 +38,10 @@ A = np.matmul(P,np.transpose(np.matmul(P,B)))
 # the transpose operator
 A = P@(P@B).T
 
-# More clever (see Appendix C of the Python Essentials)
+# More clever (see Appendix C or the numpy documentation)
 # define how rows should be permuted 
 # r = np.array([0, 3, 1, 4, 2])
-# A = (B[np.array(r),:].T)[np.array(r),:]
+# A = (B[np.array(r)].T)[np.array(r)]
 
 H = nx.from_numpy_matrix(A)
 plt.subplot(212)
