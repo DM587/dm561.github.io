@@ -38,15 +38,14 @@
         "topics": "Graph Isomorphism and Molecules",
 	"turl": "/assets/DM561-DM562-Graphs-small.pdf",
 	"sug_reading": "Slides, Ch 2 and 3 of [Wi] (voluntary reading), <a href=\"/assets/graph-permutation.py\">script</a>,  <a href=\"/assets/ullmann.pdf\">Additional slides on Ullmann algorithm]</a>",
-	//"sug_reading": "<a href=\"/assets/graph-permutation.py\">script</a>, <a href=\"/assets/ullmann.pdf\">Additional slides on Ullmann algorithm]</a>"
     },
     {
 	"week": 48,
 	"date": 2020-11-26,
 	"teacher": "Daniel",
         "topics": "From Random Polygon to Ellipse",
-	//"turl": "/assets/DM561-DM562-RandomPolygon.pdf",
-	//"sug_reading": "<a href=\"https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
+	"turl": "/assets/DM561-DM562-RandomPolygon.pdf",
+	"sug_reading": "<a href=\"https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
     },
     {
 	"week": 49,

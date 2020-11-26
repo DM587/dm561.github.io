@@ -163,7 +163,7 @@ w3.includeHTML();
 |   47 |  [sheet5][35]              | Graph Theory              |               |             |
 |      |                            |                           |               | [asg3][53]  |
 |------+----------------------------+---------------------------+---------------+-------------|
-|   48 |                            |                           |               |             |
+|   48 | [sheet6][36]               |    From Random Polygon to Ellipse   |     |             |
 |      |                            |                           |               |             |
 |------+----------------------------+---------------------------+---------------+-------------|
 |   49 |                            |                           |               |             |
@@ -314,7 +314,7 @@ w3.includeHTML();
 [34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
 [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
 [35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
-[36]: {{ "/assets/ex-week49-2019.pdf" | absolute_url }}
+[36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2019-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
 [38]: {{ "/assets/ex-week51-2019.pdf" | absolute_url }}
