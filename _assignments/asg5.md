@@ -9,7 +9,7 @@ categories: assignments
 
 ## Assignment 5: PageRank Algorithm
 
-*Submission Deadline: Monday, December 16, 2019, at noon*
+*Submission Deadline: Monday, December 14, 2020, at noon*
 
 
 In this assignment it is not allowed to use the module Networkx.

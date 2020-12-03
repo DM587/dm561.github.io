@@ -280,6 +280,20 @@ w3.includeHTML();
 
 - [Wi] Introduction to Graoh Theory, Robin J. Wilson, 5th edition, 2010.
 
+- [BP] Brin, Sergey; Page, Lawrence. [The anatomy of a large-scale
+  hypertextual Web search
+  engine](https://doi.org/10.1016/S0169-7552(98)00110-X). Computer
+  Networks and ISDN Systems. Volume 30, Issues 1–7, April 1998, Pages
+  107-117
+
+- [PBMW] Page, Lawrence; Brin, Sergey; Motwani, Rajeev and Winograd,
+  Terry, [The PageRank citation ranking: Bringing order to the
+  Web](http://dbpubs.stanford.edu:8090/pub/showDoc.Fulltext?lang=en&doc=1999-66&format=pdf). 1999
+
+
+
+
+
 
 [1]: {{ "/assets/PythonEssentials.pdf" | absolute_url }}
 
