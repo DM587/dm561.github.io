@@ -158,7 +158,7 @@ w3.includeHTML();
 |   45 | [sheet2][32]               | Python, Part 2                 |               | [asg1][51]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   46 | [sheet3][33]               | Python, Part 3 - plotting      | [sheet3][311] |             |
-|      | [sheet4][34]               | Least Squares                  |               | [asg2][52]  |
+|      | [sheet4][34]               | Least Squares                  | [sheet4][344] | [asg2][52]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   47 | [sheet5][35]               | Graph Theory                   |               |             |
 |      |                            |                                |               | [asg3][53]  |
@@ -166,7 +166,7 @@ w3.includeHTML();
 |   48 | [sheet6][36]               | From Random Polygon to Ellipse |               |             |
 |      |                            |                                |               | [asg4][54]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   49 | [sheet7][37]               | Page Rank                      |               |             |
+|   49 | [sheet7][37]               | Page Rank                      |               | [asg5][55]  |
 |      |                            |                                |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   50 |                            |                                |               |             |
@@ -183,7 +183,7 @@ w3.includeHTML();
 |------+------+--------------+--------------------------------+---------------+-------------|
 |   44 | L    | [colab1][40] [sheet1][31] | Python                         |               | [asg0][50]  |
 |------+------+--------------+--------------------------------+---------------+-------------|
-|   45 | L    |              |                                |   [sheet4][344]             |  |
+|   45 | L    |              |                                |               |  |
 |------+------+--------------+--------------------------------+---------------+-------------|
 |   46 | L    | [sheet2][32] | Python                         |               |             |
 |      | L    | [sheet3][33] | Python - plotting              |               | [asg2][52]  |
@@ -195,7 +195,7 @@ w3.includeHTML();
 |      | L    |              |                                |               | [asg4][54]  |
 |------+------+--------------+--------------------------------+---------------+-------------|
 |   49 | L    | [sheet6][36] | From Random Polygon to Ellipse |               |             |
-|      | L    |              |                                |               | [asg5][55]  |
+|      | L    |              |                                |               |
 |------+------+--------------+--------------------------------+---------------+-------------|
 |   50 | L    |
 |      | L    |              |                                |               | [asg6][56]        |
@@ -331,11 +331,13 @@ w3.includeHTML();
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2020-11-08-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
-[344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
+# [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
+[344]: {{ "/solutions/linreg.html" | absolute_url }}
 [35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
+[377]: {{ "/solutions/pagerank.html | absolute_url }}
 [38]: {{ "/assets/ex-week51-2019.pdf" | absolute_url }}
 
 [40]: {{ "https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb" | absolute_url }}

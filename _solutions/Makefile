@@ -3,7 +3,7 @@ remote=../assets
 
 %.html: %.ipynb
 	jupyter nbconvert --template full $<
-	cp $@ ${remote}
+	#cp $@ ${remote}
 
 #%.html: %.ipynb
 #	jupyter nbconvert --template basic $<
