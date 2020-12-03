@@ -249,7 +249,7 @@ w3.includeHTML();
   Science](https://www.amazon.com/dp/0615880991/). 1st Edition.
   Newtonian Press; 1 edition, September 3, 2013
 
- - [AH] Martin Anthony and Michele Harvey, [Linear Algebra, Concepts and Methods](http://www.cambridge.org/us/academic/subjects/mathematics/algebra/linear-algebra-concepts-and-methods). 2012. Cambridge
+- [AH] Martin Anthony and Michele Harvey, [Linear Algebra, Concepts and Methods](http://www.cambridge.org/us/academic/subjects/mathematics/algebra/linear-algebra-concepts-and-methods). 2012. Cambridge
 
 
 - [Le] Steven J. Leon, [Linear Algebra with
@@ -289,6 +289,13 @@ w3.includeHTML();
 - [PBMW] Page, Lawrence; Brin, Sergey; Motwani, Rajeev and Winograd,
   Terry, [The PageRank citation ranking: Bringing order to the
   Web](http://dbpubs.stanford.edu:8090/pub/showDoc.Fulltext?lang=en&doc=1999-66&format=pdf). 1999
+
+- [LM] Amy N. Langville; Carl D. Meyer. [A Survey of Eigenvector Methods
+  for Web Information
+  Retrieval](https://epubs.siam.org/doi/pdf/10.1137/S0036144503424786). SIAM
+  REVIEW, Society for Industrial and Applied Mathematics, Vol. 47,
+  No. 1, pp. 135–161
+
 
 
 
