@@ -330,7 +330,6 @@ w3.includeHTML();
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2020-11-08-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
-# [344]: {{ "/assets/sheet4_sol.html" | absolute_url }}
 [344]: {{ "/solutions/linreg.html" | absolute_url }}
 [35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
