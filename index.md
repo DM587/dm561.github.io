@@ -169,10 +169,9 @@ w3.includeHTML();
 |   49 | [sheet7][37]               | Page Rank                      |               | [asg5][55]  |
 |      |                            |                                |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   50 |                            |                                |               |             |
+|   50 | [sheet8][38]               | Eigenfaces / PCA               |               |             |
 |      |                            |                                |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
-
 
 
 
@@ -337,8 +336,8 @@ w3.includeHTML();
 [36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
-[377]: {{ "/solutions/pagerank.html | absolute_url }}
-[38]: {{ "/assets/ex-week51-2019.pdf" | absolute_url }}
+[377]: {{ "/solutions/pagerank.html" | absolute_url }}
+[38]: {{ "/assets/ex-week51-2020.pdf" | absolute_url }}
 
 [40]: {{ "https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb" | absolute_url }}
 
