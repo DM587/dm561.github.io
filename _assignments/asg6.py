@@ -5,7 +5,7 @@ Lab 6: Eigenfaces
 In this lab you should implement three methods for an Eigenface analysis.
 
 Note, that you need to have an installed version of opencv-python. On 
-a Ubuntu 18.04 system you can, e.g., use "pip3 install opencv-contrib-python" to
+a Ubuntu 20.04 system you can, e.g., use "pip3 install opencv-python" to
 have the newest version of opencv. 
 
 Start with 
@@ -15,23 +15,25 @@ projectAndBackProject (25 points) and
 indexDistancePairsSortedByDistance (25 points)
 
 Also study and run Eigenface.py, it is the code for the tool presented in
-the lecture. The code in lines 106ff of Eigenface.py (currently in comments) 
+the lecture. The code in lines 141ff of Eigenface.py (currently in comments) 
 will only work if you have implemented the necessary methods. The file
 helper.py provides helper function to load all the data. 
 """
 
 import cv2
 import math
+import sys
+import pickle
 import numpy as np
 from helper import *
 
-
-
 def cv2Version():
     """
-    Ensure you have cv2 version 3.4.4 installed, otherwise the code might
-    risk that your solution does not work. We will use cv2 version 3.4.4 
+    Ensure you have cv2 version 4.4.0 installed, otherwise the code might
+    risk that your solution does not work. We will use cv2 version 4.4.0 
     for testing. 
+
+    ('pip3 install opencv-python' will very likely work) 
 
     Nothing to implement here. (0 points)
 
@@ -40,7 +42,7 @@ def cv2Version():
     Example:
     --------
     >>> cv2.__version__
-    '4.1.2'
+    '4.4.0'
     """
     return cv2.__version__
 
@@ -161,11 +163,28 @@ if __name__ == '__main__':
     # Number of EigenFaces 
     NUM_EIGEN_FACES = 10
     
+    # Load images from a pickled object
+    #
+    if os.path.isfile("images.p"):
+        print("Images pickle file 'images.p' exists. Using the local copy to create the data matrix.")
+        images = pickle.load( open( "images.p", "rb" ) )
+    else:
+        print('''
+
+---
+The file 'images.p' does not exist. Please run the script 'EigenFace.py' in order to get instructions of how to get this file, or just fetch it from https://imada.sdu.dk/~daniel/DM561-DM562-images/images.p 
+---
+        ''')
+        sys.exit()
+
+    # The following lines should not be necessary unless you want to use your own pictures. You
+    # can use the following lines to read in your own images.
+    #
     # Directory containing images
-    dirName = "images/dm561-dm562/"
-    
+    # dirName = "images/dm561-dm562/"
     # Read images
-    images = readImages(dirName)
+    # images = readImages(dirName)
+
     
     # Size of images
     sz = images[0].shape
