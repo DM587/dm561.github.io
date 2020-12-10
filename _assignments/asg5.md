@@ -27,9 +27,9 @@ needs to be edited and submitted.
 
 Write a class for representing directed graphs via their adjacency
 matrices. The constructor should accept an $n\times n$ adjacency
-matrix $A$ and a list of node labels (such as `[a, b, c, d]`)
-defaulting to `None`. Modify $A$ into $\widetilde{A}$ as
-shown in the slides so that there are no sinks in the corresponding
+matrix $A$ and a list of node labels in string form (such as `['a',
+'b', 'c', 'd']`) defaulting to `None`. Modify $A$ into $\widetilde{A}$
+as shown in the slides so that there are no sinks in the corresponding
 graph, then calculate the $\widehat{A}$:
 
 $$
@@ -37,17 +37,16 @@ $$
 $$
 
 Save $\widehat{A}$ and the list of labels as attributes of the DiGraph
-object. Use
-$[0,1,\ldots,n-1]$ as the labels if none are provided. Finally, raise
-a `ValueError` if the number of labels is not equal to the number
-of nodes in the graph. (Hint: use array broadcasting to compute
-$\widehat{A}$ efficiently. The Numpy function `where` could
-help you.)
+object. Use the integer numbers $[0,1,\ldots,n-1]$ as the labels only
+if none are provided. Finally, raise a `ValueError` if the number of
+labels is not equal to the number of nodes in the graph. (Hint: use
+array broadcasting to compute $\widehat{A}$ efficiently. The Numpy
+function `where` could help you.)
 
 In the docstring example you find the same graph that was used in
 slides.
 
-#### Subtask 2.b
+#### Subtask 1.b
 
 Add the following methods to your class from the previous Subtask. Each
 should accept a damping factor $\epsilon$ (defaulting to 0.85),
@@ -88,20 +87,21 @@ should get the following dictionary mapping labels to PageRank values.
 {'a': 0.095758635, 'b': 0.274158285, 'c': 0.355924792, 'd': 0.274158285}
 ```
 
-#### Subtask 3.c
+#### Subtask 1.c
 
 Write a function that accepts a dictionary mapping labels to PageRank
-values, like the outputs in the previous Subtask and returns a list of
-labels sorted **from highest to lowest** rank. (Hint: look for the
+values, like the outputs in the previous Subtask, and returns a list of
+labels sorted **from highest to lowest** value. (Hint: look for the
 built-in function `sorted()`.)
 
-For the graph in the slides with $\epsilon=0.85$, the list is `[c,
-b, d, a]` (or `[c, d, b, a]`, since `b` and `d` have the same
-PageRank value).
+For the graph in the slides with $\epsilon=0.85$, the list is `['c',
+'b', 'd', 'a']` (or `['c', 'd', 'b', 'a']`, since `b` and `d` have the
+same PageRank value).
 
 Round the steady state probabilities to the 8th decimal and break ties
 by lexicographic order (for example, the ranking for the graph in the
-slides with $\epsilon=0.85$ must be `[c, b, d, a]`).
+slides with $\epsilon=0.85$ must be `['c', 'b', 'd', 'a']` while
+`['c', 'd', 'b', 'a']` becomes an incorrect order).
 
 Looking at the graph from the slides, it is easy to see why `a` has the
 lowest PageRank value: the only other node that points to it is `b`. It
@@ -117,10 +117,13 @@ when there are more than just a few nodes in the graph.
 ### Task 2
 
 The file `web_stanford.txt` contains a subset of the information on
-[Stanford University webpages](http://snap.stanford.edu/data/web-Stanford.html)
-and the hyperlinks between them, gathered in 2002.  Each line of the
-file is formatted as `a/b/c/d/e/f...`, meaning the webpage with
-ID `a` has hyperlinks to webpages with IDs `b`, `c`, `d`, and so on.
+[Stanford University
+webpages](http://snap.stanford.edu/data/web-Stanford.html) and the
+hyperlinks between them, gathered in 2002.  Each line of the file is
+formatted as `a/b/c/d/e/f...`, meaning the webpage with ID `a` has
+hyperlinks to webpages with IDs `b`, `c`, `d`, and so on.  In fact the
+IDs are integer numbers but for the sake of this assignment, handle
+them as strings.
 
 Write a function that accepts a damping factor $\epsilon$ defaulting
 to 0.85. Read the data and get a list of the $n$ unique page IDs in
@@ -134,26 +137,28 @@ the list of webpage IDs, make a dictionary that maps a webpage ID to its
 index in the list. The values are the row/column indices in the
 adjacency matrix for each label.)
 
-With $\epsilon=0.85$, the top three ranked webpage IDs are $98595$,
-$32791$, and $28392$.
+With $\epsilon=0.85$, the top three ranked webpage IDs are `'98595'`,
+`'32791'`, and `'28392'`. Note, break ties lexicographically, e.g., if
+'`1123`' and `'345'` have the same score then rank '`1123`' before
+`'345'`.
 
 ### Task 3
 
-The file `psh-uefa-2018-2019.csv` contains data for men's football teams
-in Europe for the current season from the main leagues in Italy,
+The file `psh-uefa-2018-2019.csv` contains data for men's football
+teams in Europe for the current season from the main leagues in Italy,
 England, France, Scotland, Spain, Germany, Greece, Belgium, Holland,
-Portugal, Turkey, together with Champions League and Europa League. Each
-line represents a different game, formatted
+Portugal, Turkey, together with Champions League and Europa
+League. Each line represents a different game, formatted
 `home_team,away_team,home_goals,away_goals`. Write a function that
 accepts a filename and a damping factor $\epsilon$ defaulting to
-0.85. Read the specified file and get a list of the $n$ unique teams in
-the file. Construct the $n\times n$ adjacency matrix of the graph where
-node $j$ points to node $i$ with weight $w$ if team $j$ was defeated by
-team $i$ in $w$ games. That is, **edges point from losers to
-winners**. Ignore draw games. Use your class from Subtask 1.c and its
-`itersolve()` method to compute the PageRank values of the teams,
-then rank them with your function from Subtask 2.c. Return the ranked
-list of team names.
+0.85. Read the specified file and get a list of the $n$ unique teams
+in the file. Construct the $n\times n$ adjacency matrix of the graph
+where node $j$ points to node $i$ with weight $w$ if team $j$ was
+defeated by team $i$ in $w$ games. That is, **edges point from losers
+to winners**. Ignore draw games. Use your class from Subtask 1.a and
+its `itersolve()` method from Subtask 1.b to compute the PageRank
+values of the teams, then rank them with your function from Subtask
+1.c. Return the ranked list of team names.
 
 Using `psh-uefa-2018-2019.csv` with $\epsilon=0.85$,
 the top three ranked teams in the current season should be
