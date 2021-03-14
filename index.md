@@ -157,7 +157,7 @@ w3.includeHTML();
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   45 | [sheet2][32]               | Python, Part 2                 |               | [asg1][51]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   46 | [sheet3][33]               | Python, Part 3 - plotting      | [sheet3][83]  |             |
+|   46 | [sheet3][33]               | Python, Part 3 - plotting      | [sheet3][833]  |             |
 |      | [sheet4][34]               | Least Squares                  | [sheet4][84]  | [asg2][52]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   47 | [sheet5][35]               | Graph Theory                   | [sheet5][85]  |             |
@@ -321,7 +321,8 @@ w3.includeHTML();
 
 <!-- External solutions -->
 
-[83]: {{ "https://gitlab.com/wozar/solutions" | absolute_url }}
+[83]: {{ "/solutions/sheet1_sols.html" | absolute_url }}
+[833]: {{ "/solutions/sheet1_sols.html" | absolute_url }}
 [85]: {{ "https://roras18.github.io/dm561-TA-2020/sheet5_sol.pdf" }}
 [86]: {{ "https://roras18.github.io/dm561-TA-2020/sheet6_sol.pdf" }}
 [88]: {{ "https://roras18.github.io/dm561-TA-2020/sheet8_sol.pdf" }}
