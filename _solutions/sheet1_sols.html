@@ -171,6 +171,15 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Solutions-to-Sheet-3-by-Rasmus-Kornbeck">Solutions to Sheet 3 by Rasmus Kornbeck<a class="anchor-link" href="#Solutions-to-Sheet-3-by-Rasmus-Kornbeck">&#182;</a></h2>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -604,19 +613,19 @@ div#notebook {
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>int1: 3, int2: 1, equals?: False
-int1 id: 9468320, int2 id: 9468256, equals?: False
+int1 id: 4388964720, int2 id: 4388964656, equals?: False
 
 str1: bar, str2: foo, equals?: False
-str1 id: 139632900670320, str2 id: 139632900670448, equals?: False
+str1 id: 4396523312, str2 id: 4396523440, equals?: False
 
 list1: [10, 2, 3], list2: [10, 2, 3], equals?: True
-list1 id: 139632553595712, list2 id: 139632553595712, equals?: True
+list1 id: 4584247744, list2 id: 4584247744, equals?: True
 
 tuple1: (1, 2, 3, 1), tuple2: (1, 2, 3), equals?: False
-tuple1 id: 139632554104448, tuple2 id: 139632554092736, equals?: False
+tuple1 id: 4550627792, tuple2 id: 4428778368, equals?: False
 
 set1: {2, 3}, set2: {2, 3}, equals?: True
-set1 id: 139632809580800, set2 id: 139632809580800, equals?: True
+set1 id: 4428894720, set2 id: 4428894720, equals?: True
 
 </pre>
 </div>
@@ -690,7 +699,7 @@ set1 id: 139632809580800, set2 id: 139632809580800, equals?: True
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>51
+<pre>2
 </pre>
 </div>
 </div>
@@ -1008,9 +1017,44 @@ True
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Name: foo.txt, Contents: These are the contents of foo.txt
-
+<pre>File not found. Try another name.
 </pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-20-ecbc6df4aac5&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue"></span>
+<span class="ansigreen">     21</span>                     print<span class="ansiblue">(</span><span class="ansiblue">&quot;File not found. Try another name.&quot;</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">     22</span> <span class="ansiblue"></span>
+<span class="ansigreen">---&gt; 23</span><span class="ansired"> </span>content_filter <span class="ansiblue">=</span> ContentFilter<span class="ansiblue">(</span><span class="ansiblue">&quot;foo.txt&quot;</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">     24</span> print<span class="ansiblue">(</span><span class="ansiblue">&quot;Name: {}, Contents: {}&quot;</span><span class="ansiblue">.</span>format<span class="ansiblue">(</span>content_filter<span class="ansiblue">.</span>file_name<span class="ansiblue">,</span> content_filter<span class="ansiblue">.</span>contents<span class="ansiblue">)</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+
+<span class="ansigreen">&lt;ipython-input-20-ecbc6df4aac5&gt;</span> in <span class="ansicyan">__init__</span><span class="ansiblue">(self, given_file_name)</span>
+<span class="ansigreen">     12</span>             print<span class="ansiblue">(</span><span class="ansiblue">&quot;File not found. Try another name.&quot;</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">     13</span>             <span class="ansigreen">while</span> <span class="ansiblue">(</span><span class="ansigreen">True</span><span class="ansiblue">)</span><span class="ansiblue">:</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">---&gt; 14</span><span class="ansired">                 </span>input_file_name <span class="ansiblue">=</span> input<span class="ansiblue">(</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">     15</span>                 <span class="ansigreen">try</span><span class="ansiblue">:</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">     16</span>                     <span class="ansigreen">with</span> open<span class="ansiblue">(</span>input_file_name<span class="ansiblue">,</span> <span class="ansiblue">&quot;r&quot;</span><span class="ansiblue">)</span> <span class="ansigreen">as</span> f<span class="ansiblue">:</span><span class="ansiblue"></span><span class="ansiblue"></span>
+
+<span class="ansigreen">~/Library/Python/3.9/lib/python/site-packages/ipykernel/kernelbase.py</span> in <span class="ansicyan">raw_input</span><span class="ansiblue">(self, prompt)</span>
+<span class="ansigreen">    846</span>                 <span class="ansiblue">&quot;raw_input was called, but this frontend does not support input requests.&quot;</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">    847</span>             )
+<span class="ansigreen">--&gt; 848</span><span class="ansired">         return self._input_request(str(prompt),
+</span><span class="ansigreen">    849</span>             self<span class="ansiblue">.</span>_parent_ident<span class="ansiblue">,</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">    850</span>             self<span class="ansiblue">.</span>_parent_header<span class="ansiblue">,</span><span class="ansiblue"></span><span class="ansiblue"></span>
+
+<span class="ansigreen">~/Library/Python/3.9/lib/python/site-packages/ipykernel/kernelbase.py</span> in <span class="ansicyan">_input_request</span><span class="ansiblue">(self, prompt, ident, parent, password)</span>
+<span class="ansigreen">    890</span>             <span class="ansigreen">except</span> KeyboardInterrupt<span class="ansiblue">:</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">    891</span>                 <span class="ansired"># re-raise KeyboardInterrupt, to truncate traceback</span><span class="ansiblue"></span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">--&gt; 892</span><span class="ansired">                 </span><span class="ansigreen">raise</span> KeyboardInterrupt<span class="ansiblue">(</span><span class="ansiblue">&quot;Interrupted by user&quot;</span><span class="ansiblue">)</span> <span class="ansigreen">from</span> <span class="ansigreen">None</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">    893</span>             <span class="ansigreen">except</span> Exception <span class="ansigreen">as</span> e<span class="ansiblue">:</span><span class="ansiblue"></span><span class="ansiblue"></span>
+<span class="ansigreen">    894</span>                 self<span class="ansiblue">.</span>log<span class="ansiblue">.</span>warning<span class="ansiblue">(</span><span class="ansiblue">&quot;Invalid Message:&quot;</span><span class="ansiblue">,</span> exc_info<span class="ansiblue">=</span><span class="ansigreen">True</span><span class="ansiblue">)</span><span class="ansiblue"></span><span class="ansiblue"></span>
+
+<span class="ansired">KeyboardInterrupt</span>: Interrupted by user</pre>
 </div>
 </div>
 
