@@ -322,7 +322,7 @@ w3.includeHTML();
 <!-- External solutions -->
 
 [83]: {{ "/solutions/sheet1_sols.html" | absolute_url }}
-[833]: {{ "/solutions/sheet1_sols.html" | absolute_url }}
+[833]: {{ "/solutions/sheet3_sols.html" | absolute_url }}
 [85]: {{ "https://roras18.github.io/dm561-TA-2020/sheet5_sol.pdf" }}
 [86]: {{ "https://roras18.github.io/dm561-TA-2020/sheet6_sol.pdf" }}
 [88]: {{ "https://roras18.github.io/dm561-TA-2020/sheet8_sol.pdf" }}
