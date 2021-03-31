@@ -1,3 +1,5 @@
+JEKYLL_VERSION=latest
+
 
 build:
 	bundle exec jekyll build
@@ -10,3 +12,28 @@ clean:
 
 show:
 	bundle show minima
+
+
+dockupdate:
+	docker run --rm \
+		--volume="${PWD}:/srv/jekyll" \
+		--volume="${PWD}/vendor/bundle:/usr/local/bundle" \
+		-it jekyll/jekyll:${JEKYLL_VERSION} \
+		bundle update
+
+dockbuild:
+	docker run --rm \
+		--volume="${PWD}:/srv/jekyll" \
+		--volume="${PWD}/vendor/bundle:/usr/local/bundle" \
+		-it jekyll/jekyll:${JEKYLL_VERSION} \
+		jekyll build --trace
+
+
+
+dockserve:
+	docker run --name dm561 \
+		--volume="${PWD}:/srv/jekyll" \
+		--volume="${PWD}/vendor/bundle:/usr/local/bundle" \
+		-p 4000:4000 \
+		-it jekyll/jekyll:${JEKYLL_VERSION} \
+		jekyll serve --watch #--drafts
