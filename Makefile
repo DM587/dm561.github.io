@@ -1,11 +1,16 @@
 JEKYLL_VERSION=latest
 
 
+update:
+	bundle update jekyll
+	bundle update
+	#sudo certified-update
+
 build:
 	bundle exec jekyll build
 
-#publish:
-#	bundle exec jekyll build --trace -d /home/marco/public_html/Teaching/AY2019-2020/DM561
+publish:
+	bundle exec jekyll build --trace -d /home/marco/public_html/Teaching/AY2020-2021/DM561
 
 clean:
 	rm -fr /home/marco/WWWpublic/DM561/*
