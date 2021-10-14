@@ -1,6 +1,6 @@
 \lab{Getting Started}{Getting Started}
 
-The individual mandatory assignments (called ``labs'' in the following) in the second part of DM561 and DM562 aim to introduce to applications of Linear Algebra and to train your Python programming skills. There will be weekly programming tasks for which you have to submit a solution.
+The individual mandatory assignments (called ``labs'' in the following) in the second part of DM561 aim to introduce to applications of Linear Algebra and to train your Python programming skills. There will be weekly programming tasks for which you have to submit a solution.
 
 \section*{Submitting Assignments} % ===========================================
 
@@ -59,7 +59,7 @@ If you have never used git, you might want to read a few of the following resour
 There are many websites for hosting online git repositories. IMADA has its own server for hosting git repositories  \url{https://git.imada.sdu.dk}. While not needed for submitting your code, you can login to the webpage using your university account name and the same password as you use for reading your mail or logging into blackboard. Choose as authentication source ``SDU''. See Fig.~\ref{fig:gogs} for an example. Via the webpage you will always be able to see the state of your code that will be used for auto-grading.
 
 \begin{figure}
-  \includegraphics[width=\textwidth]{gitea}
+  \includegraphics[width=\textwidth]{gitea_login}
   \caption{IMADA Git Server (Gitea) login page}
   \label{fig:gogs}
 \end{figure}
@@ -68,7 +68,7 @@ There are many websites for hosting online git repositories. IMADA has its own s
 
 \item \emph{Clone your existing repository}.
 
-  Usually, you have to create a repository. However, we already created a repository for each student of DM561 and DM562. You will not have to create any repositories, but only clone it.
+  Usually, you have to create a repository. However, we already created a repository for each student of DM561. You will not have to create any repositories, but only clone it.
   
 \item \emph{Connect your folder to the new repository}.
 \label{step:connect-folder}\label{step:download-data}
@@ -84,7 +84,7 @@ $ <b<pwd>b>                 # pwd means 'print working directory'.
 
 # Clone the repository we provided
 
-$ git clone https://git.imada.sdu.dk/DM561-DM562-2020/username-repo.git
+$ git clone https://git.imada.sdu.dk/DM561_2021/username-repo.git
 
 Cloning into 'username-repo'...
 Username for 'https://git.imada.sdu.dk': username
@@ -144,7 +144,7 @@ Record the changes in the staging area with the command \li{git commit -m "<A br
 All of these commands are done within a ``clone'' of the repository, which is stored somewhere on a computer.
 This repository must be manually synchronized with the remote repository server via two other git commands: \li{git pull}, to pull updates from the web to the computer; and \li{git push}, to push updates from the computer to the git server.
 
-In a nutshell, for the Labs in DM561/DM562 you usually have to modify one file only. This file first has to be added to the staging area, then it has to be commited, and then it has to be pushed to the remote server. In order to get the grading, you have to pull the corresponding file from the server after we tested your solution and created the grading file.
+In a nutshell, for the Labs in DM561 you usually have to modify one file only. This file first has to be added to the staging area, then it has to be commited, and then it has to be pushed to the remote server. In order to get the grading, you have to pull the corresponding file from the server after we tested your solution and created the grading file.
 
 \begin{table}[H]
 \begin{tabular}{l|l}
@@ -155,7 +155,7 @@ In a nutshell, for the Labs in DM561/DM562 you usually have to modify one file o
     \li{git add <filename(s)>} & Add a file or files to the staging area. \\
     \li{git commit -m "<message>"} & Save the changes in the staging area with a given message. \\
 \end{tabular}
-\caption{Most common git commands needed for DM561 / DM562.}
+\caption{Most common git commands needed for DM561.}
 \end{table}
 
 \begin{table}[H]
@@ -222,7 +222,7 @@ remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (4/4), done.
-From https://git.imada.sdu.dk/DM561-DM562-2020/username-repo
+From https://git.imada.sdu.dk/DM561-2021/username-repo
    6dde06d..e24cee5  master     -> origin/master
 Updating 6dde06d..e24cee5
 Fast-forward
@@ -270,7 +270,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (4/4), done.
 Writing objects: 100% (4/4), 373 bytes | 373.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0)
-To https://git.imada.sdu.dk/DM561-DM562-2020/username-repo.git
+To https://git.imada.sdu.dk/DM561-2021/username-repo.git
    e24cee5..72a5ab3  master -> master
 
 
