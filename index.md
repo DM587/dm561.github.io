@@ -10,101 +10,23 @@ mathjax: true
 
 ## General information
 
-- Official course description:
-  [DM561](https://odinlister.sdu.dk/fagbesk/internkode/DM561/), [DM562](https://odinlister.sdu.dk/fagbesk/internkode/DM562/)
+- [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
 
-- BlackBoard: [DM561](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_422174_1), [DM562](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_422179_1)
-
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=13197)
 
 - Teachers:
-  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski)
-  (DM561),
-  [Luís Cruz-Filipe](https://portal.findresearcher.sdu.dk/da/persons/lcf)
-  (DM562),
+  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski),
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
-
-- Teacher assistants: 
-  Robert Reine Rasmussen (DM561-H2), 
-  Rasmus Kornbek (DM561-H1, DM562-H1),
-  Simon Skjernaa Erfurth (DM561), 
-  [Rui Zhang](https://portal.findresearcher.sdu.dk/en/persons/ruizhang) (DM562)
+- Teacher assistant: 
+  Danni Møller Clausen (H2, H3)
 
 
 ## Schedule
 
-MitSDU: <a
-href="https://mitsdu.sdu.dk/skema/activity/N330024101/e20">DM561</a>, <a href="https://mitsdu.sdu.dk/skema/activity/N330025101/e20">DM562</a>
+- <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e21">MitSDU</a>
 
-
-<button onclick="myFunction('h1')" class="w3-btn w3-cell
-w3-left-align">Schedule for DM561, section H1 <i class="fa fa-caret-down"></i></button>
-<div id="h1" class="w3-container w3-hide">
-
-<div class="w3-responsive">
-
-<!--
-<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=egkljh81e5gn1qa11drhvli5g1quqn6e%40import.calendar.google.com&amp;color=%23853104&amp;src=i1sgtn4cueuhfc0o5u0aao73ikbrkuol%40import.calendar.google.com&amp;color=%23853104&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="960" height="600" frameborder="0" scrolling="no"></iframe>
--->
-
-<div w3-include-html="./assets/dm561_h1.html"></div>
-<script>
-w3.includeHTML();
-</script>
-</div>
-</div>
-
-
-
-<button onclick="myFunction('h2')" class="w3-btn w3-cell
-w3-left-align">Schedule for DM561, section H2 <i class="fa fa-caret-down"></i></button>
-<div id="h2" class="w3-container w3-hide">
-
-<div class="w3-responsive">
-
-<div w3-include-html="./assets/dm561_h2.html"></div>
-<script>
-w3.includeHTML();
-</script>
-</div>
-</div>
-
-
-
-
-
-
-<button onclick="myFunction('h3')" class="w3-btn w3-cell
-w3-left-align">Schedule for DM561, section H3 <i class="fa fa-caret-down"></i></button>
-<div id="h3" class="w3-container w3-hide">
-
-<div class="w3-responsive">
-
-<div w3-include-html="./assets/dm561_h3.html"></div>
-<script>
-w3.includeHTML();
-</script>
-</div>
-</div>
-
-
-
-
-
-<button onclick="myFunction('dm562h2')" class="w3-btn w3-cell
-w3-left-align">Schedule for DM562, section H1 <i class="fa fa-caret-down"></i></button>
-<div id="dm562h2" class="w3-container w3-hide">
-
-<div class="w3-responsive">
-
-<div w3-include-html="./assets/dm562_h1.html"></div>
-<script>
-w3.includeHTML();
-</script>
-</div>
-</div>
-
-
+- <a href="https://visualizer.aida.imada.sdu.dk/2021E/DM561">Alternative view</a>
 
 
 
@@ -150,6 +72,29 @@ w3.includeHTML();
 
 
 
+| Week | Sheet         | Topic  	                | Solutions | Assignments |
+|------+---------------+--------------------------------+-----------+-------------|
+|   43 | [colab1][40]; | Python, Part 1                 |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   44 |               | Python, Part 2                 |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   45 |               | Python, Part 3 - plotting      |           |             |
+|      |               | Least Squares                  |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   46 |               | Graph Theory                   |           |             |
+|      |               |                                |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   47 |               | From Random Polygon to Ellipse |           |             |
+|      |               |                                |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   48 |               | Page Rank                      |           |             |
+|      |               |                                |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+|   49 |               | Eigenfaces / PCA               |           |             |
+|      |               |                                |           |             |
+|------+---------------+--------------------------------+-----------+-------------|
+
+<!--
 
 | Week | Sheet                      | Topic  	                | Solutions     | Assignments |
 |------+----------------------------+--------------------------------+---------------+-------------|
@@ -173,6 +118,7 @@ w3.includeHTML();
 |      |                            |                                |               | [asg6][56]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 
+-->
 
 
 <!--

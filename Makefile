@@ -1,5 +1,11 @@
 JEKYLL_VERSION=latest
 
+install:
+	gem update --system # upgrade RubyGems
+	gem install jekyll bundler
+	bundle install # all gems in Gemfile
+
+
 
 update:
 	bundle update jekyll
@@ -10,7 +16,11 @@ build:
 	bundle exec jekyll build
 
 publish:
-	bundle exec jekyll build --trace -d /home/marco/public_html/Teaching/AY2020-2021/DM561
+	bundle exec jekyll build --trace -d /home/marco/public_html/Teaching/AY2021-2022/DM561
+
+
+serve: build
+	bundle exec jekyll serve --watch
 
 clean:
 	rm -fr /home/marco/WWWpublic/DM561/*
