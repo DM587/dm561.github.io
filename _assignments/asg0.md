@@ -3,13 +3,13 @@ layout: default
 mathjax: true
 title:  asg0
 script:  asg0.py
-date:   2020-10-26 09:33:19 +0100
+date:   2021-10-25 09:33:19 +0100
 categories: assignments
 ---
 
 #### Assignment 0: Only testing
 
-*Submission Deadline: Thursday, November 5, 2020, at noon*
+*Submission Deadline: Thursday, November 5, 2021, at noon*
 
 
 You find the following specifications file in your git repository.

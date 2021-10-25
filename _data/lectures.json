@@ -4,7 +4,7 @@
 	"date": 2020-10-25,
 	"teacher": "Marco",
         "topics": "Python - Part 1: basics, data types, control flow, std library, OO progr.",
-	//"turl": "/assets/dm561-lec1.pdf",
+	"turl": "/assets/dm561-lec1.pdf",
 	 "sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
     },
     {
