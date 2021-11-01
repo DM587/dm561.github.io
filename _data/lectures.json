@@ -12,7 +12,7 @@
 	"date": 2020-11-01,
 	"teacher": "Marco",
         "topics": "Python - Part 2: exceptions, file i/o, numpy",
-	//"turl": "/assets/dm561-lec2.pdf",
+	"turl": "/assets/dm561-lec2.pdf",
 	"sug_reading": "Ch 4,6 of [HJ1]; [NS]"
     },
     {

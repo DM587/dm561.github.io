@@ -76,7 +76,7 @@ mathjax: true
 |------+---------------+--------------------------------+-----------+-------------|
 |   43 | [colab1][40]; [sheet1][31]| Python, Part 1                 |           |    [asg0][50]         |
 |------+---------------+--------------------------------+-----------+-------------|
-|   44 |               | Python, Part 2                 |           |             |
+|   44 | [sheet2][32]              | Python, Part 2                 |           |             |
 |------+---------------+--------------------------------+-----------+-------------|
 |   45 |               | Python, Part 3 - plotting      |           |             |
 |      |               | Least Squares                  |           |             |
@@ -284,7 +284,7 @@ mathjax: true
 {% capture page_link %}{% post_url 2020-10-28-sheet1 %}{% endcapture %}
 [31]: {{ page_link | absolute_url }}
 
-[32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
+[32]: {{ site.baseurl }}{% post_url 2021-11-01-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2020-11-08-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
 
