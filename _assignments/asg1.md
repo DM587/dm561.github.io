@@ -2,28 +2,31 @@
 layout: default
 mathjax: true
 title:  asg1
-date:   2018-11-11 09:33:19 +0100
+date:   2021-11-02 09:33:19 +0100
 categories: assignments
 ---
 
 ### Assignment 1: Vector and Matrix 
 
-**Submission Deadline: Monday, November 16 2020, at noon**
+**Submission Deadline: Thursday, November 11 2021, at noon**
 
 
 In this assignment you are asked to implement your own Vector and Matrix
 types in Python and to compare them with Numpy array type implementations.
 
 
-In your git repository you will find the following spec files that you
-will need to edit `vec.py` and `mat.py`. In addition, you will find the
-file `banchmark.py` that will use your implementations to carry out the
-comparison with NumPy.
+In your git repository you will find a new directory `asg1` with the
+following specification files that you will need to edit: `vec.py` and
+`mat.py`. In addition, you will find the file `banchmark.py` that will
+use your implementations to carry out the comparison with NumPy.  The
+files `vec-sparse.py` and `mat-sparse.py` are for an optional part of
+the assignment.
 
-The files `vec-sparse.py` and `mat-sparse.py` are for an optional part
-of the assignment. For implementing the methods in these files you
+<!--
+For implementing the methods in these files you
 will get help by the instructors in the first exercise class of week
 46.
+-->
 
 Your job is to implement the appropriate methods for the classes `Vec`
 and `Mat` such that the functions in the doctest examples and those in
@@ -88,8 +91,8 @@ them out, but you do so at your own risk.
 
 #### Sparse Vectors and Matrices (Optional)
 
-This part will be discussed in class probably in the second exercise
-session of week 46. It is associated with the files `vec_sparse.py`
+This part will be discussed in class probably in the first exercise
+session of week 45. It is associated with the files `vec_sparse.py`
 and `mat_sparse.py`.
 
 A vector (matrix) most of whose values are zeros is called a *sparse
