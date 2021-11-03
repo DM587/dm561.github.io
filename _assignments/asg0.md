@@ -9,7 +9,7 @@ categories: assignments
 
 #### Assignment 0: Only testing
 
-*Submission Deadline: Thursday, November 5, 2021, at noon*
+**Submission Deadline: Thursday, November 4, 2021, at noon**
 
 
 You find the following specifications file in your git repository.
