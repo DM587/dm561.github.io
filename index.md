@@ -79,7 +79,7 @@ mathjax: true
 |   44 | [sheet2][32]               | Python, Part 2                 |           | [asg1][51]  |
 |      | [sheet3][33]               | Python, Part 3 - plotting      |           |             |
 |------+----------------------------+--------------------------------+-----------+-------------|
-|   45 |                            | Least Squares                  |           |             |
+|   45 |     [sheet4][34]                       | Least Squares                  |           |             |
 |------+----------------------------+--------------------------------+-----------+-------------|
 |   46 |                            | Graph Theory                   |           |             |
 |      |                            |                                |           |             |
@@ -286,7 +286,7 @@ mathjax: true
 
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2021-11-03-sheet3 %}
-[34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
+[34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
 
 [35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
