@@ -79,7 +79,7 @@ mathjax: true
 |   44 | [sheet2][32]               | Python, Part 2                 |               | [asg1][51]  |
 |      | [sheet3][33]               | Python, Part 3 - plotting      | [sheet3][833] |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   45 | [sheet4][34]               | Least Squares                  |               | [asg2][52]  |
+|   45 | [sheet4][34]               | Least Squares                  |       [sheet4][84]         | [asg2][52]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   46 |                            | Graph Theory                   |               |             |
 |      |                            |                                |               |             |
@@ -275,7 +275,7 @@ mathjax: true
 
 <!-- Internal solutions --> 
 
-[84]: {{ "/solutions/linreg.html" | absolute_url }}
+[84]: {{ "/solutions/sheet_4.html" | absolute_url }}
 [87]: {{ "/solutions/pagerank.html" | absolute_url }}
 
 
