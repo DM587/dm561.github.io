@@ -66,10 +66,10 @@
      {
 	"week": 50,
 	"date": 2020-12-15,
-	"teacher": "",
-        "topics": "",
-	 "turl": "",
-	"sug_reading": ""
+	"teacher": "Marco",
+        "topics": "Linear Programming",
+	// "turl": "",
+	//"sug_reading": ""
     }
 ]
 
