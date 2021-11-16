@@ -288,7 +288,7 @@ mathjax: true
 [33]: {{ site.baseurl }}{% post_url 2021-11-03-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
 
-[35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
+[35]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
