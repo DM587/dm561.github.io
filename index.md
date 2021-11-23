@@ -81,11 +81,11 @@ mathjax: true
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   45 | [sheet4][34]               | Least Squares                  |       [sheet4][84]         | [asg2][52]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   45 | [sheet5][35]               | Graph Theory                   |         |             |
+|   46 | [sheet5][35]               | Graph Theory                   |         |             |
 |      |                            |                                |               | [asg3][53]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   47 |                            | From Random Polygon to Ellipse |               |             |
-|      |                            |                                |               |             |
+|   47 | [sheet6][36]               | From Random Polygon to Ellipse |   |             |
+|      |                            |                                |               | [asg4][54]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   48 |                            | Page Rank                      |               |             |
 |      |                            |                                |               |             |
@@ -289,7 +289,7 @@ mathjax: true
 [34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
 
 [35]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
-[36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
+[36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
 
