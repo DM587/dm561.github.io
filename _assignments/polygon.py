@@ -203,8 +203,8 @@ def updatePoints(M, x, y):
 def pairCS(num):
     """ 
     Returns the vectors c and s as explained on slide 21/27 of the lecture slides
-    (https://dm561.github.io/assets/DM561-DM562-RandomPolygon.pdf).
-    (see also page 11 in the article https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf)
+    (https://dm561.github.io/assets/DM561-RandomPolygon-2021.pdf).
+    (see also page 11 in the article https://epubs.siam.org/doi/pdf/10.1137/090746707)
 
     Parameter
     ---------
@@ -229,11 +229,11 @@ def pairCS(num):
 def convEllipse(x, y):
     """Returns the converged ellipse-like polygon u^{(0)} and v^{(o)} as
     explained on slide 21/27 of the lecture slides
-    (https://dm561.github.io/assets/DM561-DM562-RandomPolygon.pdf).
+    (https://dm561.github.io/assets/DM561-RandomPolygon-2021.pdf).
 
     (see also page 17 in the article
-    https://www.cs.cornell.edu/cv/ResearchPDF/EllipsePoly.pdf, but
-    note that the formulas in the article has typos. The ellipse-like
+    https://epubs.siam.org/doi/pdf/10.1137/090746707, but
+    note that the formulas in the article have typos. The ellipse-like
     polygon is the converged polygon for even iterations, the polygon
     for odd iterations would look different)
 
