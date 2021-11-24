@@ -3,13 +3,13 @@ layout: default
 mathjax: true
 title:  asg4
 script:  polygon.py  
-date:   2019-12-01 09:37:49 +0100
+date:   2021-11-24 16:37:49 +0100
 categories: assignments
 ---
 
 #### Assignment 4: From Random Polygon to Ellipse / Wiener Index 
 
-*Submission Deadline: Monday, December 7 2020, at noon*
+*Submission Deadline: Thursday, December 2 2021, at noon*
 
 
 The scripts that you have to edit and submit before the deadline are
