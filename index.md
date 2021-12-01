@@ -87,7 +87,7 @@ mathjax: true
 |   47 | [sheet6][36]               | From Random Polygon to Ellipse | [sheet6][86]  |             |
 |      |                            |                                |               | [asg4][54]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   48 |      [sheet7][37]                        | Page Rank                      |               |             |
+|   48 |      [sheet7][37]                        | Page Rank                      |     [asg5][55]          |             |
 |      |                            |                                |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   49 |                            | Eigenfaces / PCA               |               |             |
@@ -223,7 +223,7 @@ mathjax: true
   [linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html).
   (`scipy` is a superset of `numpy`.)
 
-- [Wi] Introduction to Graoh Theory, Robin J. Wilson, 5th edition, 2010.
+- [Wi] Introduction to Graph Theory, Robin J. Wilson, 5th edition, 2010.
 
 - [BP] Brin, Sergey; Page, Lawrence. [The anatomy of a large-scale
   hypertextual Web search

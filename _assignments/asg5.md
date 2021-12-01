@@ -3,13 +3,13 @@ layout: default
 mathjax: true
 title:  asg5
 script:  pagerank.py
-date:   2019-12-06 09:37:49 +0100
+date:   2021-12-01 09:37:49 +0100
 categories: assignments
 ---
 
 ## Assignment 5: PageRank Algorithm
 
-*Submission Deadline: Monday, December 14, 2020, at noon*
+**_Submission Deadline: Thursday, December 9, 2021, at noon_**
 
 
 In this assignment it is not allowed to use the module Networkx.
@@ -26,11 +26,16 @@ needs to be edited and submitted.
 #### Subtask 1.a
 
 Write a class for representing directed graphs via their adjacency
-matrices. The constructor should accept an $n\times n$ adjacency
-matrix $A$ and a list of node labels in string form (such as `['a',
-'b', 'c', 'd']`) defaulting to `None`. Modify $A$ into $\widetilde{A}$
-as shown in the slides so that there are no sinks in the corresponding
-graph, then calculate the $\widehat{A}$:
+matrices. (Note: the standard representation of an adjacency matrix for
+directed graphs has "from" nodes on rows and "to" nodes on columns. This
+is compliant with what you have seen with Daniel. However, in this
+assignment as well as in the correspoonding slides we use the convention
+of having "from" nodes on columns and "to" nodes on rows.) The
+constructor should accept an $n\times n$ adjacency matrix $A$ and a list
+of node labels in string form (such as `['a', 'b', 'c', 'd']`)
+defaulting to `None`. Modify $A$ into $\widetilde{A}$ as shown in the
+slides so that there are no sinks in the corresponding graph, then
+calculate the $\widehat{A}$:
 
 $$
 \widehat{A}_{ij} = \frac{\widetilde{A}_{ij}}{\sum_{k=1}\widetilde{A}_{kj}}.
@@ -179,4 +184,9 @@ reasonable for this model because it gives every other team
 `equal` likelihood of beating an undefeated team. That is, the
 additional arcs don't provide an extra advantage to any one team.
 
-
+If you are interested in comparing this way of ranking against the FIFA
+international ranking for national teams, you can run your procedures on
+the data set avaialble from
+[kaggle](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017),
+which contains the results of international football matches of national
+teams from 1872 to 2021.
