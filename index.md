@@ -87,7 +87,7 @@ mathjax: true
 |   47 | [sheet6][36]               | From Random Polygon to Ellipse | [sheet6][86]  |             |
 |      |                            |                                |               | [asg4][54]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
-|   48 |                            | Page Rank                      |               |             |
+|   48 |      [sheet7][37]                        | Page Rank                      |               |             |
 |      |                            |                                |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   49 |                            | Eigenfaces / PCA               |               |             |
@@ -290,7 +290,7 @@ mathjax: true
 
 [35]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
-{% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
+{% capture page_link %}{% post_url 2021-12-01-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
 
 [38]: {{ "/assets/ex-week51-2020.pdf" | absolute_url }}
