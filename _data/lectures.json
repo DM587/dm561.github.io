@@ -60,8 +60,8 @@
 	"date": 2020-12-08,
 	"teacher": "Daniel",
         "topics": "Eigenfaces",
-	//"turl": "/assets/DM561-DM562-PCA-Eigenfaces-2020-small.pdf",
-	//"sug_reading": "<a href=\"http://setosa.io/ev/principal-component-analysis/\"> Visual Intro</a>; <a href=\"https://arxiv.org/abs/1404.1100\"> Article (Tutorial on PCA)</a>; <a href=\"https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf\"> Chapter 7 of [HJ] (Facial Recognition)</a>; <a href=\"https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html\"> PCA in Three Steps</a>; <a href=\"https://www.learnopencv.com/eigenface-using-opencv-c-python/\"> Eigenfaces (OpenCV based)</a>"
+	"turl": "/assets/DM561-PCA-Eigenfaces-2021.pdf",
+	"sug_reading": "<a href=\"http://setosa.io/ev/principal-component-analysis/\"> Visual Intro</a>; <a href=\"https://arxiv.org/abs/1404.1100\"> Article (Tutorial on PCA)</a>; <a href=\"https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf\"> Chapter 7 of [HJ] (Facial Recognition)</a>; <a href=\"https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html\"> PCA in Three Steps</a>; <a href=\"https://www.learnopencv.com/eigenface-using-opencv-c-python/\"> Eigenfaces (OpenCV based)</a>"
     },
      {
 	"week": 50,
