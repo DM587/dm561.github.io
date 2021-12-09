@@ -29,8 +29,8 @@ from helper import *
 
 def cv2Version():
     """
-    Ensure you have cv2 version 4.4.0 installed, otherwise the code might
-    risk that your solution does not work. We will use cv2 version 4.4.0 
+    Ensure you have cv2 version 4.5.4 installed, otherwise the code might
+    risk that your solution does not work. We will use cv2 version 4.5.4 
     for testing. 
 
     ('pip3 install opencv-python' will very likely work) 
