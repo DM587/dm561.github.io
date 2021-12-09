@@ -3,13 +3,13 @@ layout: default
 mathjax: true
 title:  asg6
 script:  asg6.py  
-date:   2020-12-09 15:10:49 +0100
+date:   2021-12-09 09:10:49 +0100
 categories: assignments
 ---
 
 #### Assignment 6: PCA and Eigenfaces 
 
-*Submission Deadline: Monday, December 21 2020, at noon*
+*Submission Deadline: Monday, December 16 2020, at noon*
 
 
 The script that you have to edit and submit before the deadline is

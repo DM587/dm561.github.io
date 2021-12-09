@@ -42,7 +42,7 @@ def cv2Version():
     Example:
     --------
     >>> cv2.__version__
-    '4.4.0'
+    '4.5.4'
     """
     return cv2.__version__
 
@@ -65,7 +65,7 @@ def distanceImages(dataImg1, dataImg2):
 
     Raises:
     -------
-    TypeError : if dataImg1 or dataImg2 are not are 1-dimensional array 
+    TypeError : if dataImg1 or dataImg2 are not 1-dimensional arrays
 
     Example:
     --------
@@ -181,7 +181,7 @@ The file 'images.p' does not exist. Please run the script 'EigenFace.py' in orde
     # can use the following lines to read in your own images.
     #
     # Directory containing images
-    # dirName = "images/dm561-dm562/"
+    # dirName = "images/"
     # Read images
     # images = readImages(dirName)
 
