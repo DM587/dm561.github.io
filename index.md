@@ -15,18 +15,18 @@ mathjax: true
 - [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=13197)
 
 - Teachers:
-  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski),
+  [David Kyed](https://imada.sdu.dk/~dkyed),
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
-- Teacher assistant: 
-  Danni Møller Clausen (H2, H3), [Nikolai Nøjgaard](https://portal.findresearcher.sdu.dk/da/persons/nojgaard)
+- Teacher assistants: 
+H1: [Anders Sund-Jensen](ansun20@student.sdu.dk) (H1); [Casper Asbjørn Eriksen](caser16@student.sdu.dk) (H2)
 
 
 ## Schedule
 
-- <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e21">MitSDU</a>
+- <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e22">MitSDU</a>
 
-- <a href="https://visualizer.aida.imada.sdu.dk/2021E/DM561">Alternative view</a>
+- <a href="https://visualizer.aida.imada.sdu.dk/2022E/DM561">Alternative view</a>
 
 
 
@@ -72,7 +72,32 @@ mathjax: true
 
 
 
-| Week | Sheet                      | Topic  	                | Solutions     | Assignments |
+| Week | Sheet | Topic  	 | Solutions | Assignments |
+|------+-------+-----------------+-----------+-------------|
+|   43 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   44 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   45 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   46 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   47 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   48 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   49 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   50 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+
+
+<!--
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   43 | [colab1][40]; [sheet1][31] | Python, Part 1                 | [sheet1][83]  | [asg0][50]  |
 |------+----------------------------+--------------------------------+---------------+-------------|
@@ -95,6 +120,9 @@ mathjax: true
 |------+----------------------------+--------------------------------+---------------+-------------|
 |   50 | [sheet9][39]               | Linear Programming               |               |             |
 |------+----------------------------+--------------------------------+---------------+-------------|
+
+-->
+
 
 <!--
 

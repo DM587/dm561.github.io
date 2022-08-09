@@ -1,0 +1,75 @@
+[
+    {
+	"week": 43,
+	"date": 2020-10-25,
+	"teacher": "Marco",
+        "topics": "Python - Part 1: basics, data types, control flow, std library, OO progr.",
+	"turl": "/assets/dm561-lec1.pdf",
+	 "sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
+    },
+    {
+	"week": 44,
+	"date": 2020-11-01,
+	"teacher": "Marco",
+        "topics": "Python - Part 2: exceptions, file i/o, numpy",
+	"turl": "/assets/dm561-lec2.pdf",
+	"sug_reading": "Ch 4,6 of [HJ1]; [NS]"
+    },
+    {
+	"week": 44,
+	"date": 2020-11-03,
+	"teacher": "Marco",
+        "topics": "Python - Part 3: graphics, data viz, pandas",
+	"turl": "/assets/dm561-lec3.pdf",
+	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; (Ch 9 of [HJ2])"
+    },
+    {
+	"week": 45,
+	"date": 2020-11-10,
+	"teacher": "Marco",
+        "topics": "Least Squares Data Fitting",
+	"turl": "/assets/dm561-linreg.pdf",
+	"sug_reading": "[MC]; Sc. 6.3-6.5 of [AR]"
+    },
+    {
+	"week": 46,
+	"date": 2021-11-17,
+	"teacher": "Daniel",
+        "topics": "Graph Isomorphism and Molecules",
+	"turl": "/assets/DM561-DM562-Graphs-small.pdf",
+	"sug_reading": "Slides, Ch 2 and 3 of [Wi] (voluntary reading), <a href=\"/assets/graph-permutation.py\">script</a>,  <a href=\"/assets/ullmann.pdf\">Additional slides on Ullmann algorithm]</a>",
+    },
+    {
+	"week": 47,
+	"date": 2021-11-24,
+	"teacher": "Daniel",
+        "topics": "From Random Polygon to Ellipse",
+	"turl": "/assets/DM561-RandomPolygon-2021.pdf",
+	"sug_reading": "<a href=\"https://epubs.siam.org/doi/pdf/10.1137/090746707\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
+    },
+    {
+	"week": 48,
+	"date": 2020-12-01,
+	"teacher": "Marco",
+        "topics": "Page Rank",
+	"turl": "/assets/dm561-pagerank.pdf",
+	"sug_reading": "Sc. 4.12, 9.2-9.3, 10.5, 10.17 of [AR]; [LM]"
+    },
+    {
+	"week": 49,
+	"date": 2020-12-08,
+	"teacher": "Daniel",
+        "topics": "Eigenfaces",
+	"turl": "/assets/DM561-PCA-Eigenfaces-2021.pdf",
+	"sug_reading": "<a href=\"http://setosa.io/ev/principal-component-analysis/\"> Visual Intro</a>; <a href=\"https://arxiv.org/abs/1404.1100\"> Article (Tutorial on PCA)</a>; <a href=\"https://github.com/Foundations-of-Applied-Mathematics/Labs/raw/master/docs/Volume1.pdf\"> Chapter 7 of [HJ] (Facial Recognition)</a>; <a href=\"https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html\"> PCA in Three Steps</a>; <a href=\"https://www.learnopencv.com/eigenface-using-opencv-c-python/\"> Eigenfaces (OpenCV based)</a>"
+    },
+     {
+	"week": 50,
+	"date": 2020-12-15,
+	"teacher": "Marco",
+        "topics": "Linear Programming",
+	"turl": "/assets/dm561-linprog.pdf",
+	"sug_reading": "Sc 10.8 and 10.2 of [AR]"
+    }
+]
+
