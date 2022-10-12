@@ -19,14 +19,14 @@ mathjax: true
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
 - Teacher assistants: 
-H1: [Anders Sund-Jensen](ansun20@student.sdu.dk) (H1); [Casper Asbjørn Eriksen](caser16@student.sdu.dk) (H2)
+H1: [Anders Sund-Jensen](mailto:ansun20@student.sdu.dk) (H1); [Casper Asbjørn Eriksen](mailto:caser16@student.sdu.dk) (H2)
 
 
 ## Schedule
 
 - <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e22">MitSDU</a>
 
-- <a href="https://visualizer.aida.imada.sdu.dk/2022E/DM561">Alternative view</a>
+- <a href="https://vis.aida.imada.sdu.dk/public/e22udgave3/DM561">Alternative view</a>
 
 
 
