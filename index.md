@@ -30,6 +30,42 @@ H1: [Anders Sund-Jensen](mailto:ansun20@student.sdu.dk) (H1); [Casper Asbjørn E
 
 
 
+<button onclick="myFunction('h1')" class="w3-btn w3-cell
+w3-left-align">Schedule for section H1 <i class="fa fa-caret-down"></i></button>
+<div id="h1" class="w3-container w3-hide">
+
+<div class="w3-responsive">
+
+<!--
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=egkljh81e5gn1qa11drhvli5g1quqn6e%40import.calendar.google.com&amp;color=%23853104&amp;src=i1sgtn4cueuhfc0o5u0aao73ikbrkuol%40import.calendar.google.com&amp;color=%23853104&amp;src=e_2_en%23weeknum%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=Europe%2FCopenhagen" style="border-width:0" width="960" height="600" frameborder="0" scrolling="no"></iframe>
+-->
+
+<div w3-include-html="./assets/dm561_h1.html"></div>
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
+
+
+
+<button onclick="myFunction('h2')" class="w3-btn w3-cell
+w3-left-align">Schedule for section H2 <i class="fa fa-caret-down"></i></button>
+<div id="h2" class="w3-container w3-hide">
+
+<div class="w3-responsive">
+
+<div w3-include-html="./assets/dm561_h2.html"></div>
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
+
+
+
+
+
 ## Contents
 
 ### Introductory Classes
