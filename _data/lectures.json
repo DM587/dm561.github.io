@@ -5,7 +5,7 @@
 	"teacher": "Marco",
         "topics": "Python - Part 1: basics, data types, control flow, std library, OO progr.",
 	//"turl": "/assets/dm561-lec1.pdf",
-	// "sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
+	"sug_reading": "App A, B and ch 1-3 of [HJ1]; [DB]",
     },
     {
 	"week": 44,
@@ -13,7 +13,7 @@
 	"teacher": "Marco",
         "topics": "Python - Part 2: exceptions, file i/o, numpy",
 	//"turl": "/assets/dm561-lec2.pdf",
-	//"sug_reading": "Ch 4,6 of [HJ1]; [NS]"
+	"sug_reading": "Ch 4,6 of [HJ1]; [NS]"
     },
     {
 	"week": 44,
@@ -21,7 +21,7 @@
 	"teacher": "Marco",
         "topics": "Python - Part 3: graphics, data viz, pandas",
 	//"turl": "/assets/dm561-lec3.pdf",
-	//"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; (Ch 9 of [HJ2])"
+	"sug_reading": "Ch 5,8 of [HJ1]; Sc 6.3-6.5 of [AR]; (Ch 9 of [HJ2])"
     },
     {
 	"week": 45,
