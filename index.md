@@ -15,18 +15,43 @@ mathjax: true
 - [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=13197)
 
 - Teachers:
-  [Wojciech Szymanski](https://portal.findresearcher.sdu.dk/da/persons/szymanski),
+  [David Kyed](https://imada.sdu.dk/~dkyed),
   [Daniel Merkle](https://imada.sdu.dk/~daniel) and [Marco Chiarandini](https://imada.sdu.dk/~marco)
 
-- Teacher assistant: 
-  Danni Møller Clausen (H2, H3), [Nikolai Nøjgaard](https://portal.findresearcher.sdu.dk/da/persons/nojgaard)
+- Teacher assistants: 
+H1: [Anders Sund-Jensen](mailto:ansun20@student.sdu.dk) (H1); [Casper Asbjørn Eriksen](mailto:caser16@student.sdu.dk) (H2)
 
 
 ## Schedule
 
-- <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e21">MitSDU</a>
+- <a href="https://mitsdu.sdu.dk/skema/activity/N330024101/e22">MitSDU</a>
 
-- <a href="https://visualizer.aida.imada.sdu.dk/2021E/DM561">Alternative view</a>
+- <a href="https://vis.aida.imada.sdu.dk/public/e22udgave3/DM561">Alternative view</a>
+
+- Semester overview: <button onclick="myFunction('h1')" class="w3-btn w3-cell
+w3-left-align"> section H1 <i class="fa fa-caret-down"></i></button>
+<button onclick="myFunction('h2')" class="w3-btn w3-cell
+w3-left-align"> section H2 <i class="fa fa-caret-down"></i></button>
+
+<div id="h1" class="w3-container w3-hide">
+<div class="w3-responsive">
+<div w3-include-html="./assets/dm561_h1.html"></div>
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
+
+<div id="h2" class="w3-container w3-hide">
+<div class="w3-responsive">
+<div w3-include-html="./assets/dm561_h2.html"></div>
+<script>
+w3.includeHTML();
+</script>
+</div>
+</div>
+
+
 
 
 
@@ -72,27 +97,57 @@ mathjax: true
 
 
 
-| Week | Sheet                      | Topic  	                | Solutions | Assignments |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   43 | [colab1][40]; [sheet1][31] | Python, Part 1                 |           | [asg0][50]  |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   44 | [sheet2][32]               | Python, Part 2                 |           | [asg1][51]  |
-|      | [sheet3][33]               | Python, Part 3 - plotting      |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   45 |                            | Least Squares                  |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   46 |                            | Graph Theory                   |           |             |
-|      |                            |                                |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   47 |                            | From Random Polygon to Ellipse |           |             |
-|      |                            |                                |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   48 |                            | Page Rank                      |           |             |
-|      |                            |                                |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
-|   49 |                            | Eigenfaces / PCA               |           |             |
-|      |                            |                                |           |             |
-|------+----------------------------+--------------------------------+-----------+-------------|
+| Week | Sheet | Topic  	 | Solutions | Assignments |
+|------+-------+-----------------+-----------+-------------|
+|   43 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   44 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   45 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   46 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   47 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   48 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   49 |       |                 |           |             |
+|      |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+|   50 |       |                 |           |             |
+|------+-------+-----------------+-----------+-------------|
+
+
+<!--
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   43 | [colab1][40]; [sheet1][31] | Python, Part 1                 | [sheet1][83]  | [asg0][50]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   44 | [sheet2][32]               | Python, Part 2                 |               | [asg1][51]  |
+|      | [sheet3][33]               | Python, Part 3 - plotting      | [sheet3][833] |             |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   45 | [sheet4][34]               | Least Squares                  | [sheet4][84]  | [asg2][52]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   46 | [sheet5][35]               | Graph Theory                   | [sheet5][85]  |             |
+|      |                            |                                |               | [asg3][53]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   47 | [sheet6][36]               | From Random Polygon to Ellipse | [sheet6][86]  |             |
+|      |                            |                                |               | [asg4][54]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   48 | [sheet7][37]               | Page Rank                      | [sheet7][87]  |             |
+|      |                            |                                |               | [asg5][55]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   49 | [sheet8][38]               | Eigenfaces / PCA               |               |             |
+|      |                            |                                |               | [asg6][56]  |
+|------+----------------------------+--------------------------------+---------------+-------------|
+|   50 | [sheet9][39]               | Linear Programming               |               |             |
+|------+----------------------------+--------------------------------+---------------+-------------|
+
+-->
+
 
 <!--
 
@@ -223,7 +278,7 @@ mathjax: true
   [linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html).
   (`scipy` is a superset of `numpy`.)
 
-- [Wi] Introduction to Graoh Theory, Robin J. Wilson, 5th edition, 2010.
+- [Wi] Introduction to Graph Theory, Robin J. Wilson, 5th edition, 2010.
 
 - [BP] Brin, Sergey; Page, Lawrence. [The anatomy of a large-scale
   hypertextual Web search
@@ -275,7 +330,7 @@ mathjax: true
 
 <!-- Internal solutions --> 
 
-[84]: {{ "/solutions/linreg.html" | absolute_url }}
+[84]: {{ "/solutions/sheet_4.html" | absolute_url }}
 [87]: {{ "/solutions/pagerank.html" | absolute_url }}
 
 
@@ -286,14 +341,15 @@ mathjax: true
 
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2021-11-03-sheet3 %}
-[34]: {{ site.baseurl }}{% post_url 2020-11-11-sheet4 %}
+[34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
 
-[35]: {{ "/assets/ex-week47-48-2020.pdf" | absolute_url }}
-[36]: {{ "/assets/ex-week48-49-2020.pdf" | absolute_url }}
-{% capture page_link %}{% post_url 2020-12-03-sheet7 %}{% endcapture %}
+[35]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
+[36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
+{% capture page_link %}{% post_url 2021-12-01-sheet7 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
 
-[38]: {{ "/assets/ex-week51-2020.pdf" | absolute_url }}
+[38]: {{ "/assets/ex-week49-2021.pdf" | absolute_url }}
+[39]: {{ site.baseurl }}{% post_url 2021-12-14-sheet9 %}
 
 [40]: {{ "https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb" | absolute_url }}
 

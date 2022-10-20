@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DM561 (E21) - Linear Algebra with Applications
+title: DM561 (E22) - Linear Algebra with Applications
 email: marco@imada.sdu.dk
 description: Course on linear algebra, second year of Bachelor in Computer Science at University of Southern Denmark
 # >- # this means to ignore newlines until "baseurl:"

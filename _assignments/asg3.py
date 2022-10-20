@@ -19,12 +19,18 @@ command line:
 
 python3 asg3.py
 
+As usual, pushing your solutions to the repository server will trigger
+testing of your latest commit (on another set of tests) and you can see
+the result as ususal on the server.
+
 Note that the unit tests for the final grading may contain different tests,
 and that certain requirements given below are not tested in the testing
 period before the final testing. Also the pointing scheme might change. 
 Furthermore, the tests might be changed or additional test might be 
 introduced during the testing period before the final deadline, to give 
 you additional/different feedback.
+
+You may use itertools.
 
 """
 
