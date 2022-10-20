@@ -99,7 +99,7 @@ w3.includeHTML();
 
 | Week | Sheet | Topic  	 | Solutions | Assignments |
 |------+-------+-----------------+-----------+-------------|
-|   43 |       |                 |           |             |
+|   43 | [colab1][40]; [sheet1][31] | Python, Part 1        ||
 |------+-------+-----------------+-----------+-------------|
 |   44 |       |                 |           |             |
 |      |       |                 |           |             |
@@ -338,6 +338,7 @@ w3.includeHTML();
 
 {% capture page_link %}{% post_url 2020-10-28-sheet1 %}{% endcapture %}
 [31]: {{ page_link | absolute_url }}
+[31]: {{ "exercises/sheet1.html" | absolut_url }}
 
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
 [33]: {{ site.baseurl }}{% post_url 2021-11-03-sheet3 %}

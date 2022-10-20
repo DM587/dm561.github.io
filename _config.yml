@@ -43,6 +43,7 @@ collections:
   - notes
   - solutions
   - assignments
+  - exercises
 
 collections:
   notes:
@@ -52,6 +53,9 @@ collections:
     output: true
     permalink: /:collection/:path
   assignments:
+    output: true
+    permalink: /:collection/:path
+  exercises:
     output: true
     permalink: /:collection/:path
 
