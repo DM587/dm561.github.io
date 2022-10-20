@@ -3,7 +3,7 @@ layout: default
 mathjax: true
 title:  asg0
 script:  asg0.py
-date:   2022-10-25 09:33:19 +0100
+date:   2022-10-20 09:33:19 +0100
 categories: assignments
 ---
 
