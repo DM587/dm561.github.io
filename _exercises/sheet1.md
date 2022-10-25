@@ -11,20 +11,24 @@ categories: exercises
 
 ## Sheet 1
 
-Exercises with a star must be done before coming to the class.
-Exercises with a hat on the side of the number are less important than
-the others and will be left for self study.
+
+Before the exercise class make sure you have gone through the colab
+posted on the web page.  Exercises with a star on the side must be done
+before coming to the class.  Exercises with a hat on the side will be
+tackled in class. The others are left for self study.
+
 
 
 ### Task 1*  -  Functions
 
 
 The volume of a sphere with radius $r$ is $V = \frac{4}{3}\pi r^3$.  In
-a Python file, define a function called `sphere_volume()` that
-accepts a single parameter $r$ and returns the volume of the sphere of
-radius $r$, using $3.14159$ as an approximation for $\pi$ (for now).
-Also write an appropriate docstring for your function. Try keeping
-the body of the function down to a single line of code.
+a Python file, define a function called `sphere_volume()` that accepts a
+single parameter $r$ and returns the volume of the sphere of radius $r$,
+using $3.14159$ as an approximation for $\pi$ (alternatively look for
+its value in the module `math`).  Also write an appropriate docstring
+for your function. Try keeping the body of the function down to a single
+line of code.
 
 To test your function, call it under the `if __name__ == "__main__"`
 clause and print the returned value.  Run your file to see if your
@@ -52,7 +56,7 @@ space between each output.  For example,
 ```
 
 
-### Task 3  -  Slicing strings
+### Task 3*  -  Slicing strings
 
 Write two new functions, called `first_half()` and `backward()`.
 
@@ -65,7 +69,7 @@ Use IPython to quickly test your syntax for each function.
 
 
 
-### Task 4  -  Lists
+### Task 4*  -  Lists
 
 Write a function called `list_ops()`.
 Define a list with the entries `"bear"`, `"ant"`, `"cat"`, and `"dog"`, in that order.
@@ -93,7 +97,7 @@ Specifically, if `word` starts with a vowel, add `"hay"` to the end; if `word` s
 
 
 
-### Task 6
+### Task 6*
 
 This problem originates from (https://projecteuler.net), an excellent resource for math-related coding problems.
 
@@ -104,7 +108,7 @@ largest palindromic number made from the product of two 3-digit numbers.
 
 
 
-### Task 7
+### Task 7^
 
 The alternating harmonic series is defined as follows.
 
@@ -116,14 +120,14 @@ The sum of the first 500,000 terms of this series approximates $\ln(2)$
 to five decimal places. (Hint: consider using Python's built-in `sum()` function.)
 
 
-### Task 8  -  Lists
+### Task 8^  -  Lists
 
 Write a function that accepts a list $L$ and returns the minimum,
 maximum, and average of the entries of $L$ (in that order).  Can you
 implement this function in a single line?
 
 
-### Task 8b*  -  List comprehension
+### Task 8b^  -  List comprehension
 
 Write the inverse of the function that associates the names "Marco",
 "Luca", "Alex" to the numbers 1, 2, 3 respectively.
@@ -153,7 +157,7 @@ Print a statement of your conclusions that clearly indicates which object types 
 
 
 
-### Task 10^  -  Implementing Modules
+### Task 10  -  Implementing Modules
 
 Create a module called `calculator.py`.
 Write a function that returns the sum of two arguments and a function that returns the product of two arguments.
@@ -176,7 +180,7 @@ In IPython explore the modules:
 - `time`
 
 
-### Task 12 - Module Itertools
+### Task 12^ - Module Itertools
 
 
 The *power set* of a set $A$, denoted $\mathcal{P}(A)$ or $2^A$, is
@@ -235,6 +239,7 @@ analyzes a <span>`Backpack`</span> object.
         print("Contents:", testpack.contents)
         # ...
 
+
 ### Task 14  –  Inheritance
 
 In [object_oriented.py]({{ "/assets/object_oriented.py" | absolute_url
@@ -257,7 +262,7 @@ In [object_oriented.py]({{ "/assets/object_oriented.py" | absolute_url
 4.  Write clear, detailed docstrings for the class and each of
     its methods.
 
-### Task 15^  –  Magic Methods
+### Task 15  –  Magic Methods
 
 Endow the <span>`Backpack`</span> class from the file [object_oriented.py]({{ "/assets/object_oriented.py" | absolute_url
 }}) that you have been developing in the two previous tasks with two additional magic
@@ -363,7 +368,7 @@ the documentation for <span>`np.ndarray`</span>,
 
     In [2]: np.array?       # press 'enter'
 
-### Task 19  -  Matrix Multiplication
+### Task 19^  -  Matrix Multiplication
 
 Write a function that defines the following matrix as a NumPy array.
 
@@ -409,7 +414,7 @@ Write a function that accepts a single array as input. Make a copy of
 the array, then use fancy indexing to set all negative entries of the
 copy to $0$. Return the copy.
 
-### Task 22^  -  Arrays
+### Task 22  -  Arrays
 
 Write a function that defines the following matrices as NumPy arrays.
 
