@@ -11,11 +11,12 @@ categories: exercises
 
 ## Sheet 1
 
+Exercises with a star must be done before coming to the class.
+Exercises with a hat on the side of the number are less important than
+the others and will be left for self study.
 
-Exercises with a hat on the side of the number are less important than the others.
 
-
-### Task 1  -  Functions
+### Task 1*  -  Functions
 
 
 The volume of a sphere with radius $r$ is $V = \frac{4}{3}\pi r^3$.  In
@@ -122,6 +123,10 @@ maximum, and average of the entries of $L$ (in that order).  Can you
 implement this function in a single line?
 
 
+### Task 8b*  -  List comprehension
+
+Write the inverse of the function that associates the names "Marco",
+"Luca", "Alex" to the numbers 1, 2, 3 respectively.
 
 
 ### Task 9^  -  Mutable vs Immutable Objects 
