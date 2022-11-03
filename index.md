@@ -341,6 +341,8 @@ w3.includeHTML();
 [31]: {{ "exercises/sheet1.html" | absolut_url }}
 
 [32]: {{ site.baseurl }}{% post_url 2020-11-05-sheet2 %}
+[32]: {{ "exercises/sheet2.html" | absolut_url }}
+
 [33]: {{ site.baseurl }}{% post_url 2021-11-03-sheet3 %}
 [34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
 
