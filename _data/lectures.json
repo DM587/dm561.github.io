@@ -29,7 +29,7 @@
 	"teacher": "Marco",
         "topics": "Least Squares Data Fitting",
 	//"turl": "/assets/dm561-linreg.pdf",
-	//"sug_reading": "[MC]; Sc. 6.3-6.5 of [AR]"
+	"sug_reading": "[MC]; Sc. 6.3-6.5 of [AR]"
     },
     {
 	"week": 46,
@@ -37,7 +37,7 @@
 	"teacher": "Marco",
         "topics": "Page Rank",
 	//"turl": "/assets/dm561-pagerank.pdf",
-	//"sug_reading": "Sc. 4.12, 9.2-9.3, 10.5, 10.17 of [AR]; [LM]"
+	"sug_reading": "Sc. 4.12, 9.2-9.3, 10.5, 10.17 of [AR]; [LM]"
     },
     {
 	"week": 47,
