@@ -15,7 +15,14 @@ sparse vectors and sparse matrices for `asg1`.
 You will also work on the following tasks about data visualization.
 -->
 
-### Task 1 -- Matplotlib: Plotting in Python
+
+Exercises with a star on the side must be done
+before coming to the class.  Exercises with a hat on the side will be
+tackled in class.
+
+
+
+### Task 1* -- Matplotlib: Plotting in Python
 
 Write a function to plot the curve $f(x) = \frac{1}{x-1}$ on the domain $[-2,6]$.
 
@@ -29,7 +36,7 @@ Set the keyword argument `linewidth` (or `lw`) of `plt.plot()` to $4$ to make th
 3. Use `plt.xlim()` and `plt.ylim()` to change the range of the $x$-axis to $[-2,6]$ and the range of the $y$-axis to $[-6, 6]$.
 
 
-### Task 2
+### Task 2^
 
 
 Write a function that plots the functions $\sin(x)$, $\sin(2x)$,
@@ -55,7 +62,7 @@ separate subplot of a single figure.
 
 
 
-### Task 3
+### Task 3^
 
 Using the results from `benchmark.py` of assignment 1, compare the
 growth curve of your implementation and Numpy implementation of matrix
