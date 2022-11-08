@@ -104,7 +104,7 @@ w3.includeHTML();
 |   44 | [sheet2][32]               | Python, Part 2            |           | [asg1][51]  |
 |      | [sheet3][33]               | Python, Part 3 - plotting |           |             |
 |------+----------------------------+---------------------------+-----------+-------------|
-|   45 |                            |                           |           |             |
+|   45 | [sheet4][34]               | Least Squares             |           | [asg2][52]  |
 |------+----------------------------+---------------------------+-----------+-------------|
 |   46 |                            |                           |           |             |
 |      |                            |                           |           |             |
@@ -347,6 +347,8 @@ w3.includeHTML();
 [33]: {{ "exercises/sheet3.html" | absolut_url }}
 
 [34]: {{ site.baseurl }}{% post_url 2021-11-10-sheet4 %}
+[34]: {{ "exercises/sheet4.html" | absolut_url }}
+
 
 [35]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
 [36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
@@ -363,7 +365,7 @@ w3.includeHTML();
 
 [50]: {{ "/assignments/asg0.html" | absolute_url }}
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
-[52]: {{ "/assets/asg2.pdf" | absolute_url }}
+[52]: {{ "/assets/asg_linreg.pdf" | absolute_url }}
 [53]: {{ "/assignments/asg3.html" | absolute_url }}
 [54]: {{ "/assignments/asg4.html" | absolute_url }}
 [55]: {{ "/assignments/asg5.html" | absolute_url }}

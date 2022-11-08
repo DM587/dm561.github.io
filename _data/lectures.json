@@ -28,7 +28,7 @@
 	"date": 2020-11-08,
 	"teacher": "Marco",
         "topics": "Least Squares Data Fitting",
-	//"turl": "/assets/dm561-linreg.pdf",
+	"turl": "/assets/dm561-linreg.pdf",
 	"sug_reading": "[MC]; Sc. 6.3-6.5 of [AR]"
     },
     {
