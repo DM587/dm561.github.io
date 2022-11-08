@@ -255,8 +255,7 @@ Which of the two models is the best?
 
 ### Task 8 
 
-For this task you need to study the slides on "Fitting a circle" that
-were not presented in class.
+For this task you need to study the slides on "Fitting a circle".
 
 The general equation for an ellipse is
 
