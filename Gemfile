@@ -24,6 +24,7 @@ gem "kramdown", ">= 2.3.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "nokogiri", ">= 1.13.9"
   gem "jekyll-feed"
   gem "commonmarker", ">0.23.4"
   gem "github-pages", ">214"

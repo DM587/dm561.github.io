@@ -200,12 +200,16 @@ squares and decide which is the best model.
 \lstinline{least_squares(A,b)} that takes an appropriate matrix $A$ and
 vector $\vec b$ and returns the least square solution $\vec z$ of the
 system $A\vec z=\vec b$. In the implementation, you are not allowed to
-use the function function \lstinline{linalg.lstsq(A,b)} from Numpy and
-Scipy.  Using the function \lstinline{least_squares(A,b)} determine the
-linear function $y=ax + b$ that best fits the given data $(x_i,y_i)$.
-You can visualize the situation executing the file \lstinline{draw.py}
-that uses the code of the function \lstinline{linear_model(x,y)} that
-you implement to draw a plot with the points and the fitted linear
+use the following functions from Numpy and Scipy:
+\lstinline{linalg.lstsq(A,b)}, \lstinline{linalg.inv(A)},
+\lstinline{linalg.polyfit(A,b)} while you may look at how
+\lstinline{scipy.linalg.qr(A)}, and
+\lstinline{scipy.linalg.solve_triangular(A, b)} could help you. Using
+your function \lstinline{least_squares(A,b)} determine the linear
+function $y=ax + b$ that best fits the given data $(x_i,y_i)$.  You can
+visualize the situation executing the file \lstinline{draw.py} that uses
+the code of the function \lstinline{linear_model(x,y)} that you
+implement to draw a plot with the points and the fitted linear
 regression.
 
 \paragraph{Exponential function}
