@@ -354,7 +354,7 @@ w3.includeHTML();
 [36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
 {% capture page_link %}{% post_url 2022-11-15-sheet5 %}{% endcapture %}
 [37]: {{ page_link | absolute_url }}
-[34]: {{ "exercises/sheet5.html" | absolute_url }}
+[37]: {{ "exercises/sheet5.html" | absolute_url }}
 
 [38]: {{ "/assets/ex-week49-2021.pdf" | absolute_url }}
 [39]: {{ site.baseurl }}{% post_url 2021-12-14-sheet9 %}
