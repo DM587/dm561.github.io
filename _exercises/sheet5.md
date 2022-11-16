@@ -66,7 +66,7 @@ According to this Markov chain, how likely is that the random surfer
 is at each page after many iterations? What are the most likely
 pages?
 
-Use the power method and carry out the operations in Python for the
+Use the power method (aka, iterative method) and carry out the operations in Python for the
 following cases:
 
 - if it starts at page 6 and takes an even number of iterations
