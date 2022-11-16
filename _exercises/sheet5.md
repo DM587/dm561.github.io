@@ -35,7 +35,7 @@ be improved.
 
 In each iteration, the random surfer selects an outgoing link from his
 current web page, and follows that link. We consider the small Web
-network of the picture, consisting of only four sites linked together as
+network of the picture, consisting of only six sites linked together as
 shown.
 
 
