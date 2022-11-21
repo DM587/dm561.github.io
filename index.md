@@ -109,7 +109,7 @@ w3.includeHTML();
 |   46 | [sheet5][35]            | Page Rank                 |               |                    |
 |      |                            |                           |               | [asg_pagerank][55] |
 |------+----------------------------+---------------------------+---------------+--------------------|
-|   47 |                          |  Graph Theory                         |               |                    |
+|   47 | [sheet6][36]    |  Graph Theory                         |               |                    |
 |      |                            |                           |               |                    |
 |------+----------------------------+---------------------------+---------------+--------------------|
 |   48 |                            |                           |               |                    |
@@ -354,12 +354,12 @@ w3.includeHTML();
 [35]: {{ page_link | absolute_url }}
 [35]: {{ "exercises/sheet5.html" | absolute_url }}
 
-[36]: {{ "/assets/ex-week47-2021.pdf" | absolute_url }}
+[36]: {{ "/assets/ex-week47-2022.pdf" | absolute_url }}
 
-[37]: {{ "/assets/ex-week46-2021.pdf" | absolute_url }}
+[37]: {{ "/assets/ex-week48-2022.pdf" | absolute_url }}
 
 
-[38]: {{ "/assets/ex-week49-2021.pdf" | absolute_url }}
+[38]: {{ "/assets/ex-week49-2022.pdf" | absolute_url }}
 [39]: {{ site.baseurl }}{% post_url 2021-12-14-sheet9 %}
 
 [40]: {{ "https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb" | absolute_url }}
