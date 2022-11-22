@@ -110,7 +110,7 @@ w3.includeHTML();
 |      |                            |                           |               | [asg_pagerank][55] |
 |------+----------------------------+---------------------------+---------------+--------------------|
 |   47 | [sheet6][36]    |  Graph Theory                         |               |                    |
-|      |                            |                           |               |     [asg-graphs][54]               |
+|      |                            |                           |               |     [asg_graphs][54]               |
 |------+----------------------------+---------------------------+---------------+--------------------|
 |   48 |                            |                           |               |                    |
 |      |                            |                           |               |                    |
@@ -371,6 +371,6 @@ w3.includeHTML();
 [51]: {{ "/assignments/asg1.html" | absolute_url }}
 [52]: {{ "/assets/asg_linreg.pdf" | absolute_url }}
 [53]: {{ "/assignments/asg3.html" | absolute_url }}
-[54]: {{ "/assignments/asg4.html" | absolute_url }}
+[54]: {{ "/assignments/asg_graphs.html" | absolute_url }}
 [55]: {{ "/assignments/asg_pagerank.html" | absolute_url }}
 [56]: {{ "/assignments/asg6.html" | absolute_url }}
