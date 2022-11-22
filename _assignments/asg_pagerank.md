@@ -27,9 +27,8 @@ needs to be edited and submitted.
 
 Write a class for representing directed graphs via their adjacency
 matrices. (Note: the standard representation of an adjacency matrix for
-directed graphs has "from" nodes on rows and "to" nodes on columns. This
-is compliant with what you have seen with Daniel. However, in this
-assignment as well as in the correspoonding slides we use the convention
+directed graphs has "from" nodes on rows and "to" nodes on columns. However, in this
+assignment as well as in the corresponding slides we use the convention
 of having "from" nodes on columns and "to" nodes on rows.) The
 constructor should accept an $n\times n$ adjacency matrix $A$ and a list
 of node labels in string form (such as `['a', 'b', 'c', 'd']`)
