@@ -9,7 +9,7 @@ categories: assignments
 
 #### Assignment: Graphs
 
-*Submission Deadline: Tuesday, November 29 2022, at noon*
+**Submission Deadline: Tuesday, November 29, 2022, at noon**
 
 
 The script that you have to edit and submit before the deadline is
