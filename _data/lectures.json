@@ -53,8 +53,8 @@
 		"date": 2021-11-22,
 		"teacher": "Daniel",
 		"topics": "From Random Polygon to Ellipse",
-		//"turl": "/assets/DM561-RandomPolygon-2021.pdf",
-		//"sug_reading": "<a href=\"https://epubs.siam.org/doi/pdf/10.1137/090746707\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
+		"turl": "/assets/DM561-RandomPolygon-2022.pdf",
+		"sug_reading": "<a href=\"https://epubs.siam.org/doi/pdf/10.1137/090746707\">Article</a> (pp 1-5,17); <a href=\"https://www.pathlms.com/siam/courses/8265/sections/12047\">Video</a> (optional)"
 		},
     {
 	"week": 49,
