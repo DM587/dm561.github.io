@@ -7,7 +7,6 @@ mathjax: true
 ---
 
 
-
 ## General information
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
