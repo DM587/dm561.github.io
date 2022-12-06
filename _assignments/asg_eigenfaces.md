@@ -3,7 +3,7 @@ layout: default
 mathjax: true
 title:  asg_eigenfaces
 script:  asg_eigenfaces.py
-date:   2022-12-09 09:10:49 +0100
+date:   2022-12-05 09:10:49 +0100
 categories: assignments
 ---
 
