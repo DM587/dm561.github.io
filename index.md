@@ -117,7 +117,7 @@ w3.includeHTML();
 |   49 | [sheet8][38]               | Eigenfaces / PCA               |               |             |
 |      |                            |                                |               | [asg_eigenfaces][56]  |
 |------+----------------------------+---------------------------+---------------+--------------------|
-|   50 |                            |                           |               |                    |
+|   50 | [sheet9][39]               | Linear Programming               |               |             |
 |------+----------------------------+---------------------------+---------------+--------------------|
 
 
@@ -360,6 +360,7 @@ w3.includeHTML();
 
 [38]: {{ "/assets/ex-week49-2022.pdf" | absolute_url }}
 [39]: {{ site.baseurl }}{% post_url 2021-12-14-sheet9 %}
+[39]: {{ "exercises/sheet9.html" | absolute_url }}
 
 [40]: {{ "https://colab.research.google.com/github/DM561/dm561.github.io/blob/master/assets/Python_in_a_Nutshell.ipynb" | absolute_url }}
 

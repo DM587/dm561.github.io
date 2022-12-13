@@ -68,8 +68,8 @@
 	"date": 2020-12-13,
 	"teacher": "Marco",
         "topics": "Linear Programming",
-	//"turl": "/assets/dm561-linprog.pdf",
-	//"sug_reading": "Sc 10.8 and 10.2 of [AR]"
+	"turl": "/assets/dm561-linprog.pdf",
+	"sug_reading": "Sc 10.8 and 10.2 of [AR]"
     }
 ]
 

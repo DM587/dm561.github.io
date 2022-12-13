@@ -1,5 +1,5 @@
 """
-Lab 6: Eigenfaces
+Lab: Eigenfaces
 ------------------------------
 
 In this lab you should implement three methods for an Eigenface analysis.
