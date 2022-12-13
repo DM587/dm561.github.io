@@ -54,7 +54,8 @@ this
 [spreadsheet](https://docs.google.com/spreadsheets/d/1yWCM0e-qjshjL0IHv8KbbM2csX-Lvi-Wl3nM707f6ac/edit?usp=sharing).
 
 
-Solve these cases numerically using Spreadsheets tools and Python.
+Model these cases mathematically again and solve them numerically using
+Spreadsheets tools and Python as follows.
 
 #### Mathematical optimization in spreadsheets:
 
