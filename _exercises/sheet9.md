@@ -100,7 +100,7 @@ the data from a spreadsheet using, for example, the module `pandas` or
 [post](https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8).
 
 
-
+<!--
 ### Task 3 - Quizzies
 
 Basic Geometric Facts:
@@ -207,3 +207,4 @@ Basic Solutions and Vertices
     of a polyhedron in $2$, $3$ and $n$ dimensions?
 
 -   How does this condition translate on basic variables of the two basic solutions?
+-->
