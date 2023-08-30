@@ -11,7 +11,7 @@ mathjax: true
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM561/)
 
-- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=13197)
+- [ItsLearning](https://sdu.itslearning.com/main.aspx?CourseID=22404)
 
 - Teachers:
   [David Kyed](https://imada.sdu.dk/~dkyed),
